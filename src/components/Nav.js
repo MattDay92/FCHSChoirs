@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">FCHS Choirs</a>
+          <Link className="navbar-brand" to={'/'}>FCHS Choirs</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -24,9 +25,9 @@ export default function Nav() {
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#">Bella Voce</a></li>
                   <li><a className="dropdown-item" href="#">Dynamic</a></li>
-                  <li><a className="dropdown-item" href="#">Heritage Singers</a></li>
+                  <li><Link className="dropdown-item" to={'/heritage'}>Heritage Singers</Link></li>
                   <li><a className="dropdown-item" href="#">Legacy</a></li>
-                  <li><a className="dropdown-item" href="#">Sensations</a></li>
+                  <li><Link className="dropdown-item" to={'/sensations'}>Sensations</Link></li>
                   <li><a className="dropdown-item" href="#">Voce Alta</a></li>
                 </ul>
               </li>

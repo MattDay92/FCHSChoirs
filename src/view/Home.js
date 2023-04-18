@@ -1,20 +1,25 @@
-import React from 'react'
-import Cover from '../components/photos/cover.jpg'
+import React, { useEffect, useState } from 'react'
 import Showfest from '../components/photos/ShowFestLogo.png'
 import BellaStLouis from '../components/photos/bella.JPG'
 import SigStLouis from '../components/photos/sig.JPG'
 import Arch from '../components/photos/arch.jpeg'
 
+
 export default function Home() {
+    
+    const myCovers = ['heritage', 'sensations']
+    const random = Math.floor(Math.random() * myCovers.length);
+  
+    
   return (
-    <div>
+    <div className='fullpage'>
       {/* <img className='home-cover' src={Cover} /> */}
-      <div className='hero-image'>
-        <div className='overlay-cover'>
-          <h1>Franklin Community High School Choirs</h1>
+        <div className='hero-image sensations'>
+          <div className='overlay-cover'>
+            <h1>Franklin Community High School Choirs</h1>
+          </div>
         </div>
-      </div>
-      <div className='row showfest d-flex justify-content-center align-items-center my-5'>
+      <div className='row showfest d-flex justify-content-center align-items-center'>
         <div className='col-4'>
           <img className='showfest-logo' src={Showfest} />
         </div>

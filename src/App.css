@@ -9,8 +9,13 @@
     max-width: 100vw;
     overflow-x: hidden;
     font-family: 'Oswald', sans-serif !important;
+    color: white;
     background: rgb(12,34,132);
-    background: linear-gradient(90deg, rgb(12,34,132) 0%, rgb(56, 70, 132) 100%);
+    background: linear-gradient(90deg, rgb(12,34,132) 0%, rgb(123, 142, 221) 100%);
+  }
+
+  .fullpage{
+    min-height: 100vh;
   }
 
   .home-cover {
@@ -25,7 +30,15 @@
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url('/src/components/photos/cover.jpg');
+    margin-bottom: 10vh;
+  }
+
+  .hero-image.sensations{
+    background-image: url('/src/components/photos/sensations.jpg');
+  }
+  
+  .hero-image.heritage {
+    background-image: url('/src/components/photos/heritage.JPG');
   }
 
   .overlay-cover{
@@ -34,8 +47,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0, 0.4);
-    color: white;
+    background: rgba(0,0,0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,5 +67,10 @@
   .featured {
     margin-top: 10%;
     margin-bottom: 10%;
+  }
+
+  .footer {
+    background: rgb(200, 210, 251);
+    margin-top: 10vh;
   }
 
