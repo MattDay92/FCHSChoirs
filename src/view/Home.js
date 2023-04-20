@@ -6,20 +6,22 @@ import Arch from '../components/photos/arch.jpeg'
 
 
 export default function Home() {
-    
-    const myCovers = ['heritage', 'sensations']
-    const random = Math.floor(Math.random() * myCovers.length);
-  
-    
+
+  const myCovers = ['heritage', 'sensations']
+  const random = Math.floor(Math.random() * myCovers.length);
+
+
   return (
     <div className='fullpage'>
       {/* <img className='home-cover' src={Cover} /> */}
-        <div className='hero-image sensations'>
-          <div className='overlay-cover'>
-            <h1>Franklin Community High School Choirs</h1>
-          </div>
+      <div className='hero-image sensations'>
+        <div className='overlay-cover'>
         </div>
-      <div className='row showfest d-flex justify-content-center align-items-center'>
+      </div>
+      <div className='hero-title'>
+        <h1>Franklin Community High School Choirs</h1>
+      </div>
+      <div className='row showfest d-flex justify-content-center align-items-center my-5'>
         <div className='col-4'>
           <img className='showfest-logo' src={Showfest} />
         </div>
@@ -30,7 +32,7 @@ export default function Home() {
       </div>
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>
-        <div className='d-flex justify-content-center mb-5'>
+        <div className='carousel d-flex justify-content-center mb-5'>
           <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -57,6 +59,13 @@ export default function Home() {
           The students explored the City Museum, visited the St. Louis Arch, had a great time at Six Flags,
           and of course competed at the prestigious Heritage Music Festival.
           The choirs tied for first overall, with each other!</p>
+      </div>
+      <div className='row text-center'>
+        <h2>Follow FCOMM Choirs!</h2>
+        <span>
+          <a className='mx-5' href='https://www.facebook.com/profile.php?id=100063582283607' target='_blank'><i class="fa-brands fa-square-facebook"></i></a>
+          <a className='mx-5' href='https://www.tiktok.com/@fcommchoirs?_t=8bdc5aHkR9m&_r=1' target='_blank'><i class="fa-brands fa-tiktok"></i></a>
+        </span>
       </div>
     </div>
   )

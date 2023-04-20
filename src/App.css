@@ -2,75 +2,156 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-  
-  html,
-  body {
+}
+
+html,
+body {
     max-width: 100vw;
     overflow-x: hidden;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 400;
+    font-size: 20px;
     color: white;
-    background: rgb(12,34,132);
-    background: linear-gradient(90deg, rgb(12,34,132) 0%, rgb(123, 142, 221) 100%);
-  }
+    background: rgb(12, 34, 132);
+    background: linear-gradient(90deg, rgb(12, 34, 132) 0%, rgb(123, 142, 221) 100%);
+}
 
-  .fullpage{
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 7vw;
+    text-align: center !important;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 10vw;
+    }
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 6vh;
+    text-align: center !important;
+}
+
+.navbar {
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    padding-top: 0 ;
+    padding-bottom: 0;
+}
+
+.nav-item{
+    text-decoration: none !important;
+    color:rgb(12, 34, 132) !important;
+}
+
+.nav-item:hover{
+    color:rgb(4, 18, 81)
+}
+
+
+.fullpage {
     min-height: 100vh;
-  }
+    animation: fullpageload 1s;
+}
 
-  .home-cover {
+/* @keyframes fullpageload {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeout {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+} */
+
+.home-cover {
     height: 50vh;
     width: 100%;
     object-fit: cover;
-  }
+}
 
-  .hero-image {
+.hero-image {
     height: 50vh;
     width: 100%;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    margin-bottom: 10vh;
-  }
+    mask-image: linear-gradient(to top, transparent 0%, black 75%);
+}
 
-  .hero-image.sensations{
+.hero-image.sensations {
     background-image: url('/src/components/photos/sensations.jpg');
-  }
-  
-  .hero-image.heritage {
-    background-image: url('/src/components/photos/heritage.JPG');
-  }
+}
 
-  .overlay-cover{
+.hero-image.heritage {
+    background-image: url('/src/components/photos/heritage.JPG');
+}
+
+.overlay-cover {
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  
+}
 
-  .showfest-logo{
+.hero-title {
+    position: absolute;
+    height: 100%;
     width: 100%;
-  }
+    top: -15vh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-  .btn{
+
+
+.showfest-logo {
+    width: 100%;
+}
+
+.carousel {
+    height: 450px;
+}
+
+.btn {
     background: white;
-    color: rgb(12,34,132);
-  }
+    color: rgb(12, 34, 132);
+}
 
-  .featured {
+.fa-brands{
+    font-size: 50px;
+    color: white;
+}
+
+.fa-brands:hover {
+    color: rgb(246, 213, 22)
+}
+
+.featured {
     margin-top: 10%;
     margin-bottom: 10%;
-  }
+}
 
-  .footer {
-    background: rgb(200, 210, 251);
+.footer {
+    background: rgb(245, 245, 245);
     margin-top: 10vh;
-  }
+    min-height: 100px;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 75%);
 
+}

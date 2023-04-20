@@ -9,6 +9,7 @@ import Sensations from './view/Sensations'
 
 
 export default function App() {
+
   return (
     <div>
       <BrowserRouter>
