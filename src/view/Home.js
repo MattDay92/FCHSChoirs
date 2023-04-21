@@ -67,6 +67,30 @@ export default function Home() {
           <a className='mx-5' href='https://www.tiktok.com/@fcommchoirs?_t=8bdc5aHkR9m&_r=1' target='_blank'><i class="fa-brands fa-tiktok"></i></a>
         </span>
       </div>
+      <h2 className='mt-5'>Thank You to our Sponsors!</h2>
+      <div className='row text-center sponsors px-0 mx-0 my-2'>
+        <div className='sponsors1'>
+          <h3>Director's Circle - $1,000 +</h3>
+          <h4>Ray Skillman New Whiteland, IN</h4>
+          <h4>Paul Humbles and American Family Insurance</h4>
+          <h4>Tillina Marke Key Enterprise</h4>
+        </div>
+        <div className='sponsors2'>
+          <h3>Platinum Level - $500 - $999</h3>
+          <h4>Mayor Steve Barnett</h4>
+          <h4>Ray's Trash Service</h4>
+          <h4>Generations Custom Auto & Collision, INC</h4>
+          <h4>Franklin Muffler, Brakes & More</h4>
+          <h4>BoJack's Bar & Grill</h4>
+          <h4>RSQ Fire Protection, LLC</h4>
+        </div>
+        <div className='sponsors3'>
+          <h3>Gold Level - $250 - $499</h3>
+          <h4>Bradley Hubler Chevrolet</h4>
+          <h4>Winters Heating and Cooling</h4>
+          <h4>US Hydrovac Inc.</h4>
+        </div>
+      </div>
     </div>
   )
 }

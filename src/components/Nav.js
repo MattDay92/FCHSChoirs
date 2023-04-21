@@ -13,7 +13,7 @@ export default function Nav() {
           </button>
           <div className="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
             <a className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">Calendar</a>
+              <Link className="nav-link" aria-current="page" to={'/calendar'}>Calendar</Link>
             </a>
             <a className="nav-item">
               <a className="nav-link" href="#">Contact</a>

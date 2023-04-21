@@ -148,10 +148,89 @@ h2{
     margin-bottom: 10%;
 }
 
+.sponsors{
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+.sponsors1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: sponsors1 24s infinite;
+}
+
+@keyframes sponsors1 {
+    0% {opacity: 0;}
+    3% {opacity: 1;}
+    30% {opacity: 1;}
+    33% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.sponsors2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: sponsors2 24s infinite;
+}
+
+@keyframes sponsors2 {
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    33% {opacity: 1;}
+    63% {opacity: 1;}
+    66% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.sponsors3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: sponsors3 24s infinite;
+}
+
+@keyframes sponsors3 {
+    0% {opacity: 0;}
+    63% {opacity: 0;}
+    66% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
 .footer {
     background: rgb(245, 245, 245);
     margin-top: 10vh;
     min-height: 100px;
     mask-image: linear-gradient(to bottom, transparent 0%, black 75%);
 
+}
+
+iframe{
+    z-index: 10;
+    width: 80vw !important; 
+    height: 80vh !important; 
+    animation: calendar 2s;
+}
+
+@keyframes calendar {
+    0% {opacity: 0;}
+    60% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.calendar-load{
+    position: absolute;
+    bottom: 50vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }

@@ -6,6 +6,7 @@ import Home from './view/Home'
 import Footer from './components/Footer'
 import Heritage from './view/Heritage'
 import Sensations from './view/Sensations'
+import Calendar from './view/Calendar'
 
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
           <Route path={'/'} element={<Home />}/>
           <Route path={'/heritage'} element={<Heritage />}/>
           <Route path={'/sensations'} element={<Sensations />}/>
+          <Route path={'/calendar'} element={<Calendar />}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
