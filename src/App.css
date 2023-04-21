@@ -34,6 +34,12 @@ h2{
     text-align: center !important;
 }
 
+h3{
+    font-family: 'Bebas Neue';
+    font-size: 5vh;
+    text-align: center !important;
+}
+
 .navbar {
     z-index: 100;
 }
@@ -91,7 +97,19 @@ h2{
 }
 
 .hero-image.heritage {
-    background-image: url('/src/components/photos/heritage.JPG');
+    background-image: url('/src/components/photos/heritage.jpg');
+}
+
+.hero-image.legacy {
+    background-image: url('/src/components/photos/legacy.JPG');
+}
+
+.hero-image.bella {
+    background-image: url('/src/components/photos/bella.jpg');;
+}
+
+.hero-image.sig {
+    background-image: url('/src/components/photos/sig.JPG');
 }
 
 .overlay-cover {
@@ -148,8 +166,12 @@ h2{
     margin-bottom: 10%;
 }
 
-.sponsors{
+.social{
     height: 30vh;
+}
+
+.sponsors{
+    height: 35vh;
     width: 100%;
     position: relative;
 }
@@ -160,7 +182,7 @@ h2{
     width: 100%;
     top: 0;
     left: 0;
-    animation: sponsors1 24s infinite;
+    animation: sponsors1 18s infinite;
 }
 
 @keyframes sponsors1 {
@@ -177,7 +199,7 @@ h2{
     width: 100%;
     top: 0;
     left: 0;
-    animation: sponsors2 24s infinite;
+    animation: sponsors2 18s infinite;
 }
 
 @keyframes sponsors2 {
@@ -195,7 +217,7 @@ h2{
     width: 100%;
     top: 0;
     left: 0;
-    animation: sponsors3 24s infinite;
+    animation: sponsors3 18s infinite;
 }
 
 @keyframes sponsors3 {
@@ -205,9 +227,13 @@ h2{
     100% {opacity: 1;}
 }
 
+.sponsor-col{
+    width: 40vw;
+}
+
 .footer {
     background: rgb(245, 245, 245);
-    margin-top: 10vh;
+    margin-top: 15vh;
     min-height: 100px;
     mask-image: linear-gradient(to bottom, transparent 0%, black 75%);
 

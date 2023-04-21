@@ -1,23 +1,39 @@
 import React, { useEffect, useState } from 'react'
 import Showfest from '../components/photos/ShowFestLogo.png'
-import BellaStLouis from '../components/photos/bella.JPG'
+import BellaStLouis from '../components/photos/bella.jpg'
 import SigStLouis from '../components/photos/sig.JPG'
 import Arch from '../components/photos/arch.jpeg'
 
 
-export default function Home() {
-
-  const myCovers = ['heritage', 'sensations']
-  const random = Math.floor(Math.random() * myCovers.length);
-
+export default function Home({ background }) {
 
   return (
     <div className='fullpage'>
-      {/* <img className='home-cover' src={Cover} /> */}
-      <div className='hero-image sensations'>
-        <div className='overlay-cover'>
-        </div>
-      </div>
+      {background === 'sensations' ? <>
+        <div className='hero-image sensations'>
+          <div className='overlay-cover'>
+          </div>
+        </div></> : background === 'heritage' ?
+        <>
+          <div className='hero-image heritage'>
+            <div className='overlay-cover'>
+            </div>
+          </div></> : background==='legacy'?
+        <>
+          <div className='hero-image legacy'>
+            <div className='overlay-cover'>
+            </div>
+          </div></> : background === 'sig'?
+      <>
+        <div className='hero-image sig'>
+          <div className='overlay-cover'>
+          </div>
+        </div></> :
+      <>
+        <div className='hero-image bella'>
+          <div className='overlay-cover'>
+          </div>
+        </div></>}
       <div className='hero-title'>
         <h1>Franklin Community High School Choirs</h1>
       </div>
@@ -60,37 +76,64 @@ export default function Home() {
           and of course competed at the prestigious Heritage Music Festival.
           The choirs tied for first overall, with each other!</p>
       </div>
-      <div className='row text-center'>
+      <div className='text-center social'>
         <h2>Follow FCOMM Choirs!</h2>
         <span>
           <a className='mx-5' href='https://www.facebook.com/profile.php?id=100063582283607' target='_blank'><i class="fa-brands fa-square-facebook"></i></a>
           <a className='mx-5' href='https://www.tiktok.com/@fcommchoirs?_t=8bdc5aHkR9m&_r=1' target='_blank'><i class="fa-brands fa-tiktok"></i></a>
         </span>
       </div>
-      <h2 className='mt-5'>Thank You to our Sponsors!</h2>
-      <div className='row text-center sponsors px-0 mx-0 my-2'>
+      <h2>Thank You to our Sponsors!</h2>
+      <div className='row text-center sponsors px-0 mx-0 my-4'>
         <div className='sponsors1'>
           <h3>Director's Circle - $1,000 +</h3>
           <h4>Ray Skillman New Whiteland, IN</h4>
           <h4>Paul Humbles and American Family Insurance</h4>
           <h4>Tillina Marke Key Enterprise</h4>
         </div>
-        <div className='sponsors2'>
-          <h3>Platinum Level - $500 - $999</h3>
-          <h4>Mayor Steve Barnett</h4>
-          <h4>Ray's Trash Service</h4>
-          <h4>Generations Custom Auto & Collision, INC</h4>
-          <h4>Franklin Muffler, Brakes & More</h4>
-          <h4>BoJack's Bar & Grill</h4>
-          <h4>RSQ Fire Protection, LLC</h4>
+        <div className='sponsors2 d-flex justify-content-center'>
+          <div className='sponsor-col'>
+            <h3>Platinum Level - $500 - $999</h3>
+            <h5>Mayor Steve Barnett</h5>
+            <h5>Ray's Trash Service</h5>
+            <h5>Generations Custom Auto & Collision, INC</h5>
+            <h5>Franklin Muffler, Brakes & More</h5>
+            <h5>BoJack's Bar & Grill</h5>
+            <h5>RSQ Fire Protection, LLC</h5>
+          </div>
+          <div className='sponsor-col'>
+            <h3>Gold Level - $250 - $499</h3>
+            <h5>Bradley Hubler Chevrolet</h5>
+            <h5>Winters Heating and Cooling</h5>
+            <h5>US Hydrovac Inc.</h5>
+          </div>
         </div>
         <div className='sponsors3'>
-          <h3>Gold Level - $250 - $499</h3>
-          <h4>Bradley Hubler Chevrolet</h4>
-          <h4>Winters Heating and Cooling</h4>
-          <h4>US Hydrovac Inc.</h4>
+          <h3>Silver Level - $100 - $249</h3>
+          <div className='d-flex justify-content-center'>
+            <div className='sponsor-col'>
+              <h5>Family Tradition Painting</h5>
+              <h5>JG Tile & Baths</h5>
+              <h5>Corona's Sticky Designz</h5>
+              <h5>Joe Stafford, Medicare/Life Specialist</h5>
+              <h5>Turning Point Church</h5>
+              <h5>Linda Cummings</h5>
+            </div>
+            <div className='sponsor-col'>
+              <h5>Janis Poynter</h5>
+              <h5>Kelly Ann Barker</h5>
+              <h5>Nina Koch</h5>
+              <h5>D & V Mercer</h5>
+              <h5>Vaught Family Eye Care</h5>
+              <h5>Greene's Auto Service</h5>
+            </div>
+          </div>
+          <h3>Bronze Level - $50 - $99</h3>
+          <div>
+            <h5>Indy Property Chicks</h5>
+          </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }

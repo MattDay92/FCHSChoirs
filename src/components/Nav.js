@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Nav() {
+export default function Nav({random}) {
 
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-light py-0">
         <div className="container-fluid">
-          <Link className="navbar-brand" to={'/'}>FCHS Choirs</Link>
+          <Link onClick={random} className="navbar-brand" to={'/'}>FCHS Choirs</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -28,6 +28,7 @@ export default function Nav() {
                 <Link className="dropdown-item" to={'/heritage'}>Heritage Singers</Link>
                 <a className="dropdown-item" href="#">Legacy</a>
                 <Link className="dropdown-item" to={'/sensations'}>Sensations</Link>
+                <a className="dropdown-item" href="#">Signature Sound</a>
                 <a className="dropdown-item" href="#">Voce Alta</a>
               </div>
             </a>
