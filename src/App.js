@@ -7,6 +7,11 @@ import Footer from './components/Footer'
 import Heritage from './view/Heritage'
 import Sensations from './view/Sensations'
 import Calendar from './view/Calendar'
+import Legacy from './view/Legacy'
+import Bella from './view/Bella'
+import Sig from './view/Sig'
+import Support from './view/Support'
+import Newsletter from './view/Newsletter'
 
 
 export default function App() {
@@ -33,7 +38,12 @@ export default function App() {
           <Route path={'/'} element={<Home background={background} />}/>
           <Route path={'/heritage'} element={<Heritage />}/>
           <Route path={'/sensations'} element={<Sensations />}/>
+          <Route path={'/legacy'} element={<Legacy />}/>
+          <Route path={'/sig'} element={<Sig />}/>
+          <Route path={'/bella'} element={<Bella />}/>
           <Route path={'/calendar'} element={<Calendar />}/>
+          <Route path={'/newsletter'} element={<Newsletter />}/>
+          <Route path={'/support'} element={<Support />}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

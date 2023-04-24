@@ -16,6 +16,10 @@ body {
     background: linear-gradient(90deg, rgb(12, 34, 132) 0%, rgb(123, 142, 221) 100%);
 }
 
+a{
+    text-decoration: none !important;
+}
+
 h1{
     font-family: 'Bebas Neue';
     font-size: 7vw;
@@ -63,19 +67,7 @@ h3{
 
 .fullpage {
     min-height: 100vh;
-    animation: fullpageload 1s;
 }
-
-/* @keyframes fullpageload {
-    0% {opacity: 0;}
-    40% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-@keyframes fadeout {
-    0% {opacity: 1;}
-    100% {opacity: 0;}
-} */
 
 .home-cover {
     height: 50vh;
@@ -110,6 +102,10 @@ h3{
 
 .hero-image.sig {
     background-image: url('/src/components/photos/sig.JPG');
+}
+
+.hero-image.shrek {
+    background-image: url('/src/components/photos/shrek.JPG');
 }
 
 .overlay-cover {
@@ -171,7 +167,7 @@ h3{
 }
 
 .sponsors{
-    height: 35vh;
+    height: 55vh;
     width: 100%;
     position: relative;
 }
@@ -233,10 +229,8 @@ h3{
 
 .footer {
     background: rgb(245, 245, 245);
-    margin-top: 15vh;
     min-height: 100px;
     mask-image: linear-gradient(to bottom, transparent 0%, black 75%);
-
 }
 
 iframe{

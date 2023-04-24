@@ -43,12 +43,12 @@ export default function Home({ background }) {
         </div>
         <div className='col-4 text-center'>
           <p className='text-white'>Hello, Directors! Preparations are under way for Franklin Community High School’s ShowFest 2024, to be held on Friday, January 26th, and Saturday, January 27th, 2024. A registration discount of 50 – 100 dollars will be given to every group that registers before August 1st!</p>
-          <a className='btn'>More Information</a>
+          <a className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScXk6K1JQTBv9z4MmUciYgdG9-3pGBAzAwYHx3cS8r3sEbeaQ/viewform' target='_blank'>More Information</a>
         </div>
       </div>
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>
-        <div className='carousel d-flex justify-content-center mb-5'>
+        <div className='carousel d-flex justify-content-center'>
           <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -75,13 +75,6 @@ export default function Home({ background }) {
           The students explored the City Museum, visited the St. Louis Arch, had a great time at Six Flags,
           and of course competed at the prestigious Heritage Music Festival.
           The choirs tied for first overall, with each other!</p>
-      </div>
-      <div className='text-center social'>
-        <h2>Follow FCOMM Choirs!</h2>
-        <span>
-          <a className='mx-5' href='https://www.facebook.com/profile.php?id=100063582283607' target='_blank'><i class="fa-brands fa-square-facebook"></i></a>
-          <a className='mx-5' href='https://www.tiktok.com/@fcommchoirs?_t=8bdc5aHkR9m&_r=1' target='_blank'><i class="fa-brands fa-tiktok"></i></a>
-        </span>
       </div>
       <h2>Thank You to our Sponsors!</h2>
       <div className='row text-center sponsors px-0 mx-0 my-4'>
@@ -133,6 +126,13 @@ export default function Home({ background }) {
             <h5>Indy Property Chicks</h5>
           </div>
         </div>
+      </div>
+      <div className='text-center social'>
+        <h2>Follow FCOMM Choirs!</h2>
+        <span>
+          <a className='mx-5' href='https://www.facebook.com/profile.php?id=100063582283607' target='_blank'><i class="fa-brands fa-square-facebook"></i></a>
+          <a className='mx-5' href='https://www.tiktok.com/@fcommchoirs?_t=8bdc5aHkR9m&_r=1' target='_blank'><i class="fa-brands fa-tiktok"></i></a>
+        </span>
       </div>
     </div >
   )
