@@ -60,7 +60,7 @@ export default function Nav({random}) {
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Pay Fees
               </a>
-              <div className="dropdown-menu">
+              <div className="dropdown-menu dropdown-menu-end">
                 <a><a className="dropdown-item" href="#">Bella Voce Payments</a></a>
                 <a><a className="dropdown-item" href="#">Dynamic Payments</a></a>
                 <a><a className="dropdown-item" href="#">Heritage Singers Payments</a></a>
@@ -69,6 +69,7 @@ export default function Nav({random}) {
                 <a><a className="dropdown-item" href="#">Voce Alta Payments</a></a>
               </div>
             </a>
+            
             {/* <a className="nav-item">
               <a className="nav-link" href="#">ShowFest 2024</a>
             </a> */}

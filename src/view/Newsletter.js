@@ -1,4 +1,6 @@
 import React from 'react'
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 export default function Newsletter() {
     return (
@@ -8,9 +10,8 @@ export default function Newsletter() {
                     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFfcJxPJCw&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                 </iframe>
             </div>
-            <div className='row calendar-load'>
-                <div className="spinner-border text-light" role="status"></div>
-                <div>Loading Newsletter...</div>
+            <div className='calendar-load'>
+                <CircularProgress color='inherit' size={60}/>
             </div>
         </div>
     )

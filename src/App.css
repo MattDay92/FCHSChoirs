@@ -46,6 +46,7 @@ h3{
 
 .navbar {
     z-index: 100;
+    background: white !important;
 }
 
 .navbar-brand {
@@ -57,13 +58,12 @@ h3{
 
 .nav-item{
     text-decoration: none !important;
-    color:rgb(12, 34, 132) !important;
 }
 
-.nav-item:hover{
-    color:rgb(4, 18, 81)
+.nav-link:hover, .dropdown-item:hover{
+    color:white !important;
+    background: rgb(68,93,180) !important;
 }
-
 
 .fullpage {
     min-height: 100vh;
@@ -144,8 +144,14 @@ h3{
 }
 
 .btn {
-    background: white;
-    color: rgb(12, 34, 132);
+    background: white !important;
+    color: rgb(12, 34, 132) !important;
+    transition: transform 0.3s ease-out
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in;
 }
 
 .fa-brands{
@@ -230,6 +236,7 @@ h3{
 .footer {
     background: rgb(245, 245, 245);
     min-height: 100px;
+    color: rgb(12, 34, 132);
     mask-image: linear-gradient(to bottom, transparent 0%, black 75%);
 }
 
