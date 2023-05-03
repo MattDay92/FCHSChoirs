@@ -12,6 +12,7 @@ import Bella from './view/Bella'
 import Sig from './view/Sig'
 import Support from './view/Support'
 import Newsletter from './view/Newsletter'
+import Fees from './view/Fees'
 
 
 export default function App() {
@@ -44,6 +45,7 @@ export default function App() {
           <Route path={'/calendar'} element={<Calendar />}/>
           <Route path={'/newsletter'} element={<Newsletter />}/>
           <Route path={'/support'} element={<Support />}/>
+          <Route path={'/fees'} element={<Fees />}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

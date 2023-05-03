@@ -108,6 +108,10 @@ h3{
     background-image: url('/src/components/photos/shrek.JPG');
 }
 
+.hero-image.christmas {
+    background-image: url('/src/components/photos/ChristmasBella.JPG');
+}
+
 .overlay-cover {
     position: absolute;
     height: 100%;
