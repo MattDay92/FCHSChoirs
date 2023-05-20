@@ -11,6 +11,7 @@ export default function Heritage() {
             <div className='hero-title'>
                 <h1>Heritage Singers</h1>
             </div>
+
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center my-5'>
                     <p className='col-10'>The Heritage Singers are the premier mixed show choir from Franklin Community High School.

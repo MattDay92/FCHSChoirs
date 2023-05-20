@@ -240,8 +240,12 @@ h3{
 .footer {
     background: rgb(245, 245, 245);
     min-height: 100px;
-    color: rgb(12, 34, 132);
+    color: rgb(12, 34, 132) !important;
     mask-image: linear-gradient(to bottom, transparent 0%, black 75%);
+}
+
+.footer a{
+    color: rgb(12, 34, 132) !important;
 }
 
 iframe{
@@ -249,6 +253,8 @@ iframe{
     width: 80vw !important; 
     height: 80vh !important; 
     animation: calendar 2s;
+    margin-top: 10vh !important;
+    margin-bottom: 2vh;
 }
 
 @keyframes calendar {
@@ -264,4 +270,22 @@ iframe{
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+.subscribe-btn{
+    position: absolute;
+    right: 15vw;
+}
+
+.offcanvas{
+    height: 70vh;
+}
+
+.offcanvas-last{
+    padding-bottom: 20px !important;
+}
+
+.offcanvas-body, .offcanvas-header{
+    text-align: center !important;
+    color: black !important;
 }
