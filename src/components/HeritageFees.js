@@ -8,14 +8,14 @@ export default function HeritageFees() {
 
 
   return (
-    <div className='container col-8'>
+    <div className='container'>
       <button className="btn my-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
         Payment Details
       </button>
 
       <div className="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header d-flex justify-content-center">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Heritage Singers Payment Information</h5>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Heritage Singers/Sensations Payment Information</h5>
         </div>
         <div class="offcanvas-body d-flex justify-content-center">
           <div className='col-10'>
@@ -67,15 +67,15 @@ export default function HeritageFees() {
 
         </div>
       </div>
-
-      <h5>Select a payment option below. Type in your student’s name above the option you select. If you select “Make a Payment” button, you will type in the dollar amount you wish to pay. “Set Up Recurring Payments” allows you to select a recurring amount that will be automatically billed.</h5>
-    
-      <div className='d-flex justify-content-center'>
-      <form className='my-5 col-6'>
-        <input className='form-control' placeholder='Student Name' />
-        <button className='btn btn-sm my-3 mx-2' type='submit'>One-Time Payment</button>
-        <button className='btn btn-sm my-3 mx-2' type='submit'>Set-Up Recurring Payment</button>
-      </form>
+      <div className='row d-flex justify-content-center'>
+        <h5 className='col-8'>Select a payment option below. Type in your student’s name above the option you select. If you select “Make a Payment” button, you will type in the dollar amount you wish to pay. “Set Up Recurring Payments” allows you to select a recurring amount that will be automatically billed.</h5>
+      </div>
+      <div className='row d-flex justify-content-center'>
+        <form className='my-5 col-6'>
+          <input className='form-control' placeholder='Student Name' />
+          <button className='btn btn-sm my-3 mx-2' type='submit'>One-Time Payment</button>
+          <button className='btn btn-sm my-3 mx-2' type='submit'>Set-Up Recurring Payment</button>
+        </form>
       </div>
     </div>
   )

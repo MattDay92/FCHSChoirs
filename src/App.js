@@ -19,7 +19,7 @@ export default function App() {
   const [background, changeBackground] = useState('')
 
   const random = () => {
-    const myCovers = ['heritage', 'sensations', 'bella', 'legacy', 'sig']
+    const myCovers = ['heritage', 'sensations', 'bella', 'legacy', 'sig', 'christmas']
     const randomCover = Math.floor(Math.random() * myCovers.length);
 
     changeBackground(myCovers[randomCover])

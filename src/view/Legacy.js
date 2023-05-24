@@ -3,7 +3,7 @@ import React from 'react'
 export default function Legacy() {
     return (
         <div className='fullpage'>
-            <div className='hero-image christmas'>
+            <div className='hero-image legacy'>
                 <div className='overlay-cover'>
                 </div>
             </div>

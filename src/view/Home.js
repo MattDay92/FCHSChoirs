@@ -20,22 +20,28 @@ export default function Home({ background }) {
           <div className='hero-image heritage'>
             <div className='overlay-cover'>
             </div>
-          </div></> : background==='legacy'?
-        <>
-          <div className='hero-image legacy'>
-            <div className='overlay-cover'>
-            </div>
-          </div></> : background === 'sig'?
-      <>
-        <div className='hero-image sig'>
-          <div className='overlay-cover'>
-          </div>
-        </div></> :
-      <>
-        <div className='hero-image bella'>
-          <div className='overlay-cover'>
-          </div>
-        </div></>}
+          </div></> : background === 'legacy' ?
+          <>
+            <div className='hero-image legacy'>
+              <div className='overlay-cover'>
+              </div>
+            </div></> : background === 'sig' ?
+            <>
+              <div className='hero-image sig'>
+                <div className='overlay-cover'>
+                </div>
+              </div></> : background === 'bella' ?
+              <>
+                <div className='hero-image bella'>
+                  <div className='overlay-cover'>
+                  </div>
+                </div></> :
+              <>
+                <div className='hero-image christmas'>
+                  <div className='overlay-cover'>
+                  </div>
+                </div></>
+      }
       <div className='hero-title'>
         <h1>Franklin Community High School Choirs</h1>
       </div>
