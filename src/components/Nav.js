@@ -19,7 +19,7 @@ export default function Nav({random}) {
               <Link className="nav-link" aria-current="page" to={'/newsletter'}>Newsletter</Link>
             </a>
             <a className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <Link className="nav-link" to={'/contact'}>Contact</Link>
             </a>
             <a className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

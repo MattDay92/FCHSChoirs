@@ -13,6 +13,7 @@ import Sig from './view/Sig'
 import Support from './view/Support'
 import Newsletter from './view/Newsletter'
 import Fees from './view/Fees'
+import Contact from './view/Contact'
 
 
 export default function App() {
@@ -46,6 +47,7 @@ export default function App() {
           <Route path={'/newsletter'} element={<Newsletter />}/>
           <Route path={'/support'} element={<Support />}/>
           <Route path={'/fees'} element={<Fees />}/>
+          <Route path={'/contact'} element={<Contact />}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

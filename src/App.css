@@ -44,6 +44,10 @@ h3{
     text-align: center !important;
 }
 
+h4, h5{
+    font-family: 'Bebas Neue';
+}
+
 .navbar {
     z-index: 100;
     background: white !important;
@@ -182,6 +186,10 @@ h3{
     position: relative;
 }
 
+.sponsors h4, .sponsors h5{
+    font-family: 'Cormorant Garamond', serif !important;
+}
+
 .sponsors1{
     position: absolute;
     height: 100%;
@@ -288,4 +296,8 @@ iframe{
 .offcanvas-body, .offcanvas-header{
     text-align: center !important;
     color: black !important;
+}
+
+.director{
+    border-radius: 50%;
 }
