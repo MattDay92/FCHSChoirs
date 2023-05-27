@@ -48,6 +48,7 @@ h4, h5{
     font-family: 'Bebas Neue';
 }
 
+
 .navbar {
     z-index: 100;
     background: white !important;
@@ -88,6 +89,11 @@ h4, h5{
     mask-image: linear-gradient(to top, transparent 0%, black 75%);
 }
 
+.cover-img{
+    width: 100%;
+    opacity: 0.7;
+}
+
 .hero-image.sensations {
     background-image: url('/src/components/photos/sensations.jpg');
 }
@@ -122,7 +128,7 @@ h4, h5{
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 1);
     display: flex;
     align-items: center;
     justify-content: center;

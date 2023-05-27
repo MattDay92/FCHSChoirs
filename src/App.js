@@ -1,6 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import CircularProgress from '@mui/material/CircularProgress';
 import Nav from './components/Nav'
 import Home from './view/Home'
 import Footer from './components/Footer'
@@ -18,17 +19,20 @@ import Contact from './view/Contact'
 
 export default function App() {
   const [background, changeBackground] = useState('')
+  const [loaded, setLoaded] = useState(false)
 
   const random = () => {
     const myCovers = ['heritage', 'sensations', 'bella', 'legacy', 'sig', 'christmas']
     const randomCover = Math.floor(Math.random() * myCovers.length);
 
     changeBackground(myCovers[randomCover])
-
-    console.log(background)
   }
 
-  useEffect(()=>{
+  setTimeout(() => {
+    setLoaded(true)
+  }, "2000");
+
+  useEffect(() => {
     random()
   }, [])
 
@@ -36,20 +40,20 @@ export default function App() {
     <div>
       <BrowserRouter>
         <Nav random={random} />
-        <Routes>
-          <Route path={'/'} element={<Home background={background} />}/>
-          <Route path={'/heritage'} element={<Heritage />}/>
-          <Route path={'/sensations'} element={<Sensations />}/>
-          <Route path={'/legacy'} element={<Legacy />}/>
-          <Route path={'/sig'} element={<Sig />}/>
-          <Route path={'/bella'} element={<Bella />}/>
-          <Route path={'/calendar'} element={<Calendar />}/>
-          <Route path={'/newsletter'} element={<Newsletter />}/>
-          <Route path={'/support'} element={<Support />}/>
-          <Route path={'/fees'} element={<Fees />}/>
-          <Route path={'/contact'} element={<Contact />}/>
-        </Routes>
-        <Footer/>
+          <Routes>
+            <Route path={'/'} element={<Home background={background} />} />
+            <Route path={'/heritage'} element={<Heritage />} />
+            <Route path={'/sensations'} element={<Sensations />} />
+            <Route path={'/legacy'} element={<Legacy />} />
+            <Route path={'/sig'} element={<Sig />} />
+            <Route path={'/bella'} element={<Bella />} />
+            <Route path={'/calendar'} element={<Calendar />} />
+            <Route path={'/newsletter'} element={<Newsletter />} />
+            <Route path={'/support'} element={<Support />} />
+            <Route path={'/fees'} element={<Fees />} />
+            <Route path={'/contact'} element={<Contact />} />
+          </Routes> 
+        <Footer />
       </BrowserRouter>
     </div>
   )
