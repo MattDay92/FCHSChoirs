@@ -86,40 +86,13 @@ h4, h5{
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
+    margin-bottom: 5vh;
     mask-image: linear-gradient(to top, transparent 0%, black 75%);
 }
 
 .cover-img{
     width: 100%;
     opacity: 0.7;
-}
-
-.hero-image.sensations {
-    background-image: url('/src/components/photos/sensations.jpg');
-}
-
-.hero-image.heritage {
-    background-image: url('/src/components/photos/heritage.jpg');
-}
-
-.hero-image.legacy {
-    background-image: url('/src/components/photos/legacy.JPG');
-}
-
-.hero-image.bella {
-    background-image: url('/src/components/photos/bella.jpg');;
-}
-
-.hero-image.sig {
-    background-image: url('/src/components/photos/sig.JPG');
-}
-
-.hero-image.shrek {
-    background-image: url('/src/components/photos/shrek.JPG');
-}
-
-.hero-image.christmas {
-    background-image: url('/src/components/photos/ChristmasBella.JPG');
 }
 
 .overlay-cover {
@@ -154,7 +127,7 @@ h4, h5{
 }
 
 .carousel {
-    height: 450px;
+    height: fit-content;
 }
 
 .btn {
@@ -306,4 +279,62 @@ iframe{
 
 .director{
     border-radius: 50%;
+    width: 40%;
+}
+
+
+@media (max-width: 1024px) {
+    .hero-image{
+        height: 30vh;   
+    }
+
+    .cover-img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero-title{
+        position: absolute;
+        top: -25vh;
+    }
+
+    p{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 425px) {
+    .showfest{
+        margin-top: 2vh !important;
+    }
+
+    .showfest-img{
+        width: 80%;
+        margin-bottom: 5vh;
+    }
+
+    .showfest-info{
+        width: 80%;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+
+    h4, h5{
+        font-size: .75em;
+    }
+
+    .featured{
+        width: 90%;
+    }
+
+    .bio{
+        width: 100%;
+    }
+
+    .payment-form{
+        width: 100vw !important;
+        margin: auto !important;
+    }
 }

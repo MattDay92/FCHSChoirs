@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Showfest from '../components/photos/ShowFestLogo.png'
+import HeritageSingers from '../components/photos/heritage.jpg'
+import SigPic from '../components/photos/sig.JPG'
+import SensationsPic from '../components/photos/sensations.jpg'
+import LegacyPic from '../components/photos/legacy.JPG'
+import BellaPic from '../components/photos/bella.jpg'
+import ChristmasPic from '../components/photos/ChristmasBella.JPG'
 import BellaStLouis from '../components/photos/bella.jpg'
 import SigStLouis from '../components/photos/sig.JPG'
 import Arch from '../components/photos/arch.jpeg'
@@ -12,44 +18,56 @@ export default function Home({ background }) {
   return (
     <div className='fullpage'>
       {background === 'sensations' ? <>
-        <div className='hero-image sensations'>
+        <div className='hero-image'>
           <div className='overlay-cover'>
+            <img className='cover-img' src={SensationsPic} />
           </div>
         </div></> : background === 'heritage' ?
         <>
-          <div className='hero-image heritage'>
+          <div className='hero-image'>
             <div className='overlay-cover'>
+              <img className='cover-img' src={HeritageSingers} />
             </div>
           </div></> : background === 'legacy' ?
           <>
-            <div className='hero-image legacy'>
+            <div className='hero-image'>
               <div className='overlay-cover'>
+                <img className='cover-img' src={LegacyPic} />
               </div>
             </div></> : background === 'sig' ?
             <>
-              <div className='hero-image sig'>
+              <div className='hero-image'>
                 <div className='overlay-cover'>
+                  <img className='cover-img' src={SigPic} />
                 </div>
               </div></> : background === 'bella' ?
               <>
-                <div className='hero-image bella'>
+                <div className='hero-image'>
                   <div className='overlay-cover'>
+                    <img className='cover-img' src={BellaPic} />
                   </div>
-                </div></> :
-              <>
-                <div className='hero-image christmas'>
-                  <div className='overlay-cover'>
+                </div></> : background === 'christmas' ?
+                <>
+                  <div className='hero-image'>
+                    <div className='overlay-cover'>
+                      <img className='cover-img' src={ChristmasPic} />
+                    </div>
+                  </div></> :
+                <>
+                  <div className='hero-image'>
+                    <div className='overlay-cover'>
+                    </div>
                   </div>
-                </div></>
+                </>
       }
       <div className='hero-title'>
         <h1>Franklin Community High School Choirs</h1>
       </div>
       <div className='row showfest d-flex justify-content-center align-items-center my-5'>
-        <div className='col-4'>
+        <div className='col-4 showfest-img'>
           <img className='showfest-logo' src={Showfest} />
         </div>
-        <div className='col-4 text-center'>
+        <div className='col-4 showfest-info text-center'>
           <p className='text-white'>Hello, Directors! Preparations are under way for Franklin Community High School’s ShowFest 2024, to be held on Friday, January 26th, and Saturday, January 27th, 2024. A registration discount of 50 – 100 dollars will be given to every group that registers before August 1st!</p>
           <Button variant='contained' className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScXk6K1JQTBv9z4MmUciYgdG9-3pGBAzAwYHx3cS8r3sEbeaQ/viewform' target='_blank'>More Information</Button>
         </div>

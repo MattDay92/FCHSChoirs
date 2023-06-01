@@ -1,18 +1,22 @@
 import React from 'react'
+import ShrekPic from '../components/photos/shrek.JPG'
+
 import { Link } from 'react-router-dom'
+
 
 export default function Support() {
   return (
     <div className='fullpage'>
             <div className='hero-image shrek'>
                 <div className='overlay-cover'>
+                    <img className='cover-img' src={ShrekPic} />
                 </div>
             </div>
             <div className='hero-title'>
                 <h1>Support FCOMM Choirs</h1>
             </div>
             <div className='container'>
-                <div className='row d-flex justify-content-center text-center my-5'>
+                <div className='row d-flex justify-content-center text-center'>
                     <p className='col-10'>YOU can help support next year’s FCHS Musical! At the Johnson County Community foundation, 
                     an FCHS MUSICAL ENDOWMENT FUND was set up by Ray & Goldie Jones and the Elizabeth Jones families to support our musicals. 
                     The larger this fund grows, the more funds we will receive for future performances. If you would like more information about 

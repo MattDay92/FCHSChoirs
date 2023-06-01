@@ -1,19 +1,22 @@
 import React from 'react'
 import Kelly from '../components/photos/Kelly.jpeg'
 import Johnnie from '../components/photos/Johnnie.jpeg'
+import ChristmasPic from '../components/photos/ChristmasBella.JPG'
+
 
 export default function Contact() {
     return (
         <div className='fullpage'>
             <div className='hero-image christmas'>
                 <div className='overlay-cover'>
+                <img src={ChristmasPic} className='cover-img' />
                 </div>
             </div>
             <div className='hero-title'>
                 <h1>Contact</h1>
             </div>
-            <div className='director-bios row col-10 mx-auto'>
-                <div className='col-6'>
+            <div className='director-bios row col-10 mx-auto my-3'>
+                <div className='col-6 bio'>
                     <div className='text-center my-3'><img src={Kelly} className='director' /></div>
                     <div className='text-center'>
                         <h4>Kelly Cassady Day</h4>
@@ -23,7 +26,7 @@ export default function Contact() {
                         <h5>Email:  dayk@franklinschools.org</h5>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-6 bio'>
                     <div className='text-center my-3'><img src={Johnnie} className='director' /></div>
                     <div className='text-center'>
                         <h4>Johnnie Ray Hughes</h4>
@@ -36,29 +39,29 @@ export default function Contact() {
                 </div>
             </div>
             <div className='CBO-contact row col-10 d-flex justify-content-center my-5 mx-auto'>
-                <div className='text-center col-3'>
+                <div className='text-center bio col-3'>
                     <h4>CBO President</h4>
                     <p>Paula Fleener</p>
                     <p>fchs.cbo.president@gmail.com</p>
                 </div>
-                <div className='text-center col-3'>
+                <div className='text-center bio col-3'>
                     <h4>CBO Vice-President</h4>
                     <p>Jamie Marshall</p>
                 </div>
-                <div className='text-center col-3'>
+                <div className='text-center bio col-3'>
                     <h4>CBO Costume Coordinator</h4>
                     <p>Kristin Blount</p>
                 </div>
-                <div className='text-center col-3'>
+                <div className='text-center bio col-3'>
                     <h4>CBO Secretary</h4>
                     <p>April Brandon</p>
                 </div>
-                <div className='text-center col-3'>
+                <div className='text-center bio col-3'>
                     <h4>Music Department Secretary</h4>
                     <p>Emily Bradley</p>
                     <p>bradleye@franklinschools.org</p>
                 </div>
-                <div className='text-center col-3'>
+                <div className='text-center bio col-3'>
                     <h4>Charms Coordinator</h4>
                     <p>Melissa Gray</p>
                     <p>fchschoirfees@gmail.com</p>

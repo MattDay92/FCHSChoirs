@@ -67,11 +67,11 @@ export default function HeritageFees() {
 
         </div>
       </div>
-      <div className='row d-flex justify-content-center'>
-        <h5 className='col-8'>Select a payment option below. Type in your student’s name above the option you select. If you select “Make a Payment” button, you will type in the dollar amount you wish to pay. “Set Up Recurring Payments” allows you to select a recurring amount that will be automatically billed.</h5>
+      <div className='row m-auto'>
+        <h5>Select a payment option below. Type in your student’s name above the option you select. If you select “Make a Payment” button, you will type in the dollar amount you wish to pay. “Set Up Recurring Payments” allows you to select a recurring amount that will be automatically billed.</h5>
       </div>
       <div className='row d-flex justify-content-center'>
-        <form className='my-5 col-6'>
+        <form className='my-5 col-6 payment-form'>
           <input className='form-control' placeholder='Student Name' />
           <button className='btn btn-sm my-3 mx-2' type='submit'>One-Time Payment</button>
           <button className='btn btn-sm my-3 mx-2' type='submit'>Set-Up Recurring Payment</button>

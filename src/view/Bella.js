@@ -1,17 +1,20 @@
 import React from 'react'
+import BellaPic from '../components/photos/bella.jpg'
+
 
 export default function Bella() {
     return (
         <div className='fullpage'>
             <div className='hero-image bella'>
                 <div className='overlay-cover'>
+                <img className='cover-img' src={BellaPic} />
                 </div>
             </div>
             <div className='hero-title'>
                 <h1>Bella Voce</h1>
             </div>
             <div className='container'>
-                <div className='row d-flex justify-content-center text-center my-5'>
+                <div className='row d-flex justify-content-center text-center'>
                     <p className='col-10'>Bella Voce, the varsity treble concert choir of Franklin Community High School,
                         is directed by Kelly Cassady Day and assisted by Johnnie Ray Hughes.  This group has enjoyed a history of
                         competitive success, and is looking forward to improving throughout the season at the Fishers Spotlighter Showcase,
