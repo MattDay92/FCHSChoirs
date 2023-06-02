@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import CircularProgress from '@mui/material/CircularProgress';
 import Nav from './components/Nav'
 import Home from './view/Home'
 import Footer from './components/Footer'
@@ -15,6 +14,7 @@ import Support from './view/Support'
 import Newsletter from './view/Newsletter'
 import Fees from './view/Fees'
 import Contact from './view/Contact'
+import ByLaws from './view/ByLaws';
 
 
 export default function App() {

@@ -37,45 +37,18 @@ export default function Nav({random}) {
             </a>
             <a className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Forms
+                Documents
               </a>
               <div className="dropdown-menu">
-                <a className="dropdown-item" href="#">Form #1</a>
-                <a className="dropdown-item" href="#">Form #2</a>
-                <a className="dropdown-item" href="#">Form #3</a>
+                <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vQPeJBqkW7yVvrsCaLjGqYF2fyNDIPCRIlaF6WHy1csc5xtrt4xUVkKCrkIGdQG8Q/pub'>ByLaws</a>
               </div>
             </a>
             <a className="nav-item">
               <Link className="nav-link" to={'/support'}>Support Us</Link>
             </a>
-            {/* <a className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Opportunities
-              </a>
-              <div className="dropdown-menu">
-                <a><a className="dropdown-item" href="#">Majoring in Music</a></a>
-              </div>
-            </a> */}
-            {/* <a className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Pay Fees
-              </a>
-              <div className="dropdown-menu dropdown-menu-end">
-                <a><a className="dropdown-item" href="#">Bella Voce Payments</a></a>
-                <a><a className="dropdown-item" href="#">Dynamic Payments</a></a>
-                <a><a className="dropdown-item" href="#">Heritage Singers Payments</a></a>
-                <a><a className="dropdown-item" href="#">Legacy Payments</a></a>
-                <a><a className="dropdown-item" href="#">Sensations Payments</a></a>
-                <a><a className="dropdown-item" href="#">Voce Alta Payments</a></a>
-              </div>
-            </a> */}
             <a className="nav-item">
               <Link className="nav-link" to={'/fees'}>Pay Fees</Link>
             </a>
-            
-            {/* <a className="nav-item">
-              <a className="nav-link" href="#">ShowFest 2024</a>
-            </a> */}
           </div>
         </div>
       </nav>

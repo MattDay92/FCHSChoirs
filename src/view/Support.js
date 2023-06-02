@@ -1,6 +1,5 @@
 import React from 'react'
 import ShrekPic from '../components/photos/shrek.JPG'
-
 import { Link } from 'react-router-dom'
 
 

@@ -16,35 +16,36 @@ body {
     background: linear-gradient(90deg, rgb(12, 34, 132) 0%, rgb(123, 142, 221) 100%);
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
-h1{
+h1 {
     font-family: 'Bebas Neue';
     font-size: 7vw;
     text-align: center !important;
 }
 
-@media (max-width: 768px){
-    h1{
+@media (max-width: 768px) {
+    h1 {
         font-size: 10vw;
     }
 }
 
-h2{
+h2 {
     font-family: 'Bebas Neue';
     font-size: 6vh;
     text-align: center !important;
 }
 
-h3{
+h3 {
     font-family: 'Bebas Neue';
     font-size: 5vh;
     text-align: center !important;
 }
 
-h4, h5{
+h4,
+h5 {
     font-family: 'Bebas Neue';
 }
 
@@ -57,17 +58,18 @@ h4, h5{
 .navbar-brand {
     font-family: 'Bebas Neue';
     font-size: 40px;
-    padding-top: 0 ;
+    padding-top: 0;
     padding-bottom: 0;
 }
 
-.nav-item{
+.nav-item {
     text-decoration: none !important;
 }
 
-.nav-link:hover, .dropdown-item:hover{
-    color:white !important;
-    background: rgb(68,93,180) !important;
+.nav-link:hover,
+.dropdown-item:hover {
+    color: white !important;
+    background: rgb(68, 93, 180) !important;
 }
 
 .fullpage {
@@ -90,8 +92,10 @@ h4, h5{
     mask-image: linear-gradient(to top, transparent 0%, black 75%);
 }
 
-.cover-img{
+.cover-img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     opacity: 0.7;
 }
 
@@ -136,12 +140,12 @@ h4, h5{
     transition: transform 0.3s ease-out
 }
 
-.btn:hover{
+.btn:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 50px;
     color: white;
 }
@@ -155,21 +159,22 @@ h4, h5{
     margin-bottom: 10%;
 }
 
-.social{
+.social {
     height: 30vh;
 }
 
-.sponsors{
+.sponsors {
     height: 55vh;
     width: 100%;
     position: relative;
 }
 
-.sponsors h4, .sponsors h5{
+.sponsors h4,
+.sponsors h5 {
     font-family: 'Cormorant Garamond', serif !important;
 }
 
-.sponsors1{
+.sponsors1 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -179,14 +184,28 @@ h4, h5{
 }
 
 @keyframes sponsors1 {
-    0% {opacity: 0;}
-    3% {opacity: 1;}
-    30% {opacity: 1;}
-    33% {opacity: 0;}
-    100% {opacity: 0;}
+    0% {
+        opacity: 0;
+    }
+
+    3% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
-.sponsors2{
+.sponsors2 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -196,15 +215,32 @@ h4, h5{
 }
 
 @keyframes sponsors2 {
-    0% {opacity: 0;}
-    30% {opacity: 0;}
-    33% {opacity: 1;}
-    63% {opacity: 1;}
-    66% {opacity: 0;}
-    100% {opacity: 0;}
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    63% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
-.sponsors3{
+.sponsors3 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -214,13 +250,24 @@ h4, h5{
 }
 
 @keyframes sponsors3 {
-    0% {opacity: 0;}
-    63% {opacity: 0;}
-    66% {opacity: 1;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    63% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.sponsor-col{
+.sponsor-col {
     width: 40vw;
 }
 
@@ -231,26 +278,37 @@ h4, h5{
     mask-image: linear-gradient(to bottom, transparent 0%, black 75%);
 }
 
-.footer a{
+.footer a {
     color: rgb(12, 34, 132) !important;
 }
 
-iframe{
+iframe {
     z-index: 10;
-    width: 80vw !important; 
-    height: 80vh !important; 
+    width: 80vw !important;
+    height: 80vh !important;
     animation: calendar 2s;
     margin-top: 10vh !important;
     margin-bottom: 2vh;
+    background-color: black;
+    padding: 0 !important;
 }
+
 
 @keyframes calendar {
-    0% {opacity: 0;}
-    60% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.calendar-load{
+.calendar-load {
     position: absolute;
     bottom: 50vh;
     width: 100vw;
@@ -259,82 +317,80 @@ iframe{
     justify-content: center;
 }
 
-.subscribe-btn{
+.subscribe-btn {
     position: absolute;
     right: 15vw;
 }
 
-.offcanvas{
+.offcanvas {
     height: 70vh;
 }
 
-.offcanvas-last{
+.offcanvas-last {
     padding-bottom: 20px !important;
 }
 
-.offcanvas-body, .offcanvas-header{
+.offcanvas-body,
+.offcanvas-header {
     text-align: center !important;
     color: black !important;
 }
 
-.director{
+.director {
     border-radius: 50%;
     width: 40%;
 }
 
 
 @media (max-width: 1024px) {
-    .hero-image{
-        height: 30vh;   
+    .hero-image {
+        height: 30vh;
     }
 
-    .cover-img{
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .hero-title{
+    .hero-title {
         position: absolute;
         top: -25vh;
     }
 
-    p{
+    p {
         font-size: medium;
     }
 }
 
 @media (max-width: 425px) {
-    .showfest{
+    .showfest {
         margin-top: 2vh !important;
     }
 
-    .showfest-img{
+    .showfest-img {
         width: 80%;
         margin-bottom: 5vh;
     }
 
-    .showfest-info{
+    .showfest-info {
         width: 80%;
     }
 
-    h3{
+    h3 {
         font-size: 1em;
     }
 
-    h4, h5{
+    h4,
+    h5 {
         font-size: .75em;
     }
 
-    .featured{
+    .featured {
         width: 90%;
     }
 
-    .bio{
+    .bio {
         width: 100%;
     }
 
-    .payment-form{
+    .payment-form {
         width: 100vw !important;
         margin: auto !important;
     }
+
 }
