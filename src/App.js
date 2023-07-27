@@ -15,6 +15,8 @@ import Newsletter from './view/Newsletter'
 import Fees from './view/Fees'
 import Contact from './view/Contact'
 import ByLaws from './view/ByLaws';
+import Dynamic from './view/Dynamic'
+import VoceAlta from './view/VoceAlta'
 
 
 export default function App() {
@@ -47,6 +49,8 @@ export default function App() {
             <Route path={'/legacy'} element={<Legacy />} />
             <Route path={'/sig'} element={<Sig />} />
             <Route path={'/bella'} element={<Bella />} />
+            <Route path={'/dynamic'} element={<Dynamic />} />
+            <Route path={'/vocealta'} element={<VoceAlta />} />
             <Route path={'/calendar'} element={<Calendar />} />
             <Route path={'/newsletter'} element={<Newsletter />} />
             <Route path={'/support'} element={<Support />} />

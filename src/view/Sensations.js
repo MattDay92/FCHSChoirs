@@ -5,7 +5,7 @@ export default function Sensations() {
     return (
         <div className='fullpage'>
             <div className='hero-image'>
-                <div className='overlay-cover'>
+                <div className='overlay-cover sensations'>
                     <img className='cover-img' src={SensationsPic} />
                 </div>
             </div>

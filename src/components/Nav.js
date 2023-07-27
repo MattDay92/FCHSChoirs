@@ -25,14 +25,14 @@ export default function Nav({random}) {
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Ensembles
               </a>
-              <div className="nav-item dropdown-menu">
+              <div className="nav-item dropdown-menu nav-dropdown-menu">
                 <Link className="dropdown-item" to={'/bella'}>Bella Voce</Link>
-                <a className="dropdown-item" href="#">Dynamic</a>
+                <Link className="dropdown-item" to={'/dynamic'}>Dynamic</Link>
                 <Link className="dropdown-item" to={'/heritage'}>Heritage Singers</Link>
                 <Link className="dropdown-item" to={'/legacy'}>Legacy</Link>
                 <Link className="dropdown-item" to={'/sensations'}>Sensations</Link>
                 <Link className="dropdown-item" to={'/sig'}>Signature Sound</Link>
-                <a className="dropdown-item" href="#">Voce Alta</a>
+                <Link className="dropdown-item" to={'/vocealta'}>Voce Alta</Link>
               </div>
             </a>
             <a className="nav-item dropdown">

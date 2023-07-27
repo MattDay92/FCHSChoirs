@@ -1,5 +1,5 @@
 import React from 'react'
-import SigPic from '../components/photos/sig.JPG'
+import SigPic from '../components/photos/SigSpring.JPG'
 
 
 export default function Sig() {

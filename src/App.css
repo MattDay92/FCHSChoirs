@@ -26,7 +26,7 @@ h1 {
     text-align: center !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     h1 {
         font-size: 10vw;
     }
@@ -58,8 +58,7 @@ h5 {
 .navbar-brand {
     font-family: 'Bebas Neue';
     font-size: 40px;
-    padding-top: 0;
-    padding-bottom: 0;
+
 }
 
 .nav-item {
@@ -70,6 +69,20 @@ h5 {
 .dropdown-item:hover {
     color: white !important;
     background: rgb(68, 93, 180) !important;
+}
+
+
+@media (min-width: 992px) {
+    .dropdown:hover .nav-dropdown-menu {
+        display: block !important;
+        margin-top: 0 !important;
+    }
+}
+
+
+.dropdown-menu {
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .fullpage {
@@ -113,7 +126,7 @@ h5 {
 }
 
 .hero-title {
-    position: absolute;
+    position: absolute !important;
     height: 100%;
     width: 100%;
     top: -15vh;
@@ -348,7 +361,7 @@ iframe {
     }
 
     .hero-title {
-        position: absolute;
+        position: relative !important;
         top: -25vh;
     }
 

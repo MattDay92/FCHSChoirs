@@ -1,5 +1,5 @@
 import React from 'react'
-import BellaPic from '../components/photos/bella.jpg'
+import BellaPic from '../components/photos/BellaSpring.JPG'
 
 
 export default function Bella() {
