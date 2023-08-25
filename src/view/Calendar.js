@@ -24,7 +24,7 @@ export default function Calendar() {
                         Select Calendar
                     </button>
                     <ul class="dropdown-menu">
-                        <a><Link className="dropdown-item" onClick={() => { setCalendar('All') }}>All Choirs</Link></a>
+                        <a><Link className="dropdown-item" onClick={() => { setCalendar('All') }}>All Choir Events</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Bella') }}>Bella Voce</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Dynamic') }}>Dynamic</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Heritage') }}>Heritage Singers</Link></a>
@@ -44,9 +44,10 @@ export default function Calendar() {
                                         calendar === 'Voce' ? <><h2>Voce Alta</h2><VoceAltaCalendar /></> :
                                             calendar === 'Sig' ? <><h2>Signature Sound</h2><SigCalendar /></> :
                                                 calendar === 'Musical' ? <><h2>Musical</h2><MusicalCalendar /></>:
-                                                <><h2>All Choirs</h2><AllChoirsCalendar /></>
+                                                <><h2>All Choir Events</h2><AllChoirsCalendar /></>
                                                 }
                 </div>
+                <p className='text-center my-2'>Note:  When subscribing, please add each choir individually along with the "All Choir Events" calendar for the most accurate information. </p>
             </div>
         </div>
     )

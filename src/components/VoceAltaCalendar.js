@@ -12,7 +12,7 @@ export default function VoceAltaCalendar() {
             Subscribe
         </button>
         <ul class="dropdown-menu">
-            <li><a href='webcal://https://calendar.google.com/calendar/ical/5b355101527801a16f3fd592370d0e33cc9cd565b692ad17f926e1450a05cfcb%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
+            <li><a href='webcal://calendar.google.com/calendar/ical/5b355101527801a16f3fd592370d0e33cc9cd565b692ad17f926e1450a05cfcb%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
             <li><a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=5b355101527801a16f3fd592370d0e33cc9cd565b692ad17f926e1450a05cfcb%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis" target='_blank'>Add to Google Calendar</a></li>
         </ul>
     </div>

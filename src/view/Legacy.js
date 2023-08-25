@@ -1,5 +1,5 @@
 import React from 'react'
-import LegacyPic from '../components/photos/legacy.JPG'
+import LegacyPic from '../components/photos/legacy.webp'
 
 
 export default function Legacy() {
@@ -7,7 +7,7 @@ export default function Legacy() {
         <div className='fullpage'>
             <div className='hero-image legacy'>
                 <div className='overlay-cover'>
-                <img className='cover-img' src={LegacyPic} />
+                <img className='cover-img' alt='Legacy Show Choir' src={LegacyPic} />
                 </div>
             </div>
             <div className='hero-title'>

@@ -21,6 +21,9 @@ export default function Nav({random}) {
             <a className="nav-item">
               <Link className="nav-link" to={'/contact'}>Contact</Link>
             </a>
+            <a className='nav-item'>
+              <Link className='nav-link' to={'/musical'}>Legally Blonde</Link>
+            </a>
             <a className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Ensembles
@@ -35,11 +38,11 @@ export default function Nav({random}) {
                 <Link className="dropdown-item" to={'/vocealta'}>Voce Alta</Link>
               </div>
             </a>
-            <a className="nav-item dropdown">
+            <a className="nav-item dropdown nav-dropdown-menu">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Documents
               </a>
-              <div className="dropdown-menu">
+              <div className="dropdown-menu nav-dropdown-menu">
                 <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vQPeJBqkW7yVvrsCaLjGqYF2fyNDIPCRIlaF6WHy1csc5xtrt4xUVkKCrkIGdQG8Q/pub'>ByLaws</a>
               </div>
             </a>

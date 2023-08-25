@@ -1,12 +1,12 @@
 import React from 'react'
-import DynamicBanner from '../components/photos/Dynamic.JPG'
+import DynamicBanner from '../components/photos/Dynamic.webp'
 
 export default function Dynamic() {
     return (
         <div className='fullpage'>
             <div className='hero-image heritage'>
                 <div className='overlay-cover'>
-                    <img className='cover-img' src={DynamicBanner} />
+                    <img className='cover-img' alt='Dynamic Choir' fetchpriority="high" src={DynamicBanner} />
                 </div>
             </div>
             <div className='hero-title'>

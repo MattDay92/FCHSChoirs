@@ -12,7 +12,7 @@ export default function BellaCalendar() {
             Subscribe
         </button>
         <ul class="dropdown-menu">
-            <li><a href='webcal://https://calendar.google.com/calendar/ical/d2b2055d740b767b2bbf23ef73cda95fa7df57ab84baba6638cc2ce033665556%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
+            <li><a href='webcal://calendar.google.com/calendar/ical/d2b2055d740b767b2bbf23ef73cda95fa7df57ab84baba6638cc2ce033665556%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
             <li><a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=d2b2055d740b767b2bbf23ef73cda95fa7df57ab84baba6638cc2ce033665556%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis" target='_blank'>Add to Google Calendar</a></li>
         </ul>
     </div>

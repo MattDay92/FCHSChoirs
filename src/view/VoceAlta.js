@@ -1,12 +1,12 @@
 import React from 'react'
-import VoceAltaBanner from '../components/photos/VoceAlta.JPG'
+import VoceAltaBanner from '../components/photos/VoceAlta.webp'
 
 export default function VoceAlta() {
     return (
         <div className='fullpage'>
             <div className='hero-image heritage'>
                 <div className='overlay-cover'>
-                    <img className='cover-img' src={VoceAltaBanner} />
+                    <img className='cover-img' alt='Voce Alta' fetchpriority="high" src={VoceAltaBanner} />
                 </div>
             </div>
             <div className='hero-title'>

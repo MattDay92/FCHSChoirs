@@ -1,5 +1,5 @@
 import React from 'react'
-import SigPic from '../components/photos/SigSpring.JPG'
+import SigPic from '../components/photos/SigSpring.webp'
 
 
 export default function Sig() {
@@ -7,7 +7,7 @@ export default function Sig() {
         <div className='fullpage'>
             <div className='hero-image sig'>
                 <div className='overlay-cover'>
-                    <img className='cover-img' src={SigPic} />
+                    <img className='cover-img' alt='Signature Sound' src={SigPic} />
                 </div>
             </div>
             <div className='hero-title'>

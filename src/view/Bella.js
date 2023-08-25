@@ -1,5 +1,5 @@
 import React from 'react'
-import BellaPic from '../components/photos/BellaSpring.JPG'
+import BellaPic from '../components/photos/BellaSpring.webp'
 
 
 export default function Bella() {
@@ -7,7 +7,7 @@ export default function Bella() {
         <div className='fullpage'>
             <div className='hero-image bella'>
                 <div className='overlay-cover'>
-                <img className='cover-img' src={BellaPic} />
+                <img className='cover-img' alt='Bella Voce' src={BellaPic} />
                 </div>
             </div>
             <div className='hero-title'>

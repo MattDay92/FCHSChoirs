@@ -1,12 +1,12 @@
 import React from 'react'
-import SensationsPic from '../components/photos/sensations.jpg'
+import SensationsPic from '../components/photos/sensations.webp'
 
 export default function Sensations() {
     return (
         <div className='fullpage'>
             <div className='hero-image'>
                 <div className='overlay-cover sensations'>
-                    <img className='cover-img' src={SensationsPic} />
+                    <img className='cover-img' alt='Sensations' src={SensationsPic} />
                 </div>
             </div>
             <div className='hero-title'>

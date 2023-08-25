@@ -1,5 +1,5 @@
 import React from 'react'
-import HeritageSingers from '../components/photos/heritage.jpg'
+import HeritageSingers from '../components/photos/heritage.webp'
 import { Link } from 'react-router-dom'
 
 export default function Heritage() {
@@ -7,7 +7,7 @@ export default function Heritage() {
         <div className='fullpage'>
             <div className='hero-image heritage'>
                 <div className='overlay-cover'>
-                    <img className='cover-img' src={HeritageSingers} />
+                    <img className='cover-img' alt='Heritage Singers' src={HeritageSingers} />
                 </div>
             </div>
             <div className='hero-title'>

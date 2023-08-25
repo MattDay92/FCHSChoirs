@@ -12,7 +12,7 @@ export default function DynamicCalendar() {
             Subscribe
         </button>
         <ul class="dropdown-menu">
-            <li><a href='webcal://https://calendar.google.com/calendar/ical/eeba4fe305bae379369932365cd3d11dca7adef1f471ccdf263e40d4e7a154ad%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
+            <li><a href='webcal://calendar.google.com/calendar/ical/eeba4fe305bae379369932365cd3d11dca7adef1f471ccdf263e40d4e7a154ad%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
             <li><a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=eeba4fe305bae379369932365cd3d11dca7adef1f471ccdf263e40d4e7a154ad%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis" target='_blank'>Add to Google Calendar</a></li>
         </ul>
     </div>

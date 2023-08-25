@@ -1,8 +1,8 @@
 import React from 'react'
-import Kelly from '../components/photos/Kelly.jpeg'
-import Johnnie from '../components/photos/Johnnie.jpeg'
-import Charissa from '../components/photos/Charissa.jpeg'
-import ChristmasPic from '../components/photos/ChristmasBella.JPG'
+import Kelly from '../components/photos/Kelly.webp'
+import Johnnie from '../components/photos/Johnnie.webp'
+import Charissa from '../components/photos/Charissa.webp'
+import ChristmasPic from '../components/photos/ChristmasBella.webp'
 
 
 export default function Contact() {
@@ -10,7 +10,7 @@ export default function Contact() {
         <div className='fullpage'>
             <div className='hero-image christmas'>
                 <div className='overlay-cover'>
-                <img src={ChristmasPic} className='cover-img' />
+                <img src={ChristmasPic} alt='Christmas Choir' className='cover-img' />
                 </div>
             </div>
             <div className='hero-title'>
@@ -22,7 +22,7 @@ export default function Contact() {
                     <div className='text-center'>
                         <h4>Kelly Cassady Day</h4>
                         <h5>Director</h5>
-                        <p>Kelly Cassady Day, new to Franklin Community High School, is entering her ninth year of teaching after teaching for five years at North Montgomery High School and three years at Decatur Central High School. Kelly, originally from northern Indiana, graduated summa cum laude from Butler University in 2013 with a Bachelor of Music in Education and a minor in History.</p>
+                        <p>Kelly Cassady Day is entering her eleventh year of teaching, and third at Franklin, after teaching for five years at North Montgomery High School and three years at Decatur Central High School. Kelly, originally from northern Indiana, graduated summa cum laude from Butler University in 2013 with a Bachelor of Music in Education and a minor in History.</p>
                         <p>During her years teaching, she has directed concert choirs and competitive show choirs, pop a cappella groups, and directed many musicals. She is an active performer, appearing in many local and regional musical theater productions, as well as acting as a soloist for many local churches. Some favorite roles include Elle in Legally Blonde, Sarah Brown in Guys and Dolls, and Audrey in Little Shop of Horrors. Kelly also co-directs and performs with Circle City Chamber Choir, a local professional vocal ensemble.</p>
                         <p>In addition to pursuing her passion for the choral art form and education, she is an avid hobby baker and recipe developer and runs a small recipe blog, kellylikestobake.com.</p>
                         <h5>Email:  dayk@franklinschools.org</h5>
@@ -40,7 +40,7 @@ export default function Contact() {
                         <h5>Email:  hughesj@franklinschools.org</h5>
                     </div>
                 </div>
-                <div className='col-6 bio'>
+                {/* <div className='col-6 bio'>
                     <div className='text-center my-3'><img src={Johnnie} className='director' /></div>
                     <div className='text-center'>
                         <h4>Christine Cannon</h4>
@@ -51,8 +51,8 @@ export default function Contact() {
                         <p></p>
                         <h5>Email:  </h5>
                     </div>
-                </div>
-                <div className='col-6 bio'>
+                </div> */}
+                <div className='col-6 bio m-auto'>
                     <div className='text-center my-3'><img src={Charissa} className='director' /></div>
                     <div className='text-center'>
                         <h4>Charissa Catlin</h4>

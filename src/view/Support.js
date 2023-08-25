@@ -1,5 +1,5 @@
 import React from 'react'
-import ShrekPic from '../components/photos/shrek.JPG'
+import ShrekPic from '../components/photos/shrek.webp'
 import { Link } from 'react-router-dom'
 
 
@@ -8,7 +8,7 @@ export default function Support() {
     <div className='fullpage'>
             <div className='hero-image shrek'>
                 <div className='overlay-cover'>
-                    <img className='cover-img' src={ShrekPic} />
+                    <img className='cover-img' alt='Shrek' src={ShrekPic} />
                 </div>
             </div>
             <div className='hero-title'>

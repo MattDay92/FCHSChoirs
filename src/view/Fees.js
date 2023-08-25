@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import ChristmasPic from '../components/photos/ChristmasBella.JPG'
+import ChristmasPic from '../components/photos/ChristmasBella.webp'
 import ConcertChoirFees from '../components/ConcertChoirFees'
 import HeritageFees from '../components/HeritageFees'
 import LegacyFees from '../components/LegacyFees'
@@ -14,13 +14,13 @@ export default function Fees() {
         <div className='fullpage text-center'>
             <div className='hero-image christmas'>
                 <div className='overlay-cover'>
-                    <img src={ChristmasPic} className='cover-img' />
+                    <img src={ChristmasPic} alt='Christmas Choir' className='cover-img' />
                 </div>
             </div>
             <div className='hero-title'>
                 <h1>Pay Fees</h1>
             </div>
-            <div className='container col-10 my-5'>
+            <div className='container my-5 col-10 my-5 text-center'>
                 <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Select Choir

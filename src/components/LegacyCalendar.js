@@ -12,7 +12,7 @@ export default function LegacyCalendar() {
             Subscribe
         </button>
         <ul class="dropdown-menu">
-            <li><a href='webcal://https://calendar.google.com/calendar/ical/e71886a8de84ed4dc3dcae47e5c7a5039d5829f47c18c7f84dc43d0bb98f5817%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
+            <li><a href='webcal://calendar.google.com/calendar/ical/e71886a8de84ed4dc3dcae47e5c7a5039d5829f47c18c7f84dc43d0bb98f5817%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
             <li><a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=e71886a8de84ed4dc3dcae47e5c7a5039d5829f47c18c7f84dc43d0bb98f5817%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis" target='_blank'>Add to Google Calendar</a></li>
         </ul>
     </div>

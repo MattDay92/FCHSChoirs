@@ -12,7 +12,7 @@ export default function SensationsCalendar() {
             Subscribe
         </button>
         <ul class="dropdown-menu">
-            <li><a href='webcal://https://calendar.google.com/calendar/ical/a6eea13085427c7e495411e0a1fef402a230add0678305a048a5b659f511f961%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
+            <li><a href='webcal://calendar.google.com/calendar/ical/a6eea13085427c7e495411e0a1fef402a230add0678305a048a5b659f511f961%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
             <li><a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=a6eea13085427c7e495411e0a1fef402a230add0678305a048a5b659f511f961%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis" target='_blank'>Add to Google Calendar</a></li>
         </ul>
     </div>
