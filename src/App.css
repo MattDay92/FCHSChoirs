@@ -419,8 +419,12 @@ iframe {
     width: 40%;
 }
 
-.overlay-cover-lb {
-    background: rgb(255, 9, 247);
+.overlay-cover-lb {  
+    background: rgb(209, 39, 138);
+}
+
+.cover-img-lb{
+    object-fit: contain;
 }
 
 .footer{

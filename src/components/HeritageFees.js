@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Popover from 'react-bootstrap/Popover';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
@@ -87,7 +87,7 @@ export default function HeritageFees() {
 
                     <input type="hidden" name="RURL" id="RURL" value="https://www.fchschoirs.com/payment-thank-you/" />
                     <input type="hidden" name="CURL" id="CURL" value="https://www.fchschoirs.com/fees/" />
-                    <input type="hidden" name="CustRefID" id="CustRefID"  />
+                    <input type="hidden" name="CustRefID" id="CustRefID" />
 
                     <input type="hidden" name="AVSRequired" id="AVSRequired" value="Y" />
 

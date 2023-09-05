@@ -5,7 +5,7 @@ export default function Nav({random}) {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-light py-0">
+      <nav className="navbar navbar-expand-xl bg-light py-0">
         <div className="container-fluid">
           <Link onClick={random} className="navbar-brand" to={'/'}>FCOMM Choirs</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,18 +39,22 @@ export default function Nav({random}) {
               </div>
             </a>
             <a className="nav-item dropdown nav-dropdown-menu">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {/* <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Documents
               </a>
               <div className="dropdown-menu nav-dropdown-menu">
                 <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vQPeJBqkW7yVvrsCaLjGqYF2fyNDIPCRIlaF6WHy1csc5xtrt4xUVkKCrkIGdQG8Q/pub'>ByLaws</a>
-              </div>
+              </div> */}
+              <a className='nav-link' target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vQPeJBqkW7yVvrsCaLjGqYF2fyNDIPCRIlaF6WHy1csc5xtrt4xUVkKCrkIGdQG8Q/pub'>ByLaws</a>
             </a>
             <a className="nav-item">
               <Link className="nav-link" to={'/support'}>Support Us</Link>
             </a>
             <a className="nav-item">
               <Link className="nav-link" to={'/fees'}>Pay Fees</Link>
+            </a>
+            <a className="nav-item">
+              <a className="nav-link" href='https://thefranklinpac.ludus.com/index.php' target='_blank'><strong>Tickets</strong></a>
             </a>
           </div>
         </div>

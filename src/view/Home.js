@@ -13,6 +13,7 @@ import Button from '@mui/material/Button';
 import Sponsor1 from '../components/photos/MainSealLogoFullColor.webp'
 import Sponsor2 from '../components/photos/Paul-Humbles.webp'
 import Sponsor3 from '../components/photos/Barnett-Logo.webp'
+import Sponsor4 from '../components/photos/CSCLogoBlue.webp'
 
 
 
@@ -117,7 +118,7 @@ export default function Home({ background }) {
           The choirs tied for first overall, with each other!</p>
       </div>
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>
-      <div className='row text-center sponsors px-0 mx-0 my-4'>
+      <div className='row text-center sponsors px-0 mx-0 my-5'>
         <div className='sponsors1'>
           <h3>Director's Circle - $1,000 +</h3>
           <div className='d-flex justify-content-around'>
@@ -129,13 +130,14 @@ export default function Home({ background }) {
         <div className='sponsors2'>
           <div className='sponsor-col-2'>
             <h3>Platinum Level - $500 - $999</h3>
-            <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor3} /></div>
-            <h4 className='my-3'>Commercial Sewer Cleaning</h4>
+              <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor3} /></div>
+              <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor4} /></div>
           </div>
           <div className='sponsor-col-2 bottom-sponsor-2'>
             <h3>Gold Level - $250 - $499</h3>
             <h5>Franklin Family Dentistry</h5>
             <h5>Weichert Realtors, Cooper Group Indy - The Nohe Team</h5>
+            <h5>LaConina Mexican Restaurant</h5>
           </div>
         </div>
         <div className='sponsors3 d-flex justify-content-center'>
@@ -145,6 +147,7 @@ export default function Home({ background }) {
             <h5>Electric Key Records</h5>
             <h5>Ko's Martial Arts Academy</h5>
             <h5>Mike & Denita Pickett</h5>
+            <h5>Franklin Jewelers</h5>
           </div>
           {/* <div className='sponsor-col'>
               
