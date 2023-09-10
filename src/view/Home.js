@@ -70,7 +70,7 @@ export default function Home({ background }) {
           <Button variant='contained' className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScXk6K1JQTBv9z4MmUciYgdG9-3pGBAzAwYHx3cS8r3sEbeaQ/viewform' target='_blank'>More Information</Button>
         </div>
       </div>
-      <div className='row kidscamp d-flex justify-content-center align-items-center'>
+      {/* <div className='row kidscamp d-flex justify-content-center align-items-center'>
         <div className='col-4 kidscamp-title2'>
           <h1>Kid's Camp 2023</h1>
         </div>
@@ -86,7 +86,7 @@ export default function Home({ background }) {
         <div className='col-4 kidscamp-title1'>
           <h1>Kid's Camp 2023</h1>
         </div>
-      </div>
+      </div> */}
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>
         <div className='carousel d-flex justify-content-center'>
@@ -128,16 +128,18 @@ export default function Home({ background }) {
           <h4 className='my-3'>Jason & Melissa Sailor</h4>
         </div>
         <div className='sponsors2'>
-          <div className='sponsor-col-2'>
+          <div className='sponsor-col'>
             <h3>Platinum Level - $500 - $999</h3>
               <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor3} /></div>
               <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor4} /></div>
+              <h4 className='py-3'>Franklin Muffler, Brakes & More</h4>
           </div>
-          <div className='sponsor-col-2 bottom-sponsor-2'>
+          <div className='sponsor-col bottom-sponsor-2'>
             <h3>Gold Level - $250 - $499</h3>
             <h5>Franklin Family Dentistry</h5>
             <h5>Weichert Realtors, Cooper Group Indy - The Nohe Team</h5>
             <h5>LaConina Mexican Restaurant</h5>
+            <h5>Edward Jones</h5>
           </div>
         </div>
         <div className='sponsors3 d-flex justify-content-center'>
@@ -148,10 +150,8 @@ export default function Home({ background }) {
             <h5>Ko's Martial Arts Academy</h5>
             <h5>Mike & Denita Pickett</h5>
             <h5>Franklin Jewelers</h5>
-          </div>
-          {/* <div className='sponsor-col'>
-              
-            </div> */}
+            <h5>Franklin Insurance Agency</h5>
+          </div>          
           <div className='sponsor-col'>
             <h3>Bronze Level</h3>
             <h5>Deb Brown-Nally, Carpenter Realtors</h5>

@@ -233,7 +233,7 @@ p {
 }
 
 .sponsor-img-div {
-    width: 20vw;
+    width: 17vw;
     margin: auto;
 }
 
@@ -521,8 +521,8 @@ iframe {
     }
 
     .sponsors2{
-        display: block;
-
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .sponsor-col-2{
@@ -530,12 +530,12 @@ iframe {
         margin: auto;
     }
 
-    .bottom-sponsor-2{
-        margin-top: 5vh;
+    .sponsors2 .sponsor-img-div{
+        width: 30vw;
     }
 
     .sponsor-img-div {
-        width: 50vw;
+        width: 40vw;
     }
 
     .sponsors3{

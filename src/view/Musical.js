@@ -41,7 +41,7 @@ export default function Musical() {
                         </div>
                     </div>
                     <div className='sponsors2'>
-                        <div className='sponsor-col-2 bottom-sponsor-2'>
+                        <div className='sponsor-col bottom-sponsor-2'>
                             <h3>Gold Level - $250 - $499</h3>
                             <h5>Franklin Family Dentistry</h5>
                             <h5>Torrance & Sons Heating and Cooling</h5>
@@ -52,6 +52,7 @@ export default function Musical() {
                             <h3>Silver Level</h3>
                             <h5>Irish Brothers Pest Control</h5>
                             <h5>Vonda & Duane Mercer</h5>
+                            <h5>Keller Williams Hometown Real Estate</h5>
                         </div>
 
                         <div className='sponsor-col'>
