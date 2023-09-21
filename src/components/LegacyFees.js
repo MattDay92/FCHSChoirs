@@ -53,72 +53,22 @@ export default function LegacyFees() {
             </div>
 
 
-            <h5>Select a payment option below. Type in your student’s name above the option you select. If you select “Make a Payment” button, you will type in the dollar amount you wish to pay. “Set Up Recurring Payments” allows you to select a recurring amount that will be automatically billed.</h5>
+            <div className='row m-auto'>
+                <h5>The "Make Payment" button below will allow you to make a one-time only payment of up to $750 or a recurring scheduled payment.</h5>
+                <h5 className='gold-text'>Please enter your student's name in the box labeled "Customer Reference ID" </h5>
+            </div>
 
-            <div className='d-flex justify-content-around'>
-                <form className='payment-form' target="_blank" action="https://hosted.transactionexpress.com/Transaction/Transaction/Index" method="POST">
+            <div className='payment-inputs'>
 
-                    <input type="hidden" name="HostedKey" id="HostedKey" value="4ea64b87-7bef-497c-b44c-8145ad685e3a" />
-
-                    <input type="hidden" name="Gateway_ID" id="Gateway_ID" value="9057196840" />
-
-                    <input type="hidden" name="IndustryCode" id="IndustryCode" value="2" />
-
-                    <input type="hidden" name="Amount" id="Amount" value="" />
-
-                    <input type="hidden" name="RecurringType" id="RecurringType" value="N" />
-
-                    <input type="hidden" name="RecurringAmount" id="RecurringAmount" value="" />
-
-                    <input type="hidden" name="RURL" id="RURL" value="https://www.fchschoirs.com/payment-thank-you/" />
-                    <input type="hidden" name="CURL" id="CURL" value="https://www.fchschoirs.com/fees/" />
-                    <input type="hidden" name="CustRefID" id="CustRefID" value="Payment submitted" />
-
-                    <input type="hidden" name="AVSRequired" id="AVSRequired" value="Y" />
-
-                    <input type="hidden" name="CVV2Required" id="CVV2Required" value="Y" />
-
-                    <input type="hidden" name="EmailRequired" id="EmailRequired" value="Y" />
-
-                    <input type="hidden" name="PostRspMsg" id="PostRspMsg" value="N" />
-
-                    <input type="hidden" name="PaymentType" id="PaymentType" value="CC" />
-                    <span>Student Name:</span> 
-                    <input className='form-control mb-2' required type="text" name="CustRefID" id="CustRefID" placeholder="Enter Name Here" />
-
-                    <button className='btn btn-sm' type="Submit" name="Submit" id="Submit" >Make a Payment</button>
-
+                <form action="https://hostedpaynow.com/v2/paynowapp/processpayment" method="post" target="_blank"> <br />
+                    <input type="hidden" name="cmd" value="_xclick" /> <br />
+                    <input type="hidden" name="tokenuid" value="218bb4c3e98e423abfe16eefbf17882a@=f2f10ed801090741a5803645688f1109fb511508cebd866d723ec554e36c13fd" /><br /> <br />
+                    <button className='btn payment-btn' name="submit" type="submit" >
+                        Make Payment
+                    </button>
                 </form>
-                <form className='payment-form' target="_blank" action="https://hosted.transactionexpress.com/Transaction/Transaction/Index" method="POST">
 
-                    <input type="hidden" name="HostedKey" id="HostedKey" value="4ea64b87-7bef-497c-b44c-8145ad685e3a" />
 
-                    <input type="hidden" name="Gateway_ID" id="Gateway_ID" value="9057196840" />
-
-                    <input type="hidden" name="IndustryCode" id="IndustryCode" value="2" />
-
-                    <input type="hidden" name="Amount" id="Amount" value="na" />
-
-                    <input type="hidden" name="RecurringType" id="RecurringType" value="A" />
-
-                    <input type="hidden" name="RecurringAmount" id="RecurringAmount" value="" />
-                    <input type="hidden" name="RURL" id="RURL" value="https://www.fchschoirs.com/payment-thank-you/" />
-                    <input type="hidden" name="CURL" id="CURL" value="https://www.fchschoirs.com/fees/" />
-                    <input type="hidden" name="CustRefID" id="CustRefID" value="Autopay submitted" />
-                    <input type="hidden" name="AVSRequired" id="AVSRequired" value="Y" />
-
-                    <input type="hidden" name="CVV2Required" id="CVV2Required" value="Y" />
-
-                    <input type="hidden" name="EmailRequired" id="EmailRequired" value="N" />
-
-                    <input type="hidden" name="PostRspMsg" id="PostRspMsg" value="N" />
-
-                    <input type="hidden" name="PaymentType" id="PaymentType" value="CC" />
-                    <span>Student Name:</span> <input required className='form-control mb-2' type="text" name="CustRefID" id="CustRefID" placeholder="Enter Name Here" />
-
-                    <button className='btn btn-sm' type="Submit" name="Submit" id="Submit" >Set Up Recurring Payments</button>
-
-                </form>
             </div>
 
         </div>

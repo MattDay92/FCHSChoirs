@@ -20,6 +20,7 @@ import VoceAlta from './view/VoceAlta'
 import PaymentThankYou from './view/PaymentThankYou'
 import KidsCamp from './view/KidsCamp'
 import Musical from './view/Musical'
+import TestPayment from './view/TestPayment'
 
 
 export default function App() {
@@ -62,6 +63,7 @@ export default function App() {
             <Route path={'/payment-thank-you'} element={<PaymentThankYou />} />
             <Route path={'/kidscamp'} element={<KidsCamp />} />
             <Route path={'/musical'} element={<Musical />} />
+            <Route path={'/testpayment'} element={<TestPayment />} />
           </Routes> 
         <Footer />
       </BrowserRouter>

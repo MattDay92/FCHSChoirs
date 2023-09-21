@@ -210,10 +210,15 @@ p {
 .payment-inputs {
     display: flex;
     justify-content: space-around;
-    margin-top: 5vh;
 }
 
+.gold-text{
+    color: gold;
+}
 
+.payment-btn{
+    font-size: 2rem;
+}
 
 .sponsor-thank-you {
     width: 80vw;
