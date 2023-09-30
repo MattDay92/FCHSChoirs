@@ -226,7 +226,7 @@ p {
 }
 
 .sponsors {
-    height: 45vh;
+    height: 55vh;
     width: 100%;
     position: relative;
 }
@@ -238,7 +238,7 @@ p {
 }
 
 .sponsor-img-div {
-    width: 17vw;
+    width: 15vw;
     margin: auto;
 }
 

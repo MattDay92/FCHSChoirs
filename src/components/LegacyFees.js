@@ -67,8 +67,6 @@ export default function LegacyFees() {
                         Make Payment
                     </button>
                 </form>
-
-
             </div>
 
         </div>

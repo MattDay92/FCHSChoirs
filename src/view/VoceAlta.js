@@ -1,5 +1,5 @@
 import React from 'react'
-import VoceAltaBanner from '../components/photos/VoceAlta.webp'
+import VoceAltaBanner from '../components/photos/VoceAltaFall.webp'
 
 export default function VoceAlta() {
     return (

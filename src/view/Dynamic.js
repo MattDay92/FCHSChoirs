@@ -1,5 +1,5 @@
 import React from 'react'
-import DynamicBanner from '../components/photos/Dynamic.webp'
+import DynamicBanner from '../components/photos/DynamicFall.webp'
 
 export default function Dynamic() {
     return (

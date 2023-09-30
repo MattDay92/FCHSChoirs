@@ -1,5 +1,5 @@
 import React from 'react'
-import LegacyPic from '../components/photos/legacy.webp'
+import LegacyPic from '../components/photos/LegacyFall.webp'
 
 
 export default function Legacy() {

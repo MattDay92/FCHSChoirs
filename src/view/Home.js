@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Showfest from '../components/photos/ShowFestLogo.webp'
-import HeritageSingers from '../components/photos/heritage.webp'
-import SigPic from '../components/photos/SigSpring.webp'
-import SensationsPic from '../components/photos/sensations.webp'
-import LegacyPic from '../components/photos/legacy.webp'
-import BellaPic from '../components/photos/BellaSpring.webp'
+import HeritageSingers from '../components/photos/HeritageFall.webp'
+import SigPic from '../components/photos/SigFall.webp'
+import SensationsPic from '../components/photos/SensationsFall.webp'
+import LegacyPic from '../components/photos/CombinedGirlsFall.webp'
+import BellaPic from '../components/photos/BellaFall.webp'
 import BellaStLouis from '../components/photos/bella.webp'
 import SigStLouis from '../components/photos/sig.webp'
 import Arch from '../components/photos/arch.webp'
@@ -66,7 +66,7 @@ export default function Home({ background }) {
           <img className='showfest-logo' alt='ShowFest Logo' src={Showfest} />
         </div>
         <div className='col-4 showfest-info text-center'>
-          <p className='text-white'>Hello, Directors! Preparations are under way for Franklin Community High School’s ShowFest 2024, to be held on Friday, January 26th, and Saturday, January 27th, 2024. A registration discount of 50 – 100 dollars will be given to every group that registers before August 1st!</p>
+          <p className='text-white'>Hello, Directors! Preparations are under way for Franklin Community High School’s ShowFest 2024, to be held on Saturday, January 27th, 2024.</p>
           <Button variant='contained' className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScXk6K1JQTBv9z4MmUciYgdG9-3pGBAzAwYHx3cS8r3sEbeaQ/viewform' target='_blank'>More Information</Button>
         </div>
       </div>
@@ -132,7 +132,8 @@ export default function Home({ background }) {
             <h3>Platinum Level - $500 - $999</h3>
               <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor3} /></div>
               <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor4} /></div>
-              <h4 className='py-3'>Franklin Muffler, Brakes & More</h4>
+              <h4 className='pt-3'>Franklin Muffler, Brakes & More</h4>
+              <h4>Footwear Supply</h4>
           </div>
           <div className='sponsor-col bottom-sponsor-2'>
             <h3>Gold Level - $250 - $499</h3>
@@ -140,6 +141,9 @@ export default function Home({ background }) {
             <h5>Weichert Realtors, Cooper Group Indy - The Nohe Team</h5>
             <h5>LaConina Mexican Restaurant</h5>
             <h5>Edward Jones</h5>
+            <h5>Vaught Family Eye Care</h5>
+            <h5>Grandpa Jeff's Trail Rides</h5>
+            <h5>Middle David Candles</h5>
           </div>
         </div>
         <div className='sponsors3 d-flex justify-content-center'>
@@ -157,6 +161,7 @@ export default function Home({ background }) {
             <h5>Deb Brown-Nally, Carpenter Realtors</h5>
             <h5>Tractor Supply Co., Franklin</h5>
             <h5>Maye's Grill</h5>
+            <h5>Laura B Haw - Life & Health Insurance Broker</h5>
           </div>
 
         </div>

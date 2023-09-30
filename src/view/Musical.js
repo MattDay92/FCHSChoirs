@@ -45,6 +45,7 @@ export default function Musical() {
                             <h3>Gold Level - $250 - $499</h3>
                             <h5>Franklin Family Dentistry</h5>
                             <h5>Torrance & Sons Heating and Cooling</h5>
+                            <h5>Andrews-Harvey Family</h5>
                         </div>
                     </div>
                     <div className='sponsors3 d-flex justify-content-center'>
@@ -53,6 +54,7 @@ export default function Musical() {
                             <h5>Irish Brothers Pest Control</h5>
                             <h5>Vonda & Duane Mercer</h5>
                             <h5>Keller Williams Hometown Real Estate</h5>
+                            <h5>Cuttin' Loose Hair Design</h5>
                         </div>
 
                         <div className='sponsor-col'>
