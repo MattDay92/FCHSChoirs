@@ -20,6 +20,7 @@ import VoceAlta from './view/VoceAlta'
 import PaymentThankYou from './view/PaymentThankYou'
 import KidsCamp from './view/KidsCamp'
 import Musical from './view/Musical'
+import PageNotFound from './view/PageNotFound'
 
 
 export default function App() {
@@ -46,22 +47,23 @@ export default function App() {
       <BrowserRouter>
         <Nav random={random} />
           <Routes>
-            <Route path={'/'} element={<Home background={background} />} />
-            <Route path={'/heritage'} element={<Heritage />} />
-            <Route path={'/sensations'} element={<Sensations />} />
-            <Route path={'/legacy'} element={<Legacy />} />
-            <Route path={'/sig'} element={<Sig />} />
-            <Route path={'/bella'} element={<Bella />} />
-            <Route path={'/dynamic'} element={<Dynamic />} />
-            <Route path={'/vocealta'} element={<VoceAlta />} />
-            <Route path={'/calendar'} element={<Calendar />} />
-            <Route path={'/newsletter'} element={<Newsletter />} />
-            <Route path={'/support'} element={<Support />} />
-            <Route path={'/fees'} element={<Fees />} />
-            <Route path={'/contact'} element={<Contact />} />
-            <Route path={'/payment-thank-you'} element={<PaymentThankYou />} />
-            {/* <Route path={'/kidscamp'} element={<KidsCamp />} /> */}
-            <Route path={'/musical'} element={<Musical />} />
+            <Route exact path={'/'} element={<Home background={background} />} />
+            <Route exact path={'/heritage'} element={<Heritage />} />
+            <Route exact path={'/sensations'} element={<Sensations />} />
+            <Route exact path={'/legacy'} element={<Legacy />} />
+            <Route exact path={'/sig'} element={<Sig />} />
+            <Route exact path={'/bella'} element={<Bella />} />
+            <Route exact path={'/dynamic'} element={<Dynamic />} />
+            <Route exact path={'/vocealta'} element={<VoceAlta />} />
+            <Route exact path={'/calendar'} element={<Calendar />} />
+            <Route exact path={'/newsletter'} element={<Newsletter />} />
+            <Route exact path={'/support'} element={<Support />} />
+            <Route exact path={'/fees'} element={<Fees />} />
+            <Route exact path={'/contact'} element={<Contact />} />
+            <Route exact path={'/payment-thank-you'} element={<PaymentThankYou />} />
+            {/* <Route exact path={'/kidscamp'} element={<KidsCamp />} /> */}
+            <Route exact path={'/musical'} element={<Musical />} />
+            <Route path={'*'} element={<PageNotFound />} />
           </Routes> 
         <Footer />
       </BrowserRouter>

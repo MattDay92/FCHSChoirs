@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom'
-import Header from '../components/photos/SensationsFall.webp'
+import Header from '../components/photos/KidsCampFall.jpeg'
 
 
 export default function KidsCamp() {

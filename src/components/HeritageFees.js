@@ -68,8 +68,10 @@ export default function HeritageFees() {
         </div>
       </div>
       <div className='row m-auto'>
-        <h5>The "Make Payment" button below will allow you to make a one-time only payment of up to $750 or a recurring scheduled payment.</h5>
-        <h5 className='gold-text'>Please enter your student's name in the box labeled "Customer Reference ID" </h5>
+        <h5 className='gold-text mb-5'>Please enter your student's name in the box labeled "Customer Reference ID" </h5>
+        
+        <p className='gold-text'><strong>Enter your payment amount in the box labeled "Total Amount Due".  The default amount is set to $10 but you can pay any amount up to $750 at one time. </strong></p>
+
       </div>
 
       <div className='payment-inputs'>

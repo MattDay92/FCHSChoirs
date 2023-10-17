@@ -14,6 +14,8 @@ import Sponsor1 from '../components/photos/MainSealLogoFullColor.webp'
 import Sponsor2 from '../components/photos/Paul-Humbles.webp'
 import Sponsor3 from '../components/photos/Barnett-Logo.webp'
 import Sponsor4 from '../components/photos/CSCLogoBlue.webp'
+import Sponsor5 from '../components/photos/NaptownDerby.webp'
+import TrunkorTreat from '../components/photos/TrunkorTreat2023.png'
 
 
 
@@ -87,6 +89,17 @@ export default function Home({ background }) {
           <h1>Kid's Camp 2023</h1>
         </div>
       </div> */}
+      <div className='row kidscamp d-flex justify-content-center align-items-center'>
+        <div className='col-4 kidscamp-title2'>
+          <h1>Trunk or Treat 2023</h1>
+        </div>
+        <div className='col-3 TrunkorTreatIMGDiv text-center'>
+          <img className='TrunkorTreatIMG w-100' src={TrunkorTreat} />
+        </div>
+        <div className='col-4 kidscamp-title1'>
+          <h1>Trunk or Treat 2023</h1>
+        </div>
+      </div>
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>
         <div className='carousel d-flex justify-content-center'>
@@ -131,7 +144,8 @@ export default function Home({ background }) {
           <div className='sponsor-col'>
             <h3>Platinum Level - $500 - $999</h3>
               <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor3} /></div>
-              <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor4} /></div>
+              <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor4} /></div>
+              <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor5} /></div>
               <h4 className='pt-3'>Franklin Muffler, Brakes & More</h4>
               <h4>Footwear Supply</h4>
           </div>
@@ -155,6 +169,7 @@ export default function Home({ background }) {
             <h5>Mike & Denita Pickett</h5>
             <h5>Franklin Jewelers</h5>
             <h5>Franklin Insurance Agency</h5>
+            <h5>Allied Handling & Equipment</h5>
           </div>          
           <div className='sponsor-col'>
             <h3>Bronze Level</h3>

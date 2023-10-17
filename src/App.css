@@ -468,6 +468,10 @@ iframe {
         width: 70%;
         margin-top: 2vh;
     }
+
+    .TrunkorTreatIMGDiv{
+        width: 30vw;
+    }
 }
 
 
@@ -498,7 +502,7 @@ iframe {
         margin-bottom: 5vh;
     }
 
-    .kidscamp-info{
+    .kidscamp-info, .TrunkorTreatIMGDiv{
         width: 80vw;
     }
 
