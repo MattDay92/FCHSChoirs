@@ -22,11 +22,11 @@ export default function Heritage() {
                         Please enjoy this message from Heritage Singers that anything is possible.</p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2023 Season</h2>
+                    <h2>2024 Season</h2>
+                    <h4>Franklin Community ShowFest</h4>
                     <h4>Fishers Silver Spotlight Invitational</h4>
                     <h4>Ben Davis Giant Spectacular</h4>
-                    <h4>Ross Legacy Championship</h4>
-                    <h4>East Noble Knight Edition</h4>
+                    <h4>South Dearborn Opening Knight Showcase</h4>
                     <h4>Brownsburg Bulldog Spectacular</h4>
                 </div>
                 <div className='row text-center my-5'>

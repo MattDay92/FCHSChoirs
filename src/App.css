@@ -70,7 +70,11 @@ p {
     text-decoration: none !important;
 }
 
-
+@media (1199px < width < 1259px) {
+    .nav-item {
+        text-align: center;
+    }
+}
 
 .nav-link:hover,
 .dropdown-item:hover {

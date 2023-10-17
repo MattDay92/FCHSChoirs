@@ -23,7 +23,8 @@ export default function Sig() {
                         the Ben Davis Giant Spectacular, the Brownsburg Bulldog Spectacular, and ISSMA State Qualifying competition.  </p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2023 Season</h2>
+                    <h2>2024 Season</h2>
+                    <h4>Franklin Community ShowFest</h4>
                     <h4>Fishers Silver Spotlight Invitational</h4>
                     <h4>Ben Davis Giant Spectacular</h4>
                     <h4>Brownsburg Bulldog Spectacular</h4>

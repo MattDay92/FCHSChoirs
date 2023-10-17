@@ -18,10 +18,11 @@ export default function Bella() {
                     <p className='col-10'>Bella Voce, the varsity treble concert choir of Franklin Community High School,
                         is directed by Kelly Cassady Day and assisted by Johnnie Ray Hughes.  This group has enjoyed a history of
                         competitive success, and is looking forward to improving throughout the season at the Fishers Spotlighter Showcase,
-                        the Ben Davis Giant Spectacular, and the ISSMA State Qualifying competition.  </p>
+                        the Ben Davis Giant Spectacular, the Brownsburg Bulldog Spectacular, and the ISSMA State Qualifying competition.  </p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2023 Season</h2>
+                    <h2>2024 Season</h2>
+                    <h4>Franklin Community ShowFest</h4>
                     <h4>Fishers Silver Spotlight Invitational</h4>
                     <h4>Ben Davis Giant Spectacular</h4>
                     <h4>Brownsburg Bulldog Spectacular</h4>
