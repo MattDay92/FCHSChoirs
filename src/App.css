@@ -230,7 +230,7 @@ p {
 }
 
 .sponsors {
-    height: 55vh;
+    height: 65vh;
     width: 100%;
     position: relative;
 }
@@ -346,11 +346,16 @@ p {
 }
 
 .sponsor-col {
-    width: 40vw;
+    width: 40%;
 }
 
 .sponsor-col-2{
     width: 40vw;
+}
+
+.sponsor-toomanyIMG{
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer {
@@ -481,7 +486,6 @@ iframe {
 
 @media (max-width: 425px) {
 
-
     .showfest-img {
         width: 80%;
         margin-bottom: 5vh;
@@ -520,6 +524,10 @@ iframe {
         font-size: 1.25em;
     }
 
+    .sponsors{
+        height: 65vh;
+    }
+
     .sponsors h4,
     .sponsors h5 {
         font-size: 4vw !important;
@@ -538,6 +546,11 @@ iframe {
         flex-wrap: wrap;
     }
 
+    .sponsor-col{
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+
     .sponsor-col-2{
         width: 80vw;
         margin: auto;
@@ -554,6 +567,10 @@ iframe {
     .sponsors3{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .sponsor-toomanyIMG{
+        display: block;
     }
 
     .payment-form {

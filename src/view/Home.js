@@ -15,6 +15,8 @@ import Sponsor2 from '../components/photos/Paul-Humbles.webp'
 import Sponsor3 from '../components/photos/Barnett-Logo.webp'
 import Sponsor4 from '../components/photos/CSCLogoBlue.webp'
 import Sponsor5 from '../components/photos/NaptownDerby.webp'
+import Sponsor6 from '../components/photos/FranklinMufflerBrakesandMore.png'
+import Sponsor7 from '../components/photos/FootwearSupplyFall.jpg'
 import TrunkorTreat from '../components/photos/TrunkorTreat2023.png'
 
 
@@ -72,34 +74,7 @@ export default function Home({ background }) {
           <Button variant='contained' className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScXk6K1JQTBv9z4MmUciYgdG9-3pGBAzAwYHx3cS8r3sEbeaQ/viewform' target='_blank'>More Information</Button>
         </div>
       </div>
-      {/* <div className='row kidscamp d-flex justify-content-center align-items-center'>
-        <div className='col-4 kidscamp-title2'>
-          <h1>Kid's Camp 2023</h1>
-        </div>
-        <div className='col-4 kidscamp-info text-center'>
-          <p className='text-white'>Every year, the Franklin Show Choirs host a Kindergarten through 6th grade Kid's Show Choir Camp as a fundraiser.
-            Participating elementary students will then be invited to perform with the high schoolers at our fall concert on September 28th!</p>
-          <div className='kidscamp-buttons'>
-            <Button variant='contained' className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLSeoWaaCk_Hl8ZZcILm4DUxF_9spR0Al7fn5I6cjcGpB-5_cZQ/viewform' target='_blank'>Register</Button>
-            <Button variant='contained' className='btn' href='https://www.canva.com/design/DAFJrvY0YqM/1H2UsZqFyFEhRtuoZRPLEg/view?utm_content=DAFJrvY0YqM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target='_blank'>More Information</Button>
-            <Link to={'/kidscamp'}><Button variant='contained' className='btn'>Pay Fee</Button></Link>
-          </div>
-        </div>
-        <div className='col-4 kidscamp-title1'>
-          <h1>Kid's Camp 2023</h1>
-        </div>
-      </div> */}
-      <div className='row kidscamp d-flex justify-content-center align-items-center'>
-        <div className='col-4 kidscamp-title2'>
-          <h1>Trunk or Treat 2023</h1>
-        </div>
-        <div className='col-3 TrunkorTreatIMGDiv text-center'>
-          <img className='TrunkorTreatIMG w-100' src={TrunkorTreat} />
-        </div>
-        <div className='col-4 kidscamp-title1'>
-          <h1>Trunk or Treat 2023</h1>
-        </div>
-      </div>
+      
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>
         <div className='carousel d-flex justify-content-center'>
@@ -143,11 +118,17 @@ export default function Home({ background }) {
         <div className='sponsors2'>
           <div className='sponsor-col'>
             <h3>Platinum Level - $500 - $999</h3>
-              <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor3} /></div>
-              <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor4} /></div>
-              <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor5} /></div>
-              <h4 className='pt-3'>Franklin Muffler, Brakes & More</h4>
-              <h4>Footwear Supply</h4>
+            <div className='sponsor-toomanyIMG'>
+              <div className='sponsor-col'>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor3} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor4} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor5} /></div>
+              </div>
+              <div className='sponsor-col'>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor6} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor7} /></div>
+              </div>
+            </div>
           </div>
           <div className='sponsor-col bottom-sponsor-2'>
             <h3>Gold Level - $250 - $499</h3>
@@ -170,13 +151,13 @@ export default function Home({ background }) {
             <h5>Franklin Jewelers</h5>
             <h5>Franklin Insurance Agency</h5>
             <h5>Allied Handling & Equipment</h5>
-          </div>          
+          </div>
           <div className='sponsor-col'>
             <h3>Bronze Level</h3>
             <h5>Deb Brown-Nally, Carpenter Realtors</h5>
             <h5>Tractor Supply Co., Franklin</h5>
             <h5>Maye's Grill</h5>
-            <h5>Laura B Haw - Life & Health Insurance Broker</h5>
+            <h5>celebrativity.com</h5>
           </div>
 
         </div>
