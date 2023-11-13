@@ -15,12 +15,15 @@ export default function Sig() {
             </div>
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
-                    <p className='col-10'>Comprised of primarily upper classmen, Signature Sound is the premier mixed concert choir
-                        at Franklin Community High School.  Signature Sound has appeared many times at ISSMA State Finals and had the honor
-                        of placing in the top ten in the 2022 season.  Signature Sound competes throughout the state, and also won the Heritage
-                        Festival in St. Louis, Missouri in 2023.  Directed by Johnnie Ray Hughes and assisted by Kelly Cassady Day,
-                        Signature Sound is looking forward to the competitive season at the Fishers Spotlighter Showcase,
-                        the Ben Davis Giant Spectacular, the Brownsburg Bulldog Spectacular, and ISSMA State Qualifying competition.  </p>
+                    <p className='col-10'>Comprised of primarily upper-classmen, Signature Sound 
+                    is the premier mixed concert choir at Franklin Community High School.  Signature 
+                    Sound has appeared many times at ISSMA State Finals, and hopes to qualify again 
+                    this year.  Signature Sound competes throughout the state, and also won the 
+                    Heritage Festival in Nashville Tennessee in 2022, and again in St. Louis in 2023.  
+                    Directed by Johnnie Ray Hughes and assisted by Kelly Cassady Day, Signature Sound 
+                    is looking forward to the competitive season at the Fishers Spotlighter Showcase, 
+                    the Ben Davis Giant Spectacular, the Brownsburg Bulldog Spectacular, and ISSMA 
+                    State Qualifying competition.  </p>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>2024 Season</h2>

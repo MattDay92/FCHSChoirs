@@ -21,9 +21,9 @@ export default function Nav({random}) {
             <a className="nav-item">
               <Link className="nav-link" to={'/contact'}>Contact</Link>
             </a>
-            <a className='nav-item'>
+            {/* <a className='nav-item'>
               <Link className='nav-link' to={'/musical'}>Legally Blonde</Link>
-            </a>
+            </a> */}
             <a className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Ensembles

@@ -21,6 +21,7 @@ import PaymentThankYou from './view/PaymentThankYou'
 import KidsCamp from './view/KidsCamp'
 import Musical from './view/Musical'
 import PageNotFound from './view/PageNotFound'
+import Tickets from './view/Tickets'
 
 
 export default function App() {
@@ -61,8 +62,9 @@ export default function App() {
             <Route exact path={'/fees'} element={<Fees />} />
             <Route exact path={'/contact'} element={<Contact />} />
             <Route exact path={'/payment-thank-you'} element={<PaymentThankYou />} />
+            <Route exact path={'/tickets'} element={<Tickets />} />
             {/* <Route exact path={'/kidscamp'} element={<KidsCamp />} /> */}
-            <Route exact path={'/musical'} element={<Musical />} />
+            {/* <Route exact path={'/musical'} element={<Musical />} /> */}
             <Route path={'*'} element={<PageNotFound />} />
           </Routes> 
         <Footer />

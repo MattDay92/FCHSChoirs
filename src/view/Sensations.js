@@ -14,10 +14,18 @@ export default function Sensations() {
             </div>
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
-                    <p className='col-10'>Sensations is a varsity treble ensemble made up of students in 9th-12th grade.
-                        After appearing at ISSMA show choir state finals in 2022, Sensation Nation is excited to “grow” and improve in the 2023 season.
-                        This garden of young singers is directed by Kelly Cassady Day and Johnnie Ray Hughes and is choreographed by Jerico Hughes and Victoria Brindis.
-                        Please enjoy your visit to our garden.</p>
+                    <p className='col-10'>Comprised of fifty students from grades 9-12, this 
+                    advanced treble show choir is excited to conquer their fears and take the 
+                    stage at competitions all across Indiana.  They will be terrifying audiences 
+                    at the Brownsburg Bulldog Spectacular, the Ben Davis Giant Spectacular, the 
+                    Fishers Spotlight Competition, and at the South Dearborn Opening Knight Showcase.  
+                    The Sensations have been creeping and crawling through Midwestern competitions 
+                    or many years, and have enjoyed many Grand Champion and caption awards, as 
+                    well as performing at ISSMA Show Choir state finals.  Last year, they were 
+                    named as Grand Champions of the East Noble Showcase. They are directed by 
+                    Kelly Cassady Day and Johnnie Ray Hughes, and choreographed by Jerico Hughes.  
+                    Please brace yourselves to face your fears as the Sensations present their 
+                    2023-2024 show “Phobia.”</p>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>2024 Season</h2>

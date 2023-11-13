@@ -17,8 +17,7 @@ import Sponsor4 from '../components/photos/CSCLogoBlue.webp'
 import Sponsor5 from '../components/photos/NaptownDerby.webp'
 import Sponsor6 from '../components/photos/FranklinMufflerBrakesandMore.png'
 import Sponsor7 from '../components/photos/FootwearSupplyFall.jpg'
-import TrunkorTreat from '../components/photos/TrunkorTreat2023.png'
-
+import WinterConcert from '../components/photos/WinterConcert2023Poster.webp'
 
 
 export default function Home({ background }) {
@@ -65,6 +64,8 @@ export default function Home({ background }) {
       <div className='hero-title'>
         <h1>Franklin Community High School Choirs</h1>
       </div>
+
+      
       <div className='row showfest d-flex justify-content-center align-items-center'>
         <div className='col-4 showfest-img'>
           <img className='showfest-logo' alt='ShowFest Logo' src={Showfest} />
@@ -75,6 +76,20 @@ export default function Home({ background }) {
         </div>
       </div>
       
+      <div className='row kidscamp d-flex justify-content-center align-items-center'>
+        <div className='col-4 kidscamp-title2'>
+          <h1>Winter Concert 2023</h1>
+          <a href='https://thefranklinpac.ludus.com/index.php' target='_blank' className='btn m-auto'>Tickets</a>
+        </div>
+        <div className='col-4 TrunkorTreatIMGDiv text-center'>
+          <img className='TrunkorTreatIMG w-75' src={WinterConcert} />
+        </div>
+        <div className='col-4 kidscamp-title1'>
+          <h1>Winter Concert 2023</h1>
+          <a href='https://thefranklinpac.ludus.com/index.php' target='_blank' className='btn m-auto'>Tickets</a>
+        </div>
+      </div>
+
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>
         <div className='carousel d-flex justify-content-center'>

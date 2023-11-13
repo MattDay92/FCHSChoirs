@@ -160,6 +160,7 @@ p {
 
 .kidscamp{
     margin-top: 15vh;
+    text-align: center;
 }
 
 .kidscamp-title2{
@@ -474,7 +475,7 @@ iframe {
     .kidscamp .btn{
         display: block;
         margin: auto;
-        width: 70%;
+        width: 40%;
         margin-top: 2vh;
     }
 

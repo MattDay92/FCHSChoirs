@@ -16,14 +16,14 @@
     //     </div>
     //   </div> 
 
-    //   <div className='row kidscamp d-flex justify-content-center align-items-center'>
-    //     <div className='col-4 kidscamp-title2'>
-    //       <h1>Trunk or Treat 2023</h1>
-    //     </div>
-    //     <div className='col-3 TrunkorTreatIMGDiv text-center'>
-    //       <img className='TrunkorTreatIMG w-100' src={TrunkorTreat} />
-    //     </div>
-    //     <div className='col-4 kidscamp-title1'>
-    //       <h1>Trunk or Treat 2023</h1>
-    //     </div>
-    //   </div>
+      <div className='row kidscamp d-flex justify-content-center align-items-center'>
+        <div className='col-4 kidscamp-title2'>
+          <h1>Trunk or Treat 2023</h1>
+        </div>
+        <div className='col-3 TrunkorTreatIMGDiv text-center'>
+          <img className='TrunkorTreatIMG w-100' src={TrunkorTreat} />
+        </div>
+        <div className='col-4 kidscamp-title1'>
+          <h1>Trunk or Treat 2023</h1>
+        </div>
+      </div>
