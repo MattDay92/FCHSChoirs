@@ -158,9 +158,17 @@ p {
     width: 100%;
 }
 
+.poster-ticket-click{
+    pointer-events: none;
+}
+
 .kidscamp{
     margin-top: 15vh;
     text-align: center;
+}
+
+.kidscamp-title1 h2{
+    font-size: 7vw !important;
 }
 
 .kidscamp-title2{
@@ -513,6 +521,10 @@ iframe {
 
     .kidscamp-info, .TrunkorTreatIMGDiv{
         width: 80vw;
+    }
+
+    .poster-ticket-click{
+        pointer-events: all;
     }
 
 

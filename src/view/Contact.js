@@ -18,7 +18,7 @@ export default function Contact() {
             </div>
             <div className='director-bios row col-10 mx-auto my-3'>
                 <div className='col-6 bio'>
-                    <div className='text-center my-3'><img src={Kelly} className='director' /></div>
+                    <div className='text-center my-3'><img src={Kelly} className='Kelly Day - Director' /></div>
                     <div className='text-center'>
                         <h4>Kelly Cassady Day</h4>
                         <h5>Director</h5>
@@ -29,7 +29,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className='col-6 bio'>
-                    <div className='text-center my-3'><img src={Johnnie} className='director' /></div>
+                    <div className='text-center my-3'><img src={Johnnie} className='Johnnie Hughes - Director' /></div>
                     <div className='text-center'>
                         <h4>Johnnie Ray Hughes</h4>
                         <h5>Director</h5>
@@ -53,9 +53,9 @@ export default function Contact() {
                     </div>
                 </div> */}
                 <div className='col-6 bio m-auto'>
-                    <div className='text-center my-3'><img src={Charissa} className='director' /></div>
+                    <div className='text-center my-3'><img src={Charissa} className='Charissa Garrigus - Accompanist' /></div>
                     <div className='text-center'>
-                        <h4>Charissa Catlin</h4>
+                        <h4>Charissa Garrigus</h4>
                         <h5>Accompanist</h5>
                         <p>Pianist Charissa Garrigus began studying the instrument at age 4. Her musical journey has taken her through all sorts of genres from playing clarinet in orchestras, small ensembles, and symphonic and marching bands, to jazz piano, accompanying, and (of course) classical piano. She studied piano, music education, and literary studies at the University of Indianapolis, and has numerous years of experience teaching PreK-8th grade general music, band, and choir.</p>
                         <p>Currently, Charissa also performs with Classical Music Indy’s Random Acts of Music, and holds the position of Organist and Choral Accompanist at University Heights United Methodist Church. Charissa keeps up an active performance schedule, featuring often in concert with Sound Ecologies, an Indy-based arts non-profit she runs with her husband Luke Garrigus.</p>

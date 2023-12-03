@@ -77,15 +77,12 @@ export default function Home({ background }) {
       </div>
       
       <div className='row kidscamp d-flex justify-content-center align-items-center'>
-        <div className='col-4 kidscamp-title2'>
-          <h1>Winter Concert 2023</h1>
-          <a href='https://thefranklinpac.ludus.com/index.php' target='_blank' className='btn m-auto'>Tickets</a>
-        </div>
+        
         <div className='col-4 TrunkorTreatIMGDiv text-center'>
-          <img className='TrunkorTreatIMG w-75' src={WinterConcert} />
+          <a className='poster-ticket-click' href='https://thefranklinpac.ludus.com/index.php' target='_blank'><img className='TrunkorTreatIMG w-75' alt='FCHS Choirs Winter Concert Poster' src={WinterConcert} /></a>
         </div>
         <div className='col-4 kidscamp-title1'>
-          <h1>Winter Concert 2023</h1>
+          <h2>Winter Concert 2023</h2>
           <a href='https://thefranklinpac.ludus.com/index.php' target='_blank' className='btn m-auto'>Tickets</a>
         </div>
       </div>
@@ -125,8 +122,8 @@ export default function Home({ background }) {
         <div className='sponsors1'>
           <h3>Director's Circle - $1,000 +</h3>
           <div className='d-flex justify-content-around'>
-            <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor1} /></div>
-            <div className='sponsor-img-div'><img className='sponsor-img' src={Sponsor2} /></div>
+            <div className='sponsor-img-div'><img className='sponsor-img' alt='Generations of Graham' src={Sponsor1} /></div>
+            <div className='sponsor-img-div'><img className='sponsor-img' alt='Paul Humbles Agency' src={Sponsor2} /></div>
           </div>
           <h4 className='my-3'>Jason & Melissa Sailor</h4>
         </div>
@@ -135,13 +132,13 @@ export default function Home({ background }) {
             <h3>Platinum Level - $500 - $999</h3>
             <div className='sponsor-toomanyIMG'>
               <div className='sponsor-col'>
-                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor3} /></div>
-                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor4} /></div>
-                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor5} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Steve Barnett - Mayor' src={Sponsor3} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Commercial Sewer Cleaning' src={Sponsor4} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Naptown Roller Derby' src={Sponsor5} /></div>
               </div>
               <div className='sponsor-col'>
-                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor6} /></div>
-                <div className='sponsor-img-div mb-2'><img className='sponsor-img' src={Sponsor7} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Franklin Muffler, Brakes, & More' src={Sponsor6} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Footwear Supply' src={Sponsor7} /></div>
               </div>
             </div>
           </div>
