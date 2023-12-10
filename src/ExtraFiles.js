@@ -16,14 +16,25 @@
     //     </div>
     //   </div> 
 
-      <div className='row kidscamp d-flex justify-content-center align-items-center'>
-        <div className='col-4 kidscamp-title2'>
-          <h1>Trunk or Treat 2023</h1>
-        </div>
-        <div className='col-3 TrunkorTreatIMGDiv text-center'>
-          <img className='TrunkorTreatIMG w-100' src={TrunkorTreat} />
-        </div>
-        <div className='col-4 kidscamp-title1'>
-          <h1>Trunk or Treat 2023</h1>
-        </div>
-      </div>
+      // <div className='row kidscamp d-flex justify-content-center align-items-center'>
+      //   <div className='col-4 kidscamp-title2'>
+      //     <h1>Trunk or Treat 2023</h1>
+      //   </div>
+      //   <div className='col-3 TrunkorTreatIMGDiv text-center'>
+      //     <img className='TrunkorTreatIMG w-100' src={TrunkorTreat} />
+      //   </div>
+      //   <div className='col-4 kidscamp-title1'>
+      //     <h1>Trunk or Treat 2023</h1>
+      //   </div>
+      // </div>
+
+      // <div className='row kidscamp d-flex justify-content-center align-items-center'>
+        
+      //   <div className='col-4 TrunkorTreatIMGDiv text-center'>
+      //     <a className='poster-ticket-click' href='https://thefranklinpac.ludus.com/index.php' target='_blank'><img className='TrunkorTreatIMG w-75' alt='FCHS Choirs Winter Concert Poster' src={WinterConcert} /></a>
+      //   </div>
+      //   <div className='col-4 kidscamp-title1'>
+      //     <h2>Winter Concert 2023</h2>
+      //     <a href='https://thefranklinpac.ludus.com/index.php' target='_blank' className='btn m-auto'>Tickets</a>
+      //   </div>
+      // </div>

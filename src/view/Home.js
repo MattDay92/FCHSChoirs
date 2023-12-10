@@ -75,17 +75,6 @@ export default function Home({ background }) {
           <Button variant='contained' className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScXk6K1JQTBv9z4MmUciYgdG9-3pGBAzAwYHx3cS8r3sEbeaQ/viewform' target='_blank'>More Information</Button>
         </div>
       </div>
-      
-      <div className='row kidscamp d-flex justify-content-center align-items-center'>
-        
-        <div className='col-4 TrunkorTreatIMGDiv text-center'>
-          <a className='poster-ticket-click' href='https://thefranklinpac.ludus.com/index.php' target='_blank'><img className='TrunkorTreatIMG w-75' alt='FCHS Choirs Winter Concert Poster' src={WinterConcert} /></a>
-        </div>
-        <div className='col-4 kidscamp-title1'>
-          <h2>Winter Concert 2023</h2>
-          <a href='https://thefranklinpac.ludus.com/index.php' target='_blank' className='btn m-auto'>Tickets</a>
-        </div>
-      </div>
 
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>

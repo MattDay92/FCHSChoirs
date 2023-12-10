@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import ChristmasPic from '../components/photos/ChristmasBella.webp'
+import ChristmasPic from '../components/photos/ElfChristmas2023-2.webp'
 import ConcertChoirFees from '../components/ConcertChoirFees'
 import HeritageFees from '../components/HeritageFees'
 import LegacyFees from '../components/LegacyFees'
