@@ -153,6 +153,11 @@ p {
     margin-bottom: 2vh;
 }
 
+.showfest-btns{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 .showfest-logo {
     width: 100%;

@@ -5,10 +5,9 @@ import HeritageSingers from '../components/photos/HeritageFall.webp'
 import SigPic from '../components/photos/SigFall.webp'
 import SensationsPic from '../components/photos/SensationsFall.webp'
 import LegacyPic from '../components/photos/CombinedGirlsFall.webp'
+import Featured1 from '../components/photos/AllState1.JPG'
+import Featured2 from '../components/photos/AllState2.JPG'
 import BellaPic from '../components/photos/BellaFall.webp'
-import BellaStLouis from '../components/photos/bella.webp'
-import SigStLouis from '../components/photos/sig.webp'
-import Arch from '../components/photos/arch.webp'
 import Button from '@mui/material/Button';
 import Sponsor1 from '../components/photos/MainSealLogoFullColor.webp'
 import Sponsor2 from '../components/photos/Paul-Humbles.webp'
@@ -65,31 +64,38 @@ export default function Home({ background }) {
         <h1>Franklin Community High School Choirs</h1>
       </div>
 
-      
+
       <div className='row showfest d-flex justify-content-center align-items-center'>
         <div className='col-4 showfest-img'>
           <img className='showfest-logo' alt='ShowFest Logo' src={Showfest} />
         </div>
         <div className='col-4 showfest-info text-center'>
-          <p className='text-white'>Hello, Directors! Preparations are under way for Franklin Community High School’s ShowFest 2024, to be held on Saturday, January 27th, 2024.</p>
-          <Button variant='contained' className='btn' href='https://docs.google.com/forms/d/e/1FAIpQLScXk6K1JQTBv9z4MmUciYgdG9-3pGBAzAwYHx3cS8r3sEbeaQ/viewform' target='_blank'>More Information</Button>
+          <h3 className='text-white'>Saturday, January 27th</h3>
+          <p>Franklin Community ShowFest is fast approaching!  Click the buttons below for spectator information including directions and admission prices, the day's schedule,
+            and the food menu for the day.
+          </p>
+          <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
+            <Button variant='contained' className='btn my-2 disabled' href='...' target='_blank'>Food Menu</Button>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button>
+          </div>
         </div>
       </div>
 
       <div className='container featured col-8'>
-        <h2 className='text-center text-white my-5'>St. Louis Tour 2023</h2>
+        <h2 className='text-center text-white my-5'>All State Choir 2024</h2>
         <div className='carousel d-flex justify-content-center'>
           <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={BellaStLouis} loading='lazy' alt='Bella Voce in St Louis' className="d-block w-100" />
+                <img src={Featured1} loading='lazy' alt='All State Choir Performance' className="d-block w-100" />
               </div>
               <div className="carousel-item">
-                <img src={SigStLouis} alt='Signature Sound in St Louis' fetchpriority="low" className="d-block w-100" />
+                <img src={Featured2} alt='Franklin Students at All State Choir 2024' fetchpriority="low" className="d-block w-100" />
               </div>
-              <div className="carousel-item">
+              {/* <div className="carousel-item">
                 <img src={Arch} alt='Franklin choirs at St Louis Arch' fetchpriority="low" className="d-block w-100" />
-              </div>
+              </div> */}
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -101,10 +107,10 @@ export default function Home({ background }) {
             </button>
           </div>
         </div>
-        <p className='text-center text-white mt-3'>Members of Signature Sound and Bella Voce traveled to St. Louis as part of the Heritage Music Festival.
-          The students explored the City Museum, visited the St. Louis Arch, had a great time at Six Flags,
-          and of course competed at the prestigious Heritage Music Festival.
-          The choirs tied for first overall, with each other!</p>
+        <p className='text-center text-white mt-3'>We were beyond proud to be represented by seventeen amazing students at the
+          2024 Indiana All State Choir performance on January 13th!  These kids were admitted to this choir through a rigorous
+          audition process, and got to sing collegiate level music with the best singers from across the state.  Congratulations 
+          to these amazing students!</p>
       </div>
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>
       <div className='row text-center sponsors px-0 mx-0 my-5'>
