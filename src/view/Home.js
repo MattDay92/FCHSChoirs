@@ -16,7 +16,9 @@ import Sponsor4 from '../components/photos/CSCLogoBlue.webp'
 import Sponsor5 from '../components/photos/NaptownDerby.webp'
 import Sponsor6 from '../components/photos/FranklinMufflerBrakesandMore.png'
 import Sponsor7 from '../components/photos/FootwearSupplyFall.jpg'
+import Sponsor8 from '../components/photos/BLLogo.webp'
 import WinterConcert from '../components/photos/WinterConcert2023Poster.webp'
+import ShowFestMenu from '../components/files/ShowFestMenu.pdf'
 
 
 export default function Home({ background }) {
@@ -76,7 +78,7 @@ export default function Home({ background }) {
           </p>
           <div className='showfest-btns'>
             <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
-            <Button variant='contained' className='btn my-2 disabled' href='...' target='_blank'>Food Menu</Button>
+            <Button variant='contained' className='btn my-2' href={ShowFestMenu} download="ShowFestMenu.pdf">Food Menu</Button>
             <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button>
           </div>
         </div>
@@ -117,8 +119,8 @@ export default function Home({ background }) {
         <div className='sponsors1'>
           <h3>Director's Circle - $1,000 +</h3>
           <div className='d-flex justify-content-around'>
-            <div className='sponsor-img-div'><img className='sponsor-img' alt='Generations of Graham' src={Sponsor1} /></div>
-            <div className='sponsor-img-div'><img className='sponsor-img' alt='Paul Humbles Agency' src={Sponsor2} /></div>
+            <div className='sponsor-img-div'><img className='sponsor-img w-100' alt='Generations of Graham' src={Sponsor1} /></div>
+            <div className='sponsor-img-div'><img className='sponsor-img w-100' alt='Paul Humbles Agency' src={Sponsor2} /></div>
           </div>
           <h4 className='my-3'>Jason & Melissa Sailor</h4>
         </div>
@@ -130,6 +132,7 @@ export default function Home({ background }) {
                 <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Steve Barnett - Mayor' src={Sponsor3} /></div>
                 <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Commercial Sewer Cleaning' src={Sponsor4} /></div>
                 <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Naptown Roller Derby' src={Sponsor5} /></div>
+                <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Bruning Law' src={Sponsor8} /></div>
               </div>
               <div className='sponsor-col'>
                 <div className='sponsor-img-div mb-2'><img className='sponsor-img' alt='Franklin Muffler, Brakes, & More' src={Sponsor6} /></div>

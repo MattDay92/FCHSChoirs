@@ -38,3 +38,26 @@
       //     <a href='https://thefranklinpac.ludus.com/index.php' target='_blank' className='btn m-auto'>Tickets</a>
       //   </div>
       // </div>
+
+      // import Showfest from '../components/photos/ShowFestLogo.webp'
+      // import ShowFestMenu from '../components/files/ShowFestMenu.pdf'
+
+
+
+
+      // <div className='row showfest d-flex justify-content-center align-items-center'>
+      //   <div className='col-4 showfest-img'>
+      //     <img className='showfest-logo' alt='ShowFest Logo' src={Showfest} />
+      //   </div>
+      //   <div className='col-4 showfest-info text-center'>
+      //     <h3 className='text-white'>Saturday, January 27th</h3>
+      //     <p>Franklin Community ShowFest is fast approaching!  Click the buttons below for spectator information including directions and admission prices, the day's schedule,
+      //       and the food menu for the day.
+      //     </p>
+      //     <div className='showfest-btns'>
+      //       <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
+      //       <Button variant='contained' className='btn my-2' href={ShowFestMenu} download="ShowFestMenu.pdf">Food Menu</Button>
+      //       <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button>
+      //     </div>
+      //   </div>
+      // </div>
