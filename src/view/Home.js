@@ -72,17 +72,38 @@ export default function Home({ background }) {
           <img className='showfest-logo' alt='ShowFest Logo' src={Showfest} />
         </div>
         <div className='col-4 showfest-info text-center'>
-          <h3 className='text-white'>Saturday, January 27th</h3>
-          <p>Franklin Community ShowFest is fast approaching!  Click the buttons below for spectator information including directions and admission prices, the day's schedule,
-            and the food menu for the day.
+          <h3 className='text-white'>New Date!</h3>
+          <h3 className='text-white'>February 21st and 22nd, 2025</h3>
+          <p>We are pleased to offer affordable and delicious vendors and food trucks, a state of the art performance space with experience audio engineers, a spacious and accommodating high school, and quality judges that will provide meaningful feedback for your show choirs and concert choirs.
           </p>
           <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
-            <Button variant='contained' className='btn my-2' href={ShowFestMenu} download="ShowFestMenu.pdf">Food Menu</Button>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLScOo1RKmqRFcavQtixyE9BBjiyBrFCIoY62s5fQh1OKZWfEUw/viewform?usp=sf_link' target='_blank'>More Information</Button>
           </div>
         </div>
       </div>
+
+      <div className='row kidscamp d-flex justify-content-center align-items-center'>
+        <div className='col-5 kidscamp-title2'>
+          <h1>Summer Vocal Arts Camp 2024</h1>
+        </div>
+        <div className='col-4 kidscamp-info text-center'>
+          <p className='text-white'>The Franklin Community Summer Choral and Vocal
+            Music Camp is a new and exciting summer opportunity
+            for students who like to sing!
+            The camp will be a wonderful week of memorable
+            music-making and fun! Music-loving kids will learn,
+            laugh, and sing together in a vigorous, fast-paced, and
+            exciting positive environment.</p>
+          <div className='kidscamp-buttons'>
+            <Button variant='contained' className='btn' href='https://forms.gle/ndubC65Vo6infKT5A' target='_blank'>Register</Button>
+            <Button variant='contained' className='btn' href='https://www.canva.com/design/DAFUwMEwb1A/aLlDbD1RbcD70-ZBFtt17Q/view?utm_content=DAFUwMEwb1A&utm_campaign=designshare&utm_medium=link&utm_source=editor' target='_blank'>More Information</Button>
+          </div>
+        </div>
+        <div className='col-5 kidscamp-title1'>
+          <h1>Summer Vocal Arts Camp 2024</h1>
+        </div>
+      </div>
+
 
       <div className='container featured col-8'>
         <h2 className='text-center text-white my-5'>All State Choir 2024</h2>
@@ -111,7 +132,7 @@ export default function Home({ background }) {
         </div>
         <p className='text-center text-white mt-3'>We were beyond proud to be represented by seventeen amazing students at the
           2024 Indiana All State Choir performance on January 13th!  These kids were admitted to this choir through a rigorous
-          audition process, and got to sing collegiate level music with the best singers from across the state.  Congratulations 
+          audition process, and got to sing collegiate level music with the best singers from across the state.  Congratulations
           to these amazing students!</p>
       </div>
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>

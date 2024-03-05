@@ -192,7 +192,8 @@ p {
 .btn {
     background: white !important;
     color: rgb(12, 34, 132) !important;
-    transition: transform 0.3s ease-out
+    transition: transform 0.3s ease-out;
+    min-width: fit-content !important;
 }
 
 .btn:hover {
