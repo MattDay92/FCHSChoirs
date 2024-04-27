@@ -18,7 +18,7 @@ export default function Contact() {
             </div>
             <div className='director-bios row col-10 mx-auto my-3'>
                 <div className='col-6 bio'>
-                    <div className='text-center my-3'><img src={Kelly} className='Kelly Day - Director' /></div>
+                    <div className='text-center my-3'><img src={Kelly} className='directorIMG' alt='Kelly Day - Director' /></div>
                     <div className='text-center'>
                         <h4>Kelly Cassady Day</h4>
                         <h5>Director</h5>
@@ -29,7 +29,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className='col-6 bio'>
-                    <div className='text-center my-3'><img src={Johnnie} className='Johnnie Hughes - Director' /></div>
+                    <div className='text-center my-3'><img src={Johnnie} className='directorIMG' alt='Johnnie Hughes - Director' /></div>
                     <div className='text-center'>
                         <h4>Johnnie Ray Hughes</h4>
                         <h5>Director</h5>
@@ -53,7 +53,7 @@ export default function Contact() {
                     </div>
                 </div> */}
                 <div className='col-6 bio m-auto'>
-                    <div className='text-center my-3'><img src={Charissa} className='Charissa Garrigus - Accompanist' /></div>
+                    <div className='text-center my-3'><img src={Charissa} className='directorIMG' alt='Charissa Garrigus - Accompanist' /></div>
                     <div className='text-center'>
                         <h4>Charissa Garrigus</h4>
                         <h5>Accompanist</h5>

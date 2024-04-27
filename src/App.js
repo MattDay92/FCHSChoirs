@@ -22,17 +22,27 @@ import KidsCamp from './view/KidsCamp'
 import Musical from './view/Musical'
 import PageNotFound from './view/PageNotFound'
 import Tickets from './view/Tickets'
+import Purchase from './view/Purchase'
+import Velocity from './view/Velocity'
 
 
 export default function App() {
   const [background, changeBackground] = useState('')
   const [loaded, setLoaded] = useState(false)
+  const [showPopUp, setShowPopUp] = useState(true)
 
   const random = () => {
     const myCovers = ['heritage', 'sensations', 'bella', 'legacy', 'sig']
     const randomCover = Math.floor(Math.random() * myCovers.length);
 
     changeBackground(myCovers[randomCover])
+  }
+
+  const closeAd = () => {
+    const homePopUp = document.getElementById('popup')
+    homePopUp.style.display = "none"
+
+    setShowPopUp(false)
   }
 
   setTimeout(() => {
@@ -47,26 +57,28 @@ export default function App() {
     <div>
       <BrowserRouter>
         <Nav random={random} />
-          <Routes>
-            <Route exact path={'/'} element={<Home background={background} />} />
-            <Route exact path={'/heritage'} element={<Heritage />} />
-            <Route exact path={'/sensations'} element={<Sensations />} />
-            <Route exact path={'/legacy'} element={<Legacy />} />
-            <Route exact path={'/sig'} element={<Sig />} />
-            <Route exact path={'/bella'} element={<Bella />} />
-            <Route exact path={'/dynamic'} element={<Dynamic />} />
-            <Route exact path={'/vocealta'} element={<VoceAlta />} />
-            <Route exact path={'/calendar'} element={<Calendar />} />
-            <Route exact path={'/newsletter'} element={<Newsletter />} />
-            <Route exact path={'/support'} element={<Support />} />
-            <Route exact path={'/fees'} element={<Fees />} />
-            <Route exact path={'/contact'} element={<Contact />} />
-            <Route exact path={'/payment-thank-you'} element={<PaymentThankYou />} />
-            <Route exact path={'/tickets'} element={<Tickets />} />
-            {/* <Route exact path={'/kidscamp'} element={<KidsCamp />} /> */}
-            {/* <Route exact path={'/musical'} element={<Musical />} /> */}
-            <Route path={'*'} element={<PageNotFound />} />
-          </Routes> 
+        <Routes>
+          <Route exact path={'/'} element={<Home background={background} closeAd={closeAd} setShowPopUp={setShowPopUp} showPopUp={showPopUp} />} />
+          <Route exact path={'/heritage'} element={<Heritage />} />
+          <Route exact path={'/sensations'} element={<Sensations />} />
+          <Route exact path={'/legacy'} element={<Legacy />} />
+          <Route exact path={'/sig'} element={<Sig />} />
+          <Route exact path={'/bella'} element={<Bella />} />
+          <Route exact path={'/dynamic'} element={<Dynamic />} />
+          <Route exact path={'/vocealta'} element={<VoceAlta />} />
+          <Route exact path={'/velocity'} element={<Velocity />} />
+          <Route exact path={'/calendar'} element={<Calendar />} />
+          <Route exact path={'/newsletter'} element={<Newsletter />} />
+          <Route exact path={'/support'} element={<Support />} />
+          <Route exact path={'/fees'} element={<Fees />} />
+          <Route exact path={'/contact'} element={<Contact />} />
+          <Route exact path={'/payment-thank-you'} element={<PaymentThankYou />} />
+          <Route exact path={'/tickets'} element={<Tickets />} />
+          <Route exact path={'/purchase'} element={<Purchase />} />
+          {/* <Route exact path={'/kidscamp'} element={<KidsCamp />} /> */}
+          {/* <Route exact path={'/musical'} element={<Musical />} /> */}
+          <Route path={'*'} element={<PageNotFound />} />
+        </Routes>
         <Footer />
       </BrowserRouter>
     </div>

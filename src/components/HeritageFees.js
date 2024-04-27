@@ -67,24 +67,12 @@ export default function HeritageFees() {
 
         </div>
       </div>
-      <div className='row m-auto'>
-        <h5 className='gold-text mb-5'>Please enter your student's name in the box labeled "Customer Reference ID" </h5>
-        
-        <p className='gold-text'><strong>Enter your payment amount in the box labeled "Total Amount Due".  The default amount is set to $10 but you can pay any amount up to $750 at one time. </strong></p>
-
-      </div>
+      
 
       <div className='payment-inputs'>
-
-        <form action="https://hostedpaynow.com/v2/paynowapp/processpayment" method="post" target="_blank"> <br />
-          <input type="hidden" name="cmd" value="_xclick" /> <br />
-          <input type="hidden" name="tokenuid" value="218bb4c3e98e423abfe16eefbf17882a@=f2f10ed801090741a5803645688f1109fb511508cebd866d723ec554e36c13fd" /><br /> <br />
-          <button className='btn payment-btn' name="submit" type="submit" >
+          <a href='https://collectcheckout.com/r/iak5v' target='_blank' rel="noreferrer" className='btn payment-btn' >
             Make Payment
-          </button>
-        </form>
-
-
+          </a>
       </div>
     </div >
   )

@@ -100,6 +100,43 @@ p {
     min-height: 100vh;
 }
 
+#popup{
+    position: fixed;
+    z-index: 1000;
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(74, 74, 74, 0.59);
+    top: -10vh;
+}
+
+.popup-close-btn{
+    color: white;
+    width: fit-content;
+    background: rgb(204, 47, 47);
+    position: absolute;
+    right: 12vw;
+    top: 22vh;
+}
+
+.concert-ad{
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+    border: .25vw solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    box-shadow: rgb(208, 208, 208) 0px 20px 30px -10px;
+}
+
+.popup-logo{
+    border: 2px solid white;
+}
+
 .home-cover {
     height: 50vh;
     width: 100%;
@@ -153,13 +190,13 @@ p {
     margin-bottom: 2vh;
 }
 
-.showfest-btns{
+.showfest-btns, .popup-btns{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.showfest-logo {
+.showfest-logo, .popup-logo {
     width: 100%;
 }
 
@@ -229,6 +266,7 @@ p {
 .payment-inputs {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 20vh;
 }
 
 .gold-text{
@@ -399,6 +437,11 @@ iframe {
     padding: 0 !important;
 }
 
+.purchase-div{
+    display: flex;
+    justify-content: center;
+}
+
 
 @keyframes calendar {
     0% {
@@ -443,7 +486,7 @@ iframe {
     color: black !important;
 }
 
-.director {
+.directorIMG {
     border-radius: 50%;
     width: 40%;
 }
@@ -506,8 +549,17 @@ iframe {
         margin-bottom: 5vh;
     }
 
-    .showfest-info {
+    .popup-img{
         width: 80%;
+        margin-bottom: -5vh;
+    }
+
+    .showfest-info, .popup-info {
+        width: 80%;
+    }
+
+    .popup-info{
+        font-size: 2rem;
     }
 
     .kidscamp{
@@ -560,6 +612,10 @@ iframe {
         width: 100%;
     }
 
+    .directorIMG{
+        width: 80%;
+    }
+
     .sponsors2{
         display: flex;
         flex-wrap: wrap;
@@ -590,13 +646,6 @@ iframe {
 
     .sponsor-toomanyIMG{
         display: block;
-    }
-
-    .payment-form {
-        width: 60vw !important;
-        margin: auto !important;
-        margin-bottom: 5vh !important;
-        margin-top: 5vh !important;
     }
 
     .payment-inputs {

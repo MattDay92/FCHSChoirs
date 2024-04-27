@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Nav({random}) {
+export default function Nav({ random }) {
 
   return (
     <div>
@@ -47,8 +47,14 @@ export default function Nav({random}) {
                 <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/10wykCkms8F9Mv4ZVhM3Wy-Do_dlNp0w1_EhSQ7snDbs/edit?usp=sharing'>Student Handbook</a>
               </div>
             </a>
-            <a className="nav-item">
-              <Link className="nav-link" to={'/support'}>Support Us</Link>
+            <a className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Support
+              </a>
+              <div className="nav-item dropdown-menu nav-dropdown-menu">
+                <Link className="nav-link" to={'/support'}>Support Us</Link>
+                <Link className='nav-link' to={'/purchase'}>Purchase/Rent Costumes</Link>
+              </div>
             </a>
             <a className="nav-item">
               <Link className="nav-link" to={'/fees'}>Pay Fees</Link>
