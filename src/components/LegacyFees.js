@@ -54,7 +54,7 @@ export default function LegacyFees() {
 
 
             <div className='payment-inputs'>
-                <a href='https://collectcheckout.com/r/iak5v' target='_blank' rel="noreferrer" className='btn payment-btn' >
+                <a href='https://collectcheckout.com/r/z1onc' target='_blank' rel="noreferrer" className='btn payment-btn' >
                     Make Payment
                 </a>
             </div>
