@@ -61,3 +61,51 @@
       //     </div>
       //   </div>
       // </div>
+
+
+
+      // {showPopUp === true ? <>
+      //   <div id='popup'>
+      //     <div className='row concert-ad'>
+      //       <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
+      //       <div className='col-4 popup-img'>
+      //         <img className='popup-logo' alt='Spring Concert Poster' src={popupIMG} />
+      //       </div>
+      //       <div className='col-4 popup-info text-center'>
+      //         <h3 className='text-white'>Spring Concert 2024</h3>
+      //         <p>Come see the students of Franklin Community High School Choirs perform their jazz-filled Spring Concert on Thursday, May 9th, 2024. Tickets available now!
+      //         </p>
+      //         <div className='popup-btns'>
+      //           <Button variant='contained' className='btn my-2' href='https://thefranklinpac.ludus.com/200453672' target='_blank'>Buy Tickets</Button>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </>
+      //   :
+      //   <></>
+      // }
+
+
+      // <div className='row kidscamp d-flex justify-content-center align-items-center'>
+      //   <div className='col-5 kidscamp-title2'>
+      //     <h1>Summer Vocal Arts Camp 2024</h1>
+      //   </div>
+      //   <div className='col-4 kidscamp-info text-center'>
+      //     <p className='text-white'>The Franklin Community Summer Choral and Vocal
+      //       Music Camp is a new and exciting summer opportunity
+      //       for students who like to sing!
+      //       The camp will be a wonderful week of memorable
+      //       music-making and fun! Music-loving kids will learn,
+      //       laugh, and sing together in a vigorous, fast-paced, and
+      //       exciting positive environment.</p>
+      //     <div className='kidscamp-buttons'>
+      //       <Button variant='contained' className='btn' href='https://forms.gle/ndubC65Vo6infKT5A' target='_blank'>Register</Button>
+      //       <Button variant='contained' className='btn' href='https://www.canva.com/design/DAFUwMEwb1A/aLlDbD1RbcD70-ZBFtt17Q/view?utm_content=DAFUwMEwb1A&utm_campaign=designshare&utm_medium=link&utm_source=editor' target='_blank'>More Info</Button>
+      //       <Button variant='contained' className='btn' href='https://collectcheckout.com/r/z1onc' target='_blank'>Pay Fee</Button>
+      //     </div>
+      //   </div>
+      //   <div className='col-5 kidscamp-title1'>
+      //     <h1>Summer Vocal Arts Camp 2024</h1>
+      //   </div>
+      // </div>

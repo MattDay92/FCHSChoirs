@@ -12,7 +12,7 @@ export default function AllChoirsCalendar() {
         </button>
         <ul class="dropdown-menu">
             <li><a href='webcal://calendar.google.com/calendar/ical/75ece957b17247c82a234f400d7e7687ee872499df61c607b449660099aeab37%40group.calendar.google.com/public/basic.ics' target='_blank' className='dropdown-item'>Add to Desktop Calendar</a></li>
-            <li><a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=8d2549a7ab2bd0112ec5d27e7d083f21b172c6a8885fe84bf097b937e005f5ee%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis" target='_blank'>Add to Google Calendar</a></li>
+            <li><a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=75ece957b17247c82a234f400d7e7687ee872499df61c607b449660099aeab37%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis" target='_blank'>Add to Google Calendar</a></li>
         </ul>
     </div>
 </div>

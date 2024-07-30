@@ -299,6 +299,10 @@ p {
     margin: auto;
 }
 
+.sponsor1-img-div {
+    width: 25vw;
+}
+
 .sponsor-img {
     width: 75%;
 }
@@ -539,6 +543,36 @@ iframe {
     .TrunkorTreatIMGDiv{
         width: 30vw;
     }
+}
+
+@media (max-width: 768px) {
+    .featured {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .showfest-img {
+        width: 50%;
+        margin-bottom: 5vh;
+    }
+
+    .showfest-info {
+        width: 80%;
+    }
+
+    .sponsor-img-div {
+        width: 20vw;
+    }
+
+    .sponsor1-img-div {
+        width: 35vw;
+    }
+
+    .sponsors h4{
+        font-size: 3vw;
+}
 }
 
 
