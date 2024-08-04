@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import popupIMG from '../components/photos/FCOMMSpringConcert.png'
+import popupIMG from '../components/photos/CarWashCancelled.jpg'
 import Showfest from '../components/photos/ShowFestLogo.webp'
 import HeritageSingers from '../components/photos/HeritageFall.webp'
 import SigPic from '../components/photos/SigFall.webp'
@@ -26,8 +26,6 @@ export default function Home({ background, closeAd, showPopUp }) {
 
   return (
     <div className='fullpage'>
-      
-
 
       {background === 'sensations' ? <>
         <div className='hero-image'>

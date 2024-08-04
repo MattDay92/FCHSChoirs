@@ -64,27 +64,27 @@
 
 
 
-      // {showPopUp === true ? <>
-      //   <div id='popup'>
-      //     <div className='row concert-ad'>
-      //       <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
-      //       <div className='col-4 popup-img'>
-      //         <img className='popup-logo' alt='Spring Concert Poster' src={popupIMG} />
-      //       </div>
-      //       <div className='col-4 popup-info text-center'>
-      //         <h3 className='text-white'>Spring Concert 2024</h3>
-      //         <p>Come see the students of Franklin Community High School Choirs perform their jazz-filled Spring Concert on Thursday, May 9th, 2024. Tickets available now!
-      //         </p>
-      //         <div className='popup-btns'>
-      //           <Button variant='contained' className='btn my-2' href='https://thefranklinpac.ludus.com/200453672' target='_blank'>Buy Tickets</Button>
-      //         </div>
-      //       </div>
-      //     </div>
-      //   </div>
-      // </>
-      //   :
-      //   <></>
-      // }
+      {showPopUp === true ? <>
+        <div id='popup'>
+          <div className='row concert-ad'>
+            <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
+            <div className='col-4 popup-img'>
+              <img className='popup-logo' alt='Spring Concert Poster' src={popupIMG} />
+            </div>
+            <div className='col-4 popup-info text-center'>
+              <h3 className='text-white'>Spring Concert 2024</h3>
+              <p>Come see the students of Franklin Community High School Choirs perform their jazz-filled Spring Concert on Thursday, May 9th, 2024. Tickets available now!
+              </p>
+              <div className='popup-btns'>
+                <Button variant='contained' className='btn my-2' href='https://thefranklinpac.ludus.com/200453672' target='_blank'>Buy Tickets</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+        :
+        <></>
+      }
 
 
       // <div className='row kidscamp d-flex justify-content-center align-items-center'>
