@@ -6,7 +6,7 @@ export default function Newsletter() {
     return (
         <div className='fullpage'>
             <div className='row newsletter d-flex justify-content-center'>
-                <iframe loading="lazy" src="https://www.canva.com/design/DAGMbfoG0ro/Nb-BRffOCvgqlkpzydbzBA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe>
+                <iframe loading="lazy" src="https://www.canva.com/design/DAGNjqcA4_0/VDaXE40SwG4W4-y-5iTg1g/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe>
             </div>
             <div className='calendar-load'>
                 <CircularProgress color='inherit' size={60} />

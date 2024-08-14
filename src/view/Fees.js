@@ -36,15 +36,15 @@ export default function Fees() {
                     </ul>
                 </div>
                 <div className='my-5'>
-                {choir === 'Bella' ? <><h2>Bella Voce</h2><ConcertChoirFees /></> :
-                    choir === 'Dynamic' ? <><h2>Dynamic</h2><ConcertChoirFees /></> :
-                        choir === 'Heritage' ? <><h2>Heritage Singers</h2><HeritageFees /></> :
-                            choir === 'Legacy' ? <><h2>Legacy</h2><LegacyFees /></> :
-                                choir === 'Sensations' ? <><h2>Sensations</h2><HeritageFees /></> :
-                                    choir === 'Voce' ? <><h2>Voce Alta</h2><ConcertChoirFees /></> :
-                                    choir === 'Sig'? <><h2>Signature Sound</h2><ConcertChoirFees /></> :
-                                        <></>}
-                                        </div>
+                    {choir === 'Bella' ? <><h2>Bella Voce</h2><ConcertChoirFees /></> :
+                        choir === 'Dynamic' ? <><h2>Dynamic</h2><ConcertChoirFees /></> :
+                            choir === 'Heritage' ? <><h2>Heritage Singers</h2><HeritageFees /></> :
+                                choir === 'Legacy' ? <><h2>Legacy</h2><LegacyFees /></> :
+                                    choir === 'Sensations' ? <><h2>Sensations</h2><HeritageFees /></> :
+                                        choir === 'Voce' ? <><h2>Voce Alta</h2><ConcertChoirFees /></> :
+                                            choir === 'Sig' ? <><h2>Signature Sound</h2><ConcertChoirFees /></> :
+                                                <></>}
+                </div>
             </div>
         </div>
     )

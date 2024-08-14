@@ -4,7 +4,7 @@ import React from 'react'
 export default function ConcertChoirFees() {
     return (
         <div className='container'>
-            <button className="btn my-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            {/* <button className="btn my-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                 Payment Details
             </button>
 
@@ -28,7 +28,7 @@ export default function ConcertChoirFees() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
             <h4 className='pb-5'>***If you are in a show choir, you do not need to pay a concert choir fee***</h4>
 
@@ -36,6 +36,9 @@ export default function ConcertChoirFees() {
             <div className='payment-inputs'>
                 <a href='https://collectcheckout.com/r/z1onc' target='_blank' rel="noreferrer" className='btn payment-btn' >
                     Make Payment
+                </a>
+                <a href='https://collectcheckout.com/r/ig0nzrcuedjf81djcguxlamro6oz0l' target='_blank' rel="noreferrer" className='btn payment-btn'>
+                    Set Up Recurring Payments for Fees
                 </a>
             </div>
         </div>

@@ -100,7 +100,7 @@ p {
     min-height: 100vh;
 }
 
-#popup{
+#popup {
     position: fixed;
     z-index: 1000;
     height: 110vh;
@@ -112,7 +112,7 @@ p {
     top: -10vh;
 }
 
-.popup-close-btn{
+.popup-close-btn {
     color: white;
     width: fit-content;
     background: rgb(204, 47, 47);
@@ -121,7 +121,7 @@ p {
     top: 22vh;
 }
 
-.concert-ad{
+.concert-ad {
     width: 80vw;
     height: 80vh;
     margin-top: 10vh;
@@ -133,7 +133,7 @@ p {
     box-shadow: rgb(208, 208, 208) 0px 20px 30px -10px;
 }
 
-.popup-logo{
+.popup-logo {
     border: 2px solid white;
 }
 
@@ -190,34 +190,36 @@ p {
     margin-bottom: 2vh;
 }
 
-.showfest-btns, .popup-btns{
+.showfest-btns,
+.popup-btns {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.showfest-logo, .popup-logo {
+.showfest-logo,
+.popup-logo {
     width: 100%;
 }
 
-.poster-ticket-click{
+.poster-ticket-click {
     pointer-events: none;
 }
 
-.kidscamp{
+.kidscamp {
     margin-top: 15vh;
     text-align: center;
 }
 
-.kidscamp-title1 h2{
+.kidscamp-title1 h2 {
     font-size: 7vw !important;
 }
 
-.kidscamp-title2{
+.kidscamp-title2 {
     display: none;
 }
 
-.kidscamp-buttons{
+.kidscamp-buttons {
     display: flex;
     justify-content: space-around;
 }
@@ -265,16 +267,21 @@ p {
 
 .payment-inputs {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
+    padding-top: 5vh;
     padding-bottom: 20vh;
 }
 
-.gold-text{
+.gold-text {
     color: gold;
 }
 
-.payment-btn{
+.payment-btn {
     font-size: 2rem;
+    margin-bottom: 5vh;
+    width: fit-content;
 }
 
 .sponsor-thank-you {
@@ -406,11 +413,11 @@ p {
     width: 40%;
 }
 
-.sponsor-col-2{
+.sponsor-col-2 {
     width: 40vw;
 }
 
-.sponsor-toomanyIMG{
+.sponsor-toomanyIMG {
     display: flex;
     justify-content: space-around;
 }
@@ -441,7 +448,7 @@ iframe {
     padding: 0 !important;
 }
 
-.purchase-div{
+.purchase-div {
     display: flex;
     justify-content: center;
 }
@@ -495,15 +502,15 @@ iframe {
     width: 40%;
 }
 
-.overlay-cover-lb {  
+.overlay-cover-lb {
     background: rgb(209, 39, 138);
 }
 
-.cover-img-lb{
+.cover-img-lb {
     object-fit: contain;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -529,18 +536,18 @@ iframe {
         margin-top: 0 !important;
     }
 
-    .kidscamp-buttons{
+    .kidscamp-buttons {
         display: block;
     }
 
-    .kidscamp .btn{
+    .kidscamp .btn {
         display: block;
         margin: auto;
         width: 40%;
         margin-top: 2vh;
     }
 
-    .TrunkorTreatIMGDiv{
+    .TrunkorTreatIMGDiv {
         width: 30vw;
     }
 }
@@ -570,9 +577,13 @@ iframe {
         width: 35vw;
     }
 
-    .sponsors h4{
+    .sponsors h4 {
         font-size: 3vw;
-}
+    }
+
+    .payment-btn {
+        font-size: 1rem;
+    }
 }
 
 
@@ -583,39 +594,41 @@ iframe {
         margin-bottom: 5vh;
     }
 
-    .popup-img{
+    .popup-img {
         width: 80%;
         margin-bottom: -5vh;
     }
 
-    .showfest-info, .popup-info {
+    .showfest-info,
+    .popup-info {
         width: 80%;
     }
 
-    .popup-info{
+    .popup-info {
         font-size: 2rem;
     }
 
-    .kidscamp{
+    .kidscamp {
         margin-bottom: 15vh;
     }
 
-    .kidscamp-title1{
+    .kidscamp-title1 {
         display: none;
     }
 
-    .kidscamp-title2{
+    .kidscamp-title2 {
         display: block;
         width: 80%;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
 
-    .kidscamp-info, .TrunkorTreatIMGDiv{
+    .kidscamp-info,
+    .TrunkorTreatIMGDiv {
         width: 80vw;
     }
 
-    .poster-ticket-click{
+    .poster-ticket-click {
         pointer-events: all;
     }
 
@@ -629,7 +642,7 @@ iframe {
         font-size: 1.25em;
     }
 
-    .sponsors{
+    .sponsors {
         height: 65vh;
     }
 
@@ -646,26 +659,26 @@ iframe {
         width: 100%;
     }
 
-    .directorIMG{
+    .directorIMG {
         width: 80%;
     }
 
-    .sponsors2{
+    .sponsors2 {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .sponsor-col{
+    .sponsor-col {
         margin-right: 2vw;
         margin-left: 2vw;
     }
 
-    .sponsor-col-2{
+    .sponsor-col-2 {
         width: 80vw;
         margin: auto;
     }
 
-    .sponsors2 .sponsor-img-div{
+    .sponsors2 .sponsor-img-div {
         width: 30vw;
     }
 
@@ -673,12 +686,12 @@ iframe {
         width: 40vw;
     }
 
-    .sponsors3{
+    .sponsors3 {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .sponsor-toomanyIMG{
+    .sponsor-toomanyIMG {
         display: block;
     }
 
@@ -686,7 +699,11 @@ iframe {
         display: block;
     }
 
-    .footer{
+    .payment-btn {
+        font-size: 1rem;
+    }
+
+    .footer {
         display: block;
         text-align: center;
         padding-top: 5vh;

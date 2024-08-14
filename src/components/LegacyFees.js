@@ -4,7 +4,7 @@ export default function LegacyFees() {
     return (
         <div className='container'>
 
-            <button className="btn my-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            {/* <button className="btn my-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                 Payment Details
             </button>
 
@@ -50,12 +50,15 @@ export default function LegacyFees() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
 
             <div className='payment-inputs'>
                 <a href='https://collectcheckout.com/r/z1onc' target='_blank' rel="noreferrer" className='btn payment-btn' >
                     Make Payment
+                </a>
+                <a href='https://collectcheckout.com/r/ig0nzrcuedjf81djcguxlamro6oz0l' target='_blank' rel="noreferrer" className='btn payment-btn'>
+                    Set Up Recurring Payments for Fees
                 </a>
             </div>
 

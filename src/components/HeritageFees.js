@@ -26,7 +26,7 @@ export default function HeritageFees() {
             <h5>HERITAGE SINGERS & SENSATIONS- Full $900</h5>
             <p>($900  if a student does not have an adult volunteer for 1 shift at ShowFest 2023)</p>
 
-            <h5>**Families must have all outstanding balances from the previous year paid by August 1st, 2022</h5>
+            <h5>**Families must have all outstanding balances from the previous year paid by August 1st, 2024</h5>
 
             <h5>May 10th– $50 deposit</h5>
 
@@ -71,6 +71,9 @@ export default function HeritageFees() {
       <div className='payment-inputs'>
           <a href='https://collectcheckout.com/r/z1onc' target='_blank' rel="noreferrer" className='btn payment-btn' >
             Make Payment
+          </a>
+          <a href='https://collectcheckout.com/r/ig0nzrcuedjf81djcguxlamro6oz0l' target='_blank' rel="noreferrer" className='btn payment-btn'>
+          Set Up Recurring Payments for Fees
           </a>
       </div>
     </div >
