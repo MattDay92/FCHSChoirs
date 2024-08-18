@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { getDatabase, ref, set, onValue } from 'firebase/database'
 import Nav from './components/Nav'
 import Home from './view/Home'
 import Footer from './components/Footer'
@@ -24,12 +25,38 @@ import PageNotFound from './view/PageNotFound'
 import Tickets from './view/Tickets'
 import Purchase from './view/Purchase'
 import Velocity from './view/Velocity'
+import Admin from './view/Admin'
 
 
-export default function App() {
+export default function App({ storage, database }) {
   const [background, changeBackground] = useState('')
   const [loaded, setLoaded] = useState(false)
   const [showPopUp, setShowPopUp] = useState(true)
+  const [link, setLink] = useState('')
+
+  const getNewsletterLink = () => {
+    const db = getDatabase()
+    const newsletter = ref(db, '/link/linkURL')
+
+    onValue(newsletter, (snapshot) => {
+      const data = snapshot.val()
+      let link = '';
+
+      setLink(data)
+      const linkName = data
+      for (let x = 0; x < linkName.length; x++) {
+        if (linkName[x] === '?') {
+          link = linkName.substring(0, x + 1);
+          break;
+        }
+      }
+
+      if (link) {
+        setLink(link);
+      }
+
+    })
+  }
 
   const random = () => {
     const myCovers = ['heritage', 'sensations', 'bella', 'legacy', 'sig']
@@ -51,7 +78,10 @@ export default function App() {
 
   useEffect(() => {
     random()
+    getNewsletterLink()
   }, [])
+
+  
 
   return (
     <div>
@@ -68,13 +98,14 @@ export default function App() {
           <Route exact path={'/vocealta'} element={<VoceAlta />} />
           <Route exact path={'/velocity'} element={<Velocity />} />
           <Route exact path={'/calendar'} element={<Calendar />} />
-          <Route exact path={'/newsletter'} element={<Newsletter />} />
+          <Route exact path={'/newsletter'} element={<Newsletter link={link} />} />
           <Route exact path={'/support'} element={<Support />} />
           <Route exact path={'/fees'} element={<Fees />} />
           <Route exact path={'/contact'} element={<Contact />} />
           <Route exact path={'/payment-thank-you'} element={<PaymentThankYou />} />
           <Route exact path={'/tickets'} element={<Tickets />} />
           <Route exact path={'/purchase'} element={<Purchase />} />
+          <Route exact path={'/admin4161'} element={<Admin />} />
           {/* <Route exact path={'/kidscamp'} element={<KidsCamp />} /> */}
           {/* <Route exact path={'/musical'} element={<Musical />} /> */}
           <Route path={'*'} element={<PageNotFound />} />
