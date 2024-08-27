@@ -1,5 +1,8 @@
 import React from 'react'
 import { getDatabase, ref as refDB, set } from 'firebase/database'
+import Alert from '@mui/material/Alert';
+
+
 
 
 
@@ -11,8 +14,15 @@ export default function Admin({ link }) {
 
         const linkURL = event.target.newsletterLink.value
 
+        console.log('ran')
+
         set(refDB(db, 'link'), {
             linkURL
+        }).then(() => {
+            alert('Newsletter link updated successfully!');
+        }).catch((error) => {
+            console.error('Error saving data:', error);
+            alert('An error occurred while updating the newsletter link. Please try again.');
         });
     }
 
