@@ -6,7 +6,7 @@ import HeritageFees from '../components/HeritageFees'
 import LegacyFees from '../components/LegacyFees'
 
 export default function Fees() {
-    const [choir, setChoir] = useState('')
+    // const [choir, setChoir] = useState('')
 
 
 
@@ -20,7 +20,20 @@ export default function Fees() {
             <div className='hero-title'>
                 <h1>Pay Fees</h1>
             </div>
-            <div className='container my-5 col-10 my-5 text-center'>
+
+            <div className='payment-inputs'>
+                <a href='https://collectcheckout.com/r/z1onc' target='_blank' rel="noreferrer" className='btn payment-btn' >
+                    Make Payment
+                </a>
+                <a href='https://collectcheckout.com/r/ig0nzrcuedjf81djcguxlamro6oz0l' target='_blank' rel="noreferrer" className='btn payment-btn'>
+                    Set Up Recurring Payments for Fees
+                </a>
+            </div>
+
+
+
+
+            {/* <div className='container my-5 col-10 my-5 text-center'>
                 <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Select Choir
@@ -45,7 +58,7 @@ export default function Fees() {
                                             choir === 'Sig' ? <><h2>Signature Sound</h2><ConcertChoirFees /></> :
                                                 <></>}
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

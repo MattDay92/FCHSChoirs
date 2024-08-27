@@ -115,6 +115,9 @@ export default function Home({ background, closeAd, showPopUp }) {
           audition process, and got to sing collegiate level music with the best singers from across the state.  Congratulations
           to these amazing students!</p>
       </div>
+
+
+{/*       
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>
       <div className='row text-center sponsors px-0 mx-0 my-5'>
         <div className='sponsors1'>
@@ -172,7 +175,7 @@ export default function Home({ background, closeAd, showPopUp }) {
           </div>
 
         </div>
-      </div>
+      </div> */}
       <div className='text-center social'>
         <h2>Follow FCOMM Choirs!</h2>
         <span>
