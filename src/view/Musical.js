@@ -1,5 +1,5 @@
 import React from 'react'
-import TitlePic from '../components/photos/LBLOGODOG.jpeg'
+import TitlePic from '../components/photos/SeussicalCover.webp'
 import Button from '@mui/material/Button';
 import Sponsor1 from '../components/photos/BradleyBarnetLogo.webp'
 import Sponsor2 from '../components/photos/FEMoran2.webp'
@@ -7,31 +7,26 @@ import Sponsor2 from '../components/photos/FEMoran2.webp'
 export default function Musical() {
     return (
         <div className='fullpage'>
-            <div className='hero-image LBLogo'>
-                <div className='overlay-cover overlay-cover-lb'>
-                    <img className='cover-img cover-img-lb' alt='Legally Blonde Logo' src={TitlePic} />
+            <div className='hero-image-musical'>
+                <div className='overlay-cover-musical'>
+                    <img className='cover-img cover-img-musical' alt='Seussical Logo' src={TitlePic} />
                 </div>
             </div>
             <div className='hero-title'>
                 <h1></h1>
             </div>
             <div className='container'>
-                <h3 className='my-5'>October 26 - 29, 2023</h3>
+                <h3 className='my-5'>November 21 - 24, 2024</h3>
                 <div className='row mb-5 d-flex justify-content-center text-center'>
-                    <p className='col-10'>A fabulously fun award-winning musical based on the adored movie, Legally Blonde The Musical, follows the
-                        transformation of Elle Woods as she tackles stereotypes and scandal in pursuit of her dreams. Action-packed and exploding with
-                        memorable songs and dynamic dances - this musical is so much fun, it should be illegal!</p>
+                    <p className='col-10'>The Cat in the Hat tells the story of Horton, an elephant who discovers a speck of dust containing Whos, including Jojo, a Who child sent off to military school for thinking too many "thinks." Horton faces a double challenge--not only must he protect the Whos from a world of naysayers and dangers, but he must guard an abandoned egg, left to his care by the irresponsible Mayzie La Bird. Although Horton faces ridicule, danger, kidnapping, and a trial, the intrepid Gertrude McFuzz never loses faith in him. Ultimately, the powers of friendship, loyalty, family, and community are challenged and emerge triumphant.</p>
 
-                    <p className='col-10'>Elle Woods appears to have it all. Her life is turned upside down when her boyfriend Warner dumps her so he can attend Harvard Law.
-                        Determined to get him back, Elle ingeniously charms her way into the prestigious law school. While there, she struggles with peers,
-                        professors and her ex. With the support of some new friends, though, Elle quickly realizes her potential and sets out to prove
-                        herself to the world.</p>
+    
                 </div>
                 <div className='d-flex justify-content-around text-center my-5'>
-                    <Button variant='contained' className='btn' href='https://thefranklinpac.ludus.com/200440615' target='_blank'>Tickets</Button>
-                    <Button variant='contained' className='btn' href='https://www.canva.com/design/DAFjXqlIyXc/gv4ErTHPgy7Fvq9yotM69Q/view?utm_content=DAFjXqlIyXc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target="_blank">Cast List</Button>
+                    <Button variant='contained' className='btn' href='https://thefranklinpac.ludus.com/index.php' target='_blank'>Tickets</Button>
+                    {/* <Button variant='contained' className='btn' href='https://www.canva.com/design/DAFjXqlIyXc/gv4ErTHPgy7Fvq9yotM69Q/view?utm_content=DAFjXqlIyXc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target="_blank">Cast List</Button> */}
                 </div>
-                <h2 className='sponsor-thank-you'>Thank You to our Musical Sponsors!</h2>
+                {/* <h2 className='sponsor-thank-you'>Thank You to our Musical Sponsors!</h2>
                 <div className='row text-center sponsors px-0 mx-0 my-5'>
                     <div className='sponsors1'>
                         <h3>Platinum Level - $500 - $999</h3>
@@ -63,10 +58,10 @@ export default function Musical() {
                             <h5>Millie's Ice Cream</h5>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className='row text-center mb-5'>
-                    <h2>Follow Legally Blonde!</h2>
-                    <a href='https://www.instagram.com/legally_blonde_fchs/' target='_blank'><i class="fa-brands fa-instagram"></i></a>
+                    <h2>Follow Seussical!</h2>
+                    <a href='https://www.instagram.com/legallyblonde_fchs/' target='_blank'><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import popupIMG from '../components/photos/CarWashCancelled.jpg'
+import popupIMG from '../components/photos/FallConcertPoster.webp'
 import Showfest from '../components/photos/ShowFestLogo.webp'
 import HeritageSingers from '../components/photos/HeritageFall.webp'
 import SigPic from '../components/photos/SigFall.webp'
@@ -26,6 +26,28 @@ export default function Home({ background, closeAd, showPopUp }) {
 
   return (
     <div className='fullpage'>
+
+      {showPopUp === true ? <>
+        <div id='popup'>
+          <div className='row concert-ad'>
+            <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
+            <div className='col-5 popup-img'>
+              <img className='popup-logo' alt='Spring Concert Poster' src={popupIMG} />
+            </div>
+            <div className='col-4 popup-info text-center'>
+              <h3 className='text-white'>Fall Concert 2024</h3>
+              <p>Come see the students of Franklin Community High School Choirs perform their Fall Concert, Brand New Day, on Thursday, October 3rd, 2024. Tickets available now!
+              </p>
+              <div className='popup-btns'>
+                <Button variant='contained' className='btn my-2' href='https://thefranklinpac.ludus.com/index.php?sections=events' target='_blank'>Buy Tickets</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+        :
+        <></>
+      }
 
       {background === 'sensations' ? <>
         <div className='hero-image'>
@@ -117,7 +139,7 @@ export default function Home({ background, closeAd, showPopUp }) {
       </div>
 
 
-{/*       
+      {/*       
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>
       <div className='row text-center sponsors px-0 mx-0 my-5'>
         <div className='sponsors1'>
