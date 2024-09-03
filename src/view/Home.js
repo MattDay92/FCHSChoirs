@@ -20,6 +20,7 @@ import Sponsor7 from '../components/photos/FootwearSupplyFall.jpg'
 import Sponsor8 from '../components/photos/BLLogo.webp'
 import WinterConcert from '../components/photos/WinterConcert2023Poster.webp'
 import ShowFestMenu from '../components/files/ShowFestMenu.pdf'
+import Musical from '../components/photos/SeussicalSquare.png'
 
 
 export default function Home({ background, closeAd, showPopUp }) {
@@ -107,35 +108,20 @@ export default function Home({ background, closeAd, showPopUp }) {
       </div>
 
 
-      <div className='container featured col-8'>
-        <h2 className='text-center text-white my-5'>All State Choir 2024</h2>
-        <div className='carousel d-flex justify-content-center'>
-          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src={Featured1} loading='lazy' alt='All State Choir Performance' className="d-block w-100" />
-              </div>
-              <div className="carousel-item">
-                <img src={Featured2} alt='Franklin Students at All State Choir 2024' fetchpriority="low" className="d-block w-100" />
-              </div>
-              {/* <div className="carousel-item">
-                <img src={Arch} alt='Franklin choirs at St Louis Arch' fetchpriority="low" className="d-block w-100" />
-              </div> */}
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
+      <div className='row showfest musical-home d-flex justify-content-center align-items-center'>
+        <div className='col-4 showfest-info text-center'>
+          <h3 className='text-white'>November 21 - 24, 2024</h3>
+          <p>The Franklin Community High School Choral Department is proud to present this year's fall musical, <em>Seussical</em>!  Featuring all of the
+            Dr. Seuss characters you love, <em>Seussical</em> is a show that the whole family can enjoy!
+          </p>
+          <h4>Tickets Available Now!</h4>
+          <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='/musical'>More Information</Button>
           </div>
         </div>
-        <p className='text-center text-white mt-3'>We were beyond proud to be represented by seventeen amazing students at the
-          2024 Indiana All State Choir performance on January 13th!  These kids were admitted to this choir through a rigorous
-          audition process, and got to sing collegiate level music with the best singers from across the state.  Congratulations
-          to these amazing students!</p>
+        <div className='col-3 showfest-img'>
+          <img className='showfest-logo' alt='ShowFest Logo' src={Musical} />
+        </div>
       </div>
 
 

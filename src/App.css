@@ -187,7 +187,7 @@ p {
 
 .showfest {
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 25vh;
 }
 
 .showfest-btns,
@@ -602,6 +602,11 @@ iframe {
 
     .payment-btn {
         font-size: 1rem;
+    }
+
+    .musical-home{
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
 }
 
