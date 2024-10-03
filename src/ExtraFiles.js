@@ -42,7 +42,19 @@
       // import Showfest from '../components/photos/ShowFestLogo.webp'
       // import ShowFestMenu from '../components/files/ShowFestMenu.pdf'
 
-
+<div className='row showfest d-flex justify-content-center align-items-center'>
+        <div className='col-4 showfest-img'>
+          <img className='showfest-logo' alt='ShowFest Logo' src={TrunkorTreat} />
+        </div>
+        <div className='col-4 showfest-info text-center'>
+          <h3 className='text-white'>New Date!</h3>
+          <h3 className='text-white'>February 21st and 22nd, 2025</h3>
+          <p>The high school show choir divisions are FULL but we are still accepting middle school show choirs and high school concert choirs!  Click below to sign up!</p>
+          <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLScOo1RKmqRFcavQtixyE9BBjiyBrFCIoY62s5fQh1OKZWfEUw/viewform?usp=sf_link' target='_blank'>More Information</Button>
+          </div>
+        </div>
+      </div>
 
 
       // <div className='row showfest d-flex justify-content-center align-items-center'>

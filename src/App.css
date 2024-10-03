@@ -589,15 +589,21 @@ iframe {
     }
 
     .sponsor-img-div {
-        width: 20vw;
+        width: 15vw;
+        margin-bottom: 3vh;
     }
 
     .sponsor1-img-div {
-        width: 35vw;
+        width: 40vw;
     }
 
-    .sponsors h4 {
+    .sponsors h4, {
         font-size: 3vw;
+    }
+
+    .sponsors h4,
+    .sponsors h5 {
+        font-size: 3vw !important;
     }
 
     .payment-btn {
@@ -706,8 +712,8 @@ iframe {
         width: 30vw;
     }
 
-    .sponsor-img-div {
-        width: 40vw;
+    .sponsor1-img-div {
+        width: 50vw;
     }
 
     .sponsors3 {
