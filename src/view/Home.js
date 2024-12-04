@@ -23,7 +23,7 @@ export default function Home({ background, closeAd, showPopUp }) {
   return (
     <div className='fullpage'>
 
-      
+
 
       {background === 'sensations' ? <>
         <div className='hero-image'>
@@ -66,35 +66,21 @@ export default function Home({ background, closeAd, showPopUp }) {
         <h1>Franklin Community High School Choirs</h1>
       </div>
 
-      <div className='row showfest musical-home d-flex justify-content-center align-items-center'>
-        <div className='col-4 showfest-info text-center'>
-          <h3 className='text-white'>November 21 - 24, 2024</h3>
-          <p>The Franklin Community High School Choral Department is proud to present this year's fall musical, <em>Seussical</em>!  Featuring all of the
-            Dr. Seuss characters you love, <em>Seussical</em> is a show that the whole family can enjoy!
-          </p>
-          <h4>Tickets Available Now!</h4>
-          <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='/musical'>More Information</Button>
-          </div>
-        </div>
-        <div className='col-3 showfest-img'>
-          <img className='showfest-logo' alt='ShowFest Logo' src={Musical} />
-        </div>
-      </div>
-
-
       <div className='row showfest d-flex justify-content-center align-items-center'>
-        <div className='col-3 mt-5 showfest-img'>
-          <img className='showfest-logo' alt='Trunk or Treat Poster' src={TrunkorTreat} />
+        <div className='col-4 showfest-img'>
+          <img className='showfest-logo' alt='ShowFest Logo' src={Showfest} />
         </div>
         <div className='col-4 showfest-info text-center'>
-          <h3>Trunk or Treat 2024</h3>
-          <h3 className='text-white'>October 30th from 6 - 8 PM</h3>
-          <p>Support the Franklin Choirs with a night of fun, <em>safe</em> trick or treating!  Games, music, bounce houses and more!  Only $8 per child at the door to enter!</p>
+          <h3 className='text-white'>February 21st and 22nd</h3>
+          <p>More information coming soon!
+          </p>
+          {/* <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
+            <Button variant='contained' className='btn my-2' href={ShowFestMenu} download="ShowFestMenu.pdf">Food Menu</Button>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button>
+          </div> */}
         </div>
       </div>
-
-
 
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>
       <div className='row text-center sponsors px-0 mx-0 my-5'>
@@ -117,12 +103,15 @@ export default function Home({ background, closeAd, showPopUp }) {
             <h5>Michael & Denita Pickett</h5>
             <h5>Grandpa Jeff's Trail Rides</h5>
             <h5>Remix Pest Control</h5>
+            <h5>Franklin, Muffler, Brakes & More</h5>
+            <h5>Beck Automotive</h5>
           </div>
           <div className='sponsor-col bottom-sponsor-2'>
             <h3>Gold Level - $250 - $499</h3>
             <h5>Bradley Chevrolet</h5>
             <h5>Under One Woof</h5>
             <h5>The Dave Price Team Mortgage Lender</h5>
+            <h5>Promise Advisory Group</h5>
           </div>
         </div>
         <div className='sponsors3 d-flex justify-content-center'>
@@ -132,6 +121,7 @@ export default function Home({ background, closeAd, showPopUp }) {
             <h5>Franklin Insurance Agency</h5>
             <h5>PrintWorks</h5>
             <h5>T-Shirt Express</h5>
+            <h5>Ray & Carmen Lane</h5>
           </div>
           {/* <div className='sponsor-col'>
             <h3>Bronze Level</h3>
