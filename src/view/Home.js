@@ -13,6 +13,7 @@ import BellaPic from '../components/photos/BellaFall.webp'
 import Button from '@mui/material/Button';
 import Sponsor1 from '../components/photos/Generations.webp'
 import Sponsor2 from '../components/photos/Paul-Humbles.webp'
+import Sponsor3 from '../components/photos/tri-kappa-logo.png'
 import WinterConcert from '../components/photos/WinterConcert2023Poster.webp'
 import ShowFestMenu from '../components/files/ShowFestMenu.pdf'
 import Musical from '../components/photos/SeussicalSquare.png'
@@ -74,11 +75,13 @@ export default function Home({ background, closeAd, showPopUp }) {
           <h3 className='text-white'>February 21st and 22nd</h3>
           <p>More information coming soon!
           </p>
-          {/* <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
+          <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='https://www.signupgenius.com/go/10C0948A9AF2DA5F4CF8-53631195-showfest#/' target='_blank'>Volunteer</Button>
+
+            {/* <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
             <Button variant='contained' className='btn my-2' href={ShowFestMenu} download="ShowFestMenu.pdf">Food Menu</Button>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button>
-          </div> */}
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button> */}
+          </div>
         </div>
       </div>
 
@@ -87,24 +90,32 @@ export default function Home({ background, closeAd, showPopUp }) {
         <div className='sponsors1'>
           <h3>Director's Circle - $1,000 +</h3>
           <div className='d-flex justify-content-around flex-wrap'>
-            <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img w-100' alt='Generations of Graham' src={Sponsor1} /></div>
-            <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img w-100' alt='Paul Humbles Agency' src={Sponsor2} /></div>
-            <div className='w-100 my-3 '><h4>Zeta Chapter of Tri Kappa Inc.</h4></div>
+            <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img' alt='Generations of Graham' src={Sponsor1} /></div>
+            <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img' alt='Paul Humbles Agency' src={Sponsor2} /></div>
+            <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img w-50' alt='Zeta Chapter of Tri Kappa Inc.' src={Sponsor3} /></div>
           </div>
         </div>
         <div className='sponsors2'>
-          <div className='sponsor-col'>
+          <div>
             <h3>Platinum Level - $500 - $999</h3>
-            <h5>Mayor Steve Barnett</h5>
-            <h5>JWG Inc.</h5>
-            <h5>Commercial Sewer Cleaning Company Inc.</h5>
-            <h5>Farley Health Solutions</h5>
-            <h5>Greene's Auto & Tire Service</h5>
-            <h5>Michael & Denita Pickett</h5>
-            <h5>Grandpa Jeff's Trail Rides</h5>
-            <h5>Remix Pest Control</h5>
-            <h5>Franklin, Muffler, Brakes & More</h5>
-            <h5>Beck Automotive</h5>
+            <div className='d-flex justify-content-around flex-wrap'>
+              <div className='sponsor-col'>
+                <h5>Mayor Steve Barnett</h5>
+                <h5>JWG Inc.</h5>
+                <h5>Commercial Sewer Cleaning Company Inc.</h5>
+                <h5>Farley Health Solutions</h5>
+                <h5>Greene's Auto & Tire Service</h5>
+                <h5>Michael & Denita Pickett</h5>
+              </div>
+              <div className='sponsor-col'>
+                <h5>Grandpa Jeff's Trail Rides</h5>
+                <h5>Remix Pest Control</h5>
+                <h5>Franklin, Muffler, Brakes & More</h5>
+                <h5>Beck Automotive</h5>
+                <h5>Pennington Brothers Enterprise</h5>
+                <h5>Tom Thompson</h5>
+              </div>
+            </div>
           </div>
           <div className='sponsor-col bottom-sponsor-2'>
             <h3>Gold Level - $250 - $499</h3>
@@ -122,6 +133,7 @@ export default function Home({ background, closeAd, showPopUp }) {
             <h5>PrintWorks</h5>
             <h5>T-Shirt Express</h5>
             <h5>Ray & Carmen Lane</h5>
+            <h5>Nimble Thimbles Quilt Club</h5>
           </div>
           {/* <div className='sponsor-col'>
             <h3>Bronze Level</h3>
