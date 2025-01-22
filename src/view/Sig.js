@@ -22,14 +22,14 @@ export default function Sig() {
                     Heritage Festival in Nashville Tennessee in 2022, and again in St. Louis in 2023.  
                     Directed by Johnnie Ray Hughes and assisted by Kelly Cassady Day, Signature Sound 
                     is looking forward to the competitive season at the Fishers Spotlighter Showcase, 
-                    the Ben Davis Giant Spectacular, the Brownsburg Bulldog Spectacular, and ISSMA 
+                    the Anderston A-Town Showdown, the Pendleton Arabian Spectacular, the Brownsburg Bulldog Spectacular, and ISSMA 
                     State Qualifying competition.  </p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2024 Season</h2>
-                    <h4>Franklin Community ShowFest</h4>
+                <h2>2025 Season</h2>
                     <h4>Fishers Silver Spotlight Invitational</h4>
-                    <h4>Ben Davis Giant Spectacular</h4>
+                    <h4>Anderson A-Town Showdown</h4>
+                    <h4>Pendleton Arabian Spectacular</h4>
                     <h4>Brownsburg Bulldog Spectacular</h4>
                     <h4>ISSMA State Qualifying</h4>
                 </div>

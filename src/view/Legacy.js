@@ -20,8 +20,10 @@ export default function Legacy() {
                         Please enjoy the flight.</p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2024 Season</h2>
+                    <h2>2025 Season</h2>
+                    <h4>Anderson A-Town Showdown</h4>
                     <h4>Franklin Community ShowFest</h4>
+                    <h4>Pendleton Arabian Spectacular</h4>
                     <h4>Brownsburg Bulldog Spectacular</h4>
                 </div>
                 <div className='row text-center my-5'>

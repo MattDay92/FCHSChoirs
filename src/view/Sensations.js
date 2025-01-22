@@ -14,26 +14,26 @@ export default function Sensations() {
             </div>
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
-                    <p className='col-10'>Comprised of fifty students from grades 9-12, this 
-                    advanced treble show choir is excited to conquer their fears and take the 
-                    stage at competitions all across Indiana.  They will be terrifying audiences 
-                    at the Brownsburg Bulldog Spectacular, the Ben Davis Giant Spectacular, the 
-                    Fishers Spotlight Competition, and at the South Dearborn Opening Knight Showcase.  
-                    The Sensations have been creeping and crawling through Midwestern competitions 
-                    or many years, and have enjoyed many Grand Champion and caption awards, as 
-                    well as performing at ISSMA Show Choir state finals.  Last year, they were 
-                    named as Grand Champions of the East Noble Showcase. They are directed by 
-                    Kelly Cassady Day and Johnnie Ray Hughes, and choreographed by Jerico Hughes.  
-                    Please brace yourselves to face your fears as the Sensations present their 
-                    2023-2024 show “Phobia.”</p>
+                    <p className='col-10'>Comprised of students from grades 10-12, Franklin Community High School’s 
+                        premier treble show choir is flooding competitions all over central Indiana this season.  
+                        They will be blowing through the Fishers Silver Spotlight Competition, the Anderson A-Town 
+                        Showdown, The Pendleton Arabian Spectacular, the Bishop Luers Invitational, the Brownsburg 
+                        Bulldog Spectacular, and finishing their season at the Noblesville State Championships.  
+                        They have been shaking things up at competitions for years, winning multiple grand championship 
+                        and caption awards, and have made multiple appearances at the Indiana State School Music 
+                        Association Show Choir State Finals.  Sensations is directed by Kelly Cassady Day and Johnnie R. Hughes, 
+                        their music is arranged by Dan Scoville and Jerico Hughes, and they are choreographed by Jerico Hughes.  
+                        Hang on to your hats and prepare for Sensations to sweep in like tornados and rock you like a hurricane.</p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2024 Season</h2>
-                    <h4>Franklin Community ShowFest</h4>
+                    <h2>2025 Season</h2>
                     <h4>Fishers Silver Spotlight Invitational</h4>
-                    <h4>Ben Davis Giant Spectacular</h4>
-                    <h4>South Dearborn Opening Knight Showcase</h4>
+                    <h4>Anderson A-Town Showdown</h4>
+                    <h4>Franklin Community ShowFest</h4>
+                    <h4>Pendleton Arabian Spectacular</h4>
+                    <h4>Bishop Luers Invitational</h4>
                     <h4>Brownsburg Bulldog Spectacular</h4>
+                    <h4>Noblesville State Championships</h4>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>Follow Sensations!</h2>

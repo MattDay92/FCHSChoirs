@@ -15,7 +15,9 @@ import Sponsor1 from '../components/photos/Generations.webp'
 import Sponsor2 from '../components/photos/Paul-Humbles.webp'
 import Sponsor3 from '../components/photos/tri-kappa-logo.png'
 import WinterConcert from '../components/photos/WinterConcert2023Poster.webp'
-import ShowFestMenu from '../components/files/ShowFestMenu.pdf'
+import ShowFestMenuFriday from '../components/files/ShowFestMenuFriday.png'
+import ShowFestMenuSaturday from '../components/files/ShowFestMenuSaturday.png'
+import ShowFestVendors from '../components/files/Showfest2025Vendors.png'
 import Musical from '../components/photos/SeussicalSquare.png'
 
 
@@ -73,14 +75,14 @@ export default function Home({ background, closeAd, showPopUp }) {
         </div>
         <div className='col-4 showfest-info text-center'>
           <h3 className='text-white'>February 21st and 22nd</h3>
-          <p>More information coming soon!
-          </p>
+          
           <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='https://www.signupgenius.com/go/10C0948A9AF2DA5F4CF8-53631195-showfest#/' target='_blank'>Volunteer</Button>
-
-            {/* <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1mYk6Px4RNElIDvSwGI5fMflPgPQ5ssYsV3FOg-wvW2I/edit#gid=1795939512' target='_blank'>Schedule</Button>
-            <Button variant='contained' className='btn my-2' href={ShowFestMenu} download="ShowFestMenu.pdf">Food Menu</Button>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1PYTPwlgSW1Vc0UdQ5pcuM9rYZgF15k41QaWrBBDw_gQ/edit' target='_blank'>Spectator Information</Button> */}
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/spreadsheets/d/1m_JH0nYjp8dTEvbqtvg8jmJJxpJAx-F88BO_43ECH14/edit?gid=1795939512#gid=1795939512' target='_blank'>Schedule</Button>
+            <Button variant='contained' className='btn my-2' href={ShowFestMenuFriday} download="ShowFestMenuFriday.png">Friday Cafe Menu</Button>
+            <Button variant='contained' className='btn my-2' href={ShowFestMenuSaturday} download="ShowFestMenuSaturday.png">Saturday Cafe Menu</Button>
+            <Button variant='contained' className='btn my-2' href={ShowFestVendors} download="ShowFest2025Vendors.png">Vendors</Button>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/document/d/1WmtF1Hq93ExbEvVJj1ApzDFHhEHq6MPujowWwJE-4qo/edit?tab=t.0' target='_blank'>Spectator Information</Button>
+            <Button variant='contained' className='btn my-2' href='https://thefranklinpac.anywhereseat.com/channel.php' target='_blank'>Livestream</Button>
           </div>
         </div>
       </div>
@@ -93,6 +95,10 @@ export default function Home({ background, closeAd, showPopUp }) {
             <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img' alt='Generations of Graham' src={Sponsor1} /></div>
             <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img' alt='Paul Humbles Agency' src={Sponsor2} /></div>
             <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img w-50' alt='Zeta Chapter of Tri Kappa Inc.' src={Sponsor3} /></div>
+            
+          </div>
+          <div>
+            <h4>Duane & Vonda Mercer</h4>
           </div>
         </div>
         <div className='sponsors2'>
