@@ -1,5 +1,5 @@
 import React from 'react'
-import SensationsPic from '../components/photos/SensationsFall.webp'
+import SensationsPic from '../components/photos/Sensations2025Comp.webp'
 
 export default function Sensations() {
     return (

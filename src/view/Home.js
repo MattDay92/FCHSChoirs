@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import popupIMG from '../components/photos/FallConcertPoster.webp'
+// import popupIMG from '../components/photos/FallConcertPoster.webp'
 import Showfest from '../components/photos/ShowFestLogo.webp'
-import HeritageSingers from '../components/photos/HeritageFall.webp'
+import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
 import SigPic from '../components/photos/SigFall.webp'
-import SensationsPic from '../components/photos/SensationsFall.webp'
+import SensationsPic from '../components/photos/Sensations2025Comp.webp'
 import LegacyPic from '../components/photos/CombinedGirlsFall.webp'
 import Featured1 from '../components/photos/AllState1.JPG'
 import Featured2 from '../components/photos/AllState2.JPG'
@@ -18,7 +18,7 @@ import WinterConcert from '../components/photos/WinterConcert2023Poster.webp'
 import ShowFestMenuFriday from '../components/files/ShowFestMenuFriday.png'
 import ShowFestMenuSaturday from '../components/files/ShowFestMenuSaturday.png'
 import ShowFestVendors from '../components/files/Showfest2025Vendors.png'
-import Musical from '../components/photos/SeussicalSquare.png'
+// import Musical from '../components/photos/SeussicalSquare.png'
 
 
 export default function Home({ background, closeAd, showPopUp }) {

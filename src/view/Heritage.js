@@ -1,5 +1,5 @@
 import React from 'react'
-import HeritageSingers from '../components/photos/HeritageFall.webp'
+import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
 import { Link } from 'react-router-dom'
 
 export default function Heritage() {

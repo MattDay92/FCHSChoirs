@@ -1,5 +1,5 @@
 import React from 'react'
-import TitlePic from '../components/photos/SeussicalCover.webp'
+import TitlePic from '../components/photos/Heritage2025Comp.webp'
 import Button from '@mui/material/Button';
 import Sponsor1 from '../components/photos/BradleyBarnetLogo.webp'
 import Sponsor2 from '../components/photos/FEMoran2.webp'

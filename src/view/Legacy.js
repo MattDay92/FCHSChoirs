@@ -15,9 +15,11 @@ export default function Legacy() {
             </div>
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
-                    <p className='col-10'>Legacy is an intermediate treble show choir from Franklin Community High School.
-                        Directed and choreographed by Johnnie Ray Hughes, this relatively new ensemble is ready to lift to new heights in their show.
-                        Please enjoy the flight.</p>
+                    <p className='col-10'>Legacy is the newest show choir at Franklin Community High School, 
+                        and consists of singers from all grades.  Legacy will appear this year at The Anderson 
+                        A-Town Showdown, the Pendleton Arabian Spectacular, and the Brownsburg Bulldog Spectacular.  
+                        They are choreographed and directed by Johnnie Ray Hughes, with arrangements by Anita Cracauer.  
+                        Please join Legacy on their journey back home!</p>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>2025 Season</h2>
