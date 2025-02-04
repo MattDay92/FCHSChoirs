@@ -33,6 +33,7 @@ export default function App({ storage, database }) {
   const [loaded, setLoaded] = useState(false)
   const [showPopUp, setShowPopUp] = useState(true)
   const [link, setLink] = useState('')
+  const [breakfastClubLink, setBreakfastClubLink] = useState('')
 
   const getNewsletterLink = () => {
     const db = getDatabase()
@@ -54,7 +55,18 @@ export default function App({ storage, database }) {
       if (link) {
         setLink(link);
       }
+    })
+  }
 
+  const getBreakfastClubLink = () => {
+    const db = getDatabase()
+    const BreakfastClub = ref(db, '/breakfastLink/linkURL')
+
+    onValue(BreakfastClub, (snapshot) => {
+      const data = snapshot.val()
+      let link = '';
+
+      setBreakfastClubLink(data)
     })
   }
 
@@ -79,6 +91,7 @@ export default function App({ storage, database }) {
   useEffect(() => {
     random()
     getNewsletterLink()
+    getBreakfastClubLink()
   }, [])
 
   
@@ -86,7 +99,7 @@ export default function App({ storage, database }) {
   return (
     <div>
       <BrowserRouter>
-        <Nav random={random} />
+        <Nav random={random} breakfastClubLink={breakfastClubLink} />
         <Routes>
           <Route exact path={'/'} element={<Home background={background} closeAd={closeAd} setShowPopUp={setShowPopUp} showPopUp={showPopUp} />} />
           <Route exact path={'/heritage'} element={<Heritage />} />
