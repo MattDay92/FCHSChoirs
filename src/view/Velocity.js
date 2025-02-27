@@ -1,5 +1,5 @@
 import React from 'react'
-import VelocityIMG from '../components/photos/HeritageFall.webp'
+import VelocityIMG from '../components/photos/Heritage2025Comp.webp'
 import { Link } from 'react-router-dom'
 
 export default function Velocity() {
