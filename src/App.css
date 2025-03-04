@@ -244,7 +244,13 @@ p {
 
 @media (max-width: 500px) {
     .home-featured-IMG-div {
-        min-height: 50vh;
+        min-height: 60vh;
+    }
+
+    .featured-IMG-1,
+    .featured-IMG-2,
+    .featured-IMG-3 {
+        width: 80vw !important;
     }
 }
 

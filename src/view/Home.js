@@ -92,12 +92,12 @@ export default function Home({ background, closeAd, showPopUp }) {
             <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSdkBNqJuE2C_Hg5W88kgw99JQBOWUDq_8gC5ynAK_Cc_UUdsQ/viewform?usp=header' target='_blank'>Register</Button>
           </div>
         </div>
-        <div className='col-4 showfest-info text-center'>
+        <div className='col-4 mb-5 showfest-info text-center'>
           <h2>Kings Island 2026</h2>
           <h3 className='text-white'>May 16th and 17th</h3>
           <p>More information coming soon!  </p>
           <div className='showfest-btns'>
-            <Button variant='contained' disabled className='btn my-2' href='' target='_blank'>Register</Button>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSfq3SQ2UBnmNgWgV-y2JFTcmN1TfYLYbOJZD_fN1ieGD6ajtw/viewform' target='_blank'>Register</Button>
           </div>
         </div>
       </div>
@@ -105,13 +105,13 @@ export default function Home({ background, closeAd, showPopUp }) {
       <h2>ShowFest 2025</h2>
       <div className='home-featured-IMG-div'>
         <div className='featured-IMG-1'>
-          <img className='FeaturedIMG' src={Featured1} />
+          <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured1?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
         </div>
         <div className='featured-IMG-2'>
-          <img className='FeaturedIMG' src={Featured2} />
+          <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured2?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
         </div>
         <div className='featured-IMG-3'>
-          <img className='FeaturedIMG' src={Featured3} />
+          <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured3?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
         </div>
       </div>
 

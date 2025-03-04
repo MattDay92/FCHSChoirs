@@ -6,11 +6,12 @@ import { getAnalytics } from "firebase/analytics";
 import { getStorage, ref } from "firebase/storage";
 import { getDatabase } from "firebase/database";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyCzAFsaJOaVTpyEIeZsTJ4Fz7IFBLTj-38",
   authDomain: "fcomm-choirs.firebaseapp.com",
   projectId: "fcomm-choirs",
-  storageBucket: "fcomm-choirs.appspot.com",
+  storageBucket: "gs://fcomm-choirs.firebasestorage.app",
   messagingSenderId: "112159045252",
   appId: "1:112159045252:web:0cb35014180360230a34d1",
   measurementId: "G-VGQL22E6JM",
