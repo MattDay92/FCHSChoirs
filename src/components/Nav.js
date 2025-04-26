@@ -1,5 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SponsorshipBrochure from '../components/files/25-26ChoirSponsorshipsBrochure.pdf'
+import ConcertChoirContract from '../components/files/25-26ConcertChoir.pdf'
+import CBOKroger from '../components/files/CBOKroger.png'
+import FinancialAid from '../components/files/FCHSChoralBoostersFinancialAidAgreement.pdf'
+import LegacyContract from '../components/files/LegacyContractAgreement25-26.pdf'
+import RaiseRight from '../components/files/RaiseRightGiftCardFundraisingFlyer.pdf'
+import VarsityShowChoirContract from '../components/files/VarsityShowChoirContractAgreement25-26.pdf'
 
 export default function Nav({ random, breakfastClubLink }) {
 
@@ -45,6 +52,13 @@ export default function Nav({ random, breakfastClubLink }) {
               <div className="dropdown-menu nav-dropdown-menu">
                 <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vQPeJBqkW7yVvrsCaLjGqYF2fyNDIPCRIlaF6WHy1csc5xtrt4xUVkKCrkIGdQG8Q/pub'>ByLaws</a>
                 <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/10wykCkms8F9Mv4ZVhM3Wy-Do_dlNp0w1_EhSQ7snDbs/edit?usp=sharing'>Student Handbook</a>
+                <a className='dropdown-item' target='_blank' href={SponsorshipBrochure} download={SponsorshipBrochure}>Sponsorship Brochure</a>
+                <a className='dropdown-item' target='_blank' href={CBOKroger} download={CBOKroger}>Kroger Community Rewards</a>
+                <a className='dropdown-item' target='_blank' href={FinancialAid} download={FinancialAid}>Financial Aid</a>
+                <a className='dropdown-item' target='_blank' href={RaiseRight} download={RaiseRight}>Raise Right Fundraising</a>
+                <a className='dropdown-item' target='_blank' href={VarsityShowChoirContract} download={VarsityShowChoirContract}>Varsity Show Choir Contract</a>
+                <a className='dropdown-item' target='_blank' href={LegacyContract} download={LegacyContract}>Legacy Contract</a>
+                <a className='dropdown-item' target='_blank' href={ConcertChoirContract} download={ConcertChoirContract}>Concert Choir Contract</a>
               </div>
             </a>
             <a className="nav-item dropdown">
@@ -52,8 +66,8 @@ export default function Nav({ random, breakfastClubLink }) {
                 Support
               </a>
               <div className="nav-item dropdown-menu nav-dropdown-menu">
-                <a className='nav-link' href={breakfastClubLink} target='_blank'>Breakfast Club</a>
-                <a className='nav-link' href='https://www.signupgenius.com/go/10C0948A9AF2DA5F4CF8-53631195-showfest#/' target='_blank'>ShowFest Volunteer</a>
+                {/* <a className='nav-link' href={breakfastClubLink} target='_blank'>Breakfast Club</a> */}
+                {/* <a className='nav-link' href='https://www.signupgenius.com/go/10C0948A9AF2DA5F4CF8-53631195-showfest#/' target='_blank'>ShowFest Volunteer</a> */}
                 <Link className="nav-link" to={'/support'}>Support Us</Link>
                 <Link className='nav-link' to={'/purchase'}>Purchase/Rent Costumes</Link>
               </div>

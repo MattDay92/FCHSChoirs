@@ -29,6 +29,22 @@ export default function Admin({ link, storage }) {
         });
     }
 
+    const updateFeaturedTitle = (event) => {
+        event.preventDefault()
+        const db = getDatabase();
+
+        const linkURL = event.target.featuredTitle.value
+
+        set(refDB(db, 'featuredTitle'), {
+            linkURL
+        }).then(() => {
+            alert('Featured Title updated successfully!');
+        }).catch((error) => {
+            console.error('Error saving data:', error);
+            alert('An error occurred while updating the featured title. Please try again.');
+        });
+    }
+
     const updateBreakfastClub = (event) => {
         event.preventDefault()
         const db = getDatabase();
@@ -113,6 +129,10 @@ export default function Admin({ link, storage }) {
             <form className='my-5 w-75 m-auto text-center' onSubmit={updateBreakfastClub}>
                 <input className='form-control' name='breakfastClubLink' placeholder='Insert Breakfast Club URL' />
                 <button className='btn my-2' type='submit'>Submit Breakfast Club Link</button>
+            </form>
+            <form className='my-5 w-75 m-auto text-center' onSubmit={updateFeaturedTitle}>
+                <input className='form-control' name='featuredTitle' placeholder='Insert Featured Photo Section Title' />
+                <button className='btn my-2' type='submit'>Submit Featured Title</button>
             </form>
             <div className='col-10 m-auto d-flex justify-content-between'>
                 <form className='m-auto'>

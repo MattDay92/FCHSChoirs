@@ -154,3 +154,24 @@
           audition process, and got to sing collegiate level music with the best singers from across the state.  Congratulations
           to these amazing students!</p>
       </div> */}
+
+
+
+      <div className='row showfest d-flex justify-content-center align-items-center'>
+        <div className='col-4 mb-5 showfest-info text-center'>
+          <h2>ShowFest 2026</h2>
+          <h3 className='text-white'>February 20th and 21st</h3>
+          <p>Registration for ShowFest 2026 is open!  </p>
+          <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSdkBNqJuE2C_Hg5W88kgw99JQBOWUDq_8gC5ynAK_Cc_UUdsQ/viewform?usp=header' target='_blank'>Register</Button>
+          </div>
+        </div>
+        <div className='col-4 mb-5 showfest-info text-center'>
+          <h2>Kings Island 2026</h2>
+          <h3 className='text-white'>May 16th and 17th</h3>
+          <p>More information coming soon!  </p>
+          <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSeI4K9uZm1AVW1rMCeGHMAuK3Ci_cql3yKL3AxXpPlf5d0r6g/viewform?usp=header' target='_blank'>Register</Button>
+          </div>
+        </div>
+      </div>

@@ -68,16 +68,17 @@ export default function Contact() {
             <div className='CBO-contact row col-10 d-flex justify-content-center my-5 mx-auto'>
                 <div className='text-center bio col-3'>
                     <h4>CBO President</h4>
-                    <p>Jamie Marshall</p>
+                    <p>Valerie Bagwell</p>
                     <p>fchs.cbo.president@gmail.com</p>
                 </div>
-                <div className='text-center bio col-3'>
+                {/* <div className='text-center bio col-3'>
                     <h4>CBO President-Elect</h4>
                     <p>Valarie Bagwell</p>
-                </div>
+                </div> */}
                 <div className='text-center bio col-3'>
                     <h4>CBO Costume Coordinator</h4>
                     <p>Amanda Golden</p>
+                    <p>Alicia Louden</p>
                 </div>
                 <div className='text-center bio col-3'>
                     <h4>CBO Secretary</h4>
