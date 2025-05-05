@@ -17,7 +17,7 @@ import Featured3 from '../components/photos/Featured3.jpg'
 // import Musical from '../components/photos/SeussicalSquare.png'
 
 
-export default function Home({ background, closeAd, showPopUp, featuredTitle }) {
+export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
 
   return (
     <div className='fullpage'>
@@ -78,20 +78,26 @@ export default function Home({ background, closeAd, showPopUp, featuredTitle }) 
           </div>
         </div>
       </div>
-      
 
-      <h2>{featuredTitle}</h2>
+
+      <h2>{featuredInfo.linkURL}</h2>
       <div className='home-featured-IMG-div'>
-        <div className='featured-IMG-1'>
-          <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured1?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
-        </div>
-        <div className='featured-IMG-2'>
-          <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured2?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
-        </div>
-        <div className='featured-IMG-3'>
-          <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured3?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
+        <div>
+          <div className='featured-IMG-1'>
+            <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured1?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
+            <p>{featuredInfo.caption}</p>
+          </div>
+          <div className='featured-IMG-2'>
+            <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured2?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
+            <p>{featuredInfo.caption}</p>
+          </div>
+          <div className='featured-IMG-3'>
+            <img className='FeaturedIMG' alt='Featured Photo' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Ffeatured3?alt=media&token=b751f92b-36b2-480a-a703-9acff43da9b2' />
+            <p>{featuredInfo.caption}</p>
+          </div>
         </div>
       </div>
+
 
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>
       <div className='row text-center sponsors px-0 mx-0 my-5'>

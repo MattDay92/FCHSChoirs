@@ -230,8 +230,13 @@ p {
     margin-top: -5vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
+    background: rgba(0, 0, 0, 0)
+}
+
+.home-featured-IMG-div p {
+    margin-top: 2vh;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -252,6 +257,10 @@ p {
     .featured-IMG-3 {
         width: 80vw !important;
     }
+
+    .FeaturedIMG {
+        max-height: 35vh !important;
+    }
 }
 
 .featured-IMG-1,
@@ -260,12 +269,14 @@ p {
     display: flex;
     flex-direction: column;
     width: 40vw;
-    background: black;
+    background: rgba(0, 0, 0, 0);
     color: white;
 }
 
 .FeaturedIMG {
     width: 100%;
+    max-height: 45vh;
+    object-fit: contain;
 }
 
 .featured-IMG-1 {

@@ -34,7 +34,7 @@ export default function App({ storage, database }) {
   const [showPopUp, setShowPopUp] = useState(true)
   const [link, setLink] = useState('')
   const [breakfastClubLink, setBreakfastClubLink] = useState('')
-  const [featuredTitle, setFeaturedTitle] = useState('')
+  const [featuredInfo, setFeaturedInfo] = useState('')
 
   const getNewsletterLink = () => {
     const db = getDatabase()
@@ -71,15 +71,15 @@ export default function App({ storage, database }) {
     })
   }
 
-  const getFeaturedTitle = () => {
+  const getFeaturedInfo = () => {
     const db = getDatabase()
-    const FeaturedTitle = ref(db, '/featuredTitle/linkURL')
+    const FeaturedTitle = ref(db, '/featuredTitle')
 
     onValue(FeaturedTitle, (snapshot) => {
       const data = snapshot.val()
       let link = '';
 
-      setFeaturedTitle(data)
+      setFeaturedInfo(data)
     })
 
   }
@@ -106,8 +106,10 @@ export default function App({ storage, database }) {
     random()
     getNewsletterLink()
     getBreakfastClubLink()
-    getFeaturedTitle()
+    getFeaturedInfo()
   }, [])
+
+
 
   
 
@@ -116,7 +118,7 @@ export default function App({ storage, database }) {
       <BrowserRouter>
         <Nav random={random} breakfastClubLink={breakfastClubLink} />
         <Routes>
-          <Route exact path={'/'} element={<Home background={background} featuredTitle={featuredTitle} closeAd={closeAd} setShowPopUp={setShowPopUp} showPopUp={showPopUp} />} />
+          <Route exact path={'/'} element={<Home background={background} featuredInfo={featuredInfo} closeAd={closeAd} setShowPopUp={setShowPopUp} showPopUp={showPopUp} />} />
           <Route exact path={'/heritage'} element={<Heritage />} />
           <Route exact path={'/sensations'} element={<Sensations />} />
           <Route exact path={'/legacy'} element={<Legacy />} />
@@ -126,7 +128,7 @@ export default function App({ storage, database }) {
           <Route exact path={'/vocealta'} element={<VoceAlta />} />
           <Route exact path={'/velocity'} element={<Velocity />} />
           <Route exact path={'/calendar'} element={<Calendar />} />
-          <Route exact path={'/newsletter'} element={<Newsletter link={link} />} />
+          <Route exact path={'/newsletter'} element={<Newsletter link={link} storage={storage} />} />
           <Route exact path={'/support'} element={<Support />} />
           <Route exact path={'/fees'} element={<Fees />} />
           <Route exact path={'/contact'} element={<Contact />} />

@@ -12,6 +12,8 @@ export default function Admin({ link, storage }) {
     const [fileUpload, setFileUpload] = useState('')
     const [fileUploadName, setFileUploadName] = useState('')
     const [fileDownload, setFileDownload] = useState('')
+    const [newsletterUpload, setNewsletterUpload] = useState('')
+    const [newsletterUploadName, setNewsletterUploadName] = useState('')
 
     const updateNewsletter = (event) => {
         event.preventDefault()
@@ -34,9 +36,11 @@ export default function Admin({ link, storage }) {
         const db = getDatabase();
 
         const linkURL = event.target.featuredTitle.value
+        const caption = event.target.featuredCaption.value
 
         set(refDB(db, 'featuredTitle'), {
-            linkURL
+            linkURL: linkURL,
+            caption: caption
         }).then(() => {
             alert('Featured Title updated successfully!');
         }).catch((error) => {
@@ -81,6 +85,29 @@ export default function Admin({ link, storage }) {
         }
     }
 
+    const handleNewsletterFileChange = (event) => {
+        const selectedFile = event.target.files[0]
+
+        console.log(selectedFile)
+
+        let reader = new FileReader();
+
+        reader.readAsDataURL(selectedFile)
+
+        reader.onload = () => {
+            console.log(reader.result);
+            setNewsletterUpload(reader.result)
+            const today = new Date();
+            const formattedDate = today.toISOString().split('T')[0]; // "YYYY-MM-DD"
+            const fileExtension = selectedFile.name.split('.').pop(); // Keep original extension
+
+            setNewsletterUploadName(`WeekOf${formattedDate}.${fileExtension}`);
+        }
+
+        reader.onerror = () => {
+            console.log(reader.error)
+        }
+    }
 
     const handleUpload = () => {
         const filesRef = ref(storage, `files/${fileUploadName}`)
@@ -92,12 +119,26 @@ export default function Admin({ link, storage }) {
         }
 
         if (fileUploadName) {
-            downloadFile(fileUploadName)
+            downloadFile('files', fileUploadName)
         }
     };
 
-    const downloadFile = (name) => {
-        const gsReference = ref(storage, `gs://fcomm-choirs.firebasestorage.app/files/${name}`)
+    const handleNewsletterUpload = () => {
+        const filesRef = ref(storage, `newsletters/${newsletterUploadName}`)
+
+        if (newsletterUpload) {
+            uploadString(filesRef, newsletterUpload, 'data_url').then((snapshot) => {
+                console.log('Uploaded a file!');
+            })
+        }
+
+        if (newsletterUploadName) {
+            downloadFile('newsletters', newsletterUploadName)
+        }
+    };
+
+    const downloadFile = (type, name) => {
+        const gsReference = ref(storage, `gs://fcomm-choirs.firebasestorage.app/${type}/${name}`)
 
         getDownloadURL(gsReference)
             .then((url) => {
@@ -119,20 +160,39 @@ export default function Admin({ link, storage }) {
         handleUpload()
     }, [fileUpload])
 
+    useEffect(() => {
+        handleNewsletterUpload()
+    }, [newsletterUpload])
+
     return (
         <div className='fullpage'>
             <h1 className='my-5'>Admin Page</h1>
-            <form className='my-5 w-75 m-auto text-center' onSubmit={updateNewsletter}>
+
+            <h2 className='mt-5'>
+                Upload Newsletter for Week of {new Date().toLocaleDateString(undefined, {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                })}
+            </h2>
+            <div className='col-10 m-auto d-flex justify-content-between mb-5'>
+                <form className='m-auto'>
+                    <input type='file' name='Newsletter' onChange={handleNewsletterFileChange} />
+                </form>
+            </div>
+
+            {/* <form className='my-5 w-75 m-auto text-center' onSubmit={updateNewsletter}>
                 <input className='form-control' name='newsletterLink' placeholder='Insert Newsletter URL' />
                 <button className='btn my-2' type='submit'>Submit Newsletter Link</button>
-            </form>
+            </form> */}
             <form className='my-5 w-75 m-auto text-center' onSubmit={updateBreakfastClub}>
                 <input className='form-control' name='breakfastClubLink' placeholder='Insert Breakfast Club URL' />
                 <button className='btn my-2' type='submit'>Submit Breakfast Club Link</button>
             </form>
             <form className='my-5 w-75 m-auto text-center' onSubmit={updateFeaturedTitle}>
                 <input className='form-control' name='featuredTitle' placeholder='Insert Featured Photo Section Title' />
-                <button className='btn my-2' type='submit'>Submit Featured Title</button>
+                <input className='form-control' name='featuredCaption' placeholder='Insert Featured Photo Section Caption' />
+                <button className='btn my-2' type='submit'>Submit Featured Info</button>
             </form>
             <div className='col-10 m-auto d-flex justify-content-between'>
                 <form className='m-auto'>
@@ -148,6 +208,8 @@ export default function Admin({ link, storage }) {
                     <input type='file' name='featured3' onChange={handleFileChange} />
                 </form>
             </div>
+           
+            
         </div>
     )
 }
