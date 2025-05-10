@@ -8,7 +8,7 @@ import Alert from '@mui/material/Alert';
 
 
 
-export default function Admin({ link, storage }) {
+export default function Admin({ link, storage, featuredInfo}) {
     const [fileUpload, setFileUpload] = useState('')
     const [fileUploadName, setFileUploadName] = useState('')
     const [fileDownload, setFileDownload] = useState('')
@@ -190,8 +190,8 @@ export default function Admin({ link, storage }) {
                 <button className='btn my-2' type='submit'>Submit Breakfast Club Link</button>
             </form>
             <form className='my-5 w-75 m-auto text-center' onSubmit={updateFeaturedTitle}>
-                <input className='form-control' name='featuredTitle' placeholder='Insert Featured Photo Section Title' />
-                <input className='form-control' name='featuredCaption' placeholder='Insert Featured Photo Section Caption' />
+                <input className='form-control' name='featuredTitle' placeholder='Insert Featured Photo Section Title' defaultValue={featuredInfo.linkURL} />
+                <input className='form-control' name='featuredCaption' placeholder='Insert Featured Photo Section Caption' defaultValue={featuredInfo.caption} />
                 <button className='btn my-2' type='submit'>Submit Featured Info</button>
             </form>
             <div className='col-10 m-auto d-flex justify-content-between'>
