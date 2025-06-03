@@ -22,12 +22,22 @@ export default function Fees() {
             </div>
 
             <div className='payment-inputs'>
-                <a href='https://collectcheckout.com/r/z1onc' target='_blank' rel="noreferrer" className='btn payment-btn' >
+                <a href='https://quickclick.com/r/jwp3r7aa3wx35zuvxbsgutyenj5x6j' target='_blank' rel="noreferrer" className='btn payment-btn' >
                     Make Payment
                 </a>
-                <a href='https://collectcheckout.com/r/ig0nzrcuedjf81djcguxlamro6oz0l' target='_blank' rel="noreferrer" className='btn payment-btn'>
+                <a href='https://quickclick.com/r/5f3lssmpt36uemmql8y59a90d8ntyx' target='_blank' rel="noreferrer" className='btn payment-btn'>
                     Set Up Recurring Payments for Fees
                 </a>
+            </div>
+
+            <div className='mb-5 w-75 m-auto'>
+                <em>Note:  All Credit Card payments will be charged a $4.00 processing fee.  </em>
+                <br /><br />
+                Checks can be mailed to:
+                <br />
+                FCHS Choir Boosters<br />
+                PO BOX 957<br />
+                Franklin, IN 46131
             </div>
 
 

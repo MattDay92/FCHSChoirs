@@ -15,6 +15,7 @@ export default function Bella() {
             </div>
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
+                    <h2>2025 ISSMA Concert Choir State Champions!</h2>
                     <p className='col-10'>Bella Voce, the varsity treble concert choir of 
                         Franklin Community High School, is directed by Kelly Cassady Day and 
                         assisted by Johnnie Ray Hughes. They are accompanied by Charissa Garrigus.  
