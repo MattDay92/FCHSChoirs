@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import CircularProgress from '@mui/material/CircularProgress';
 import BellaCalendar from '../components/BellaCalendar'
@@ -10,6 +10,7 @@ import DynamicCalendar from '../components/DynamicCalendar'
 import LegacyCalendar from '../components/LegacyCalendar'
 import AllChoirsCalendar from '../components/AllChoirsCalendar'
 import MusicalCalendar from '../components/MusicalCalendar';
+import VelocityCalendar from '../components/VelocityCalendar';
 
 
 export default function Calendar() {
@@ -33,6 +34,7 @@ export default function Calendar() {
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Sensations') }}>Sensations</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Sig') }}>Signature Sound</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Voce') }}>Voce Alta</Link></a>
+                        <a><Link className="dropdown-item" onClick={() => { setCalendar('Velocity') }}>Velocity</Link></a>
                     </ul>
                 </div>
                 <div className='mt-5'>
@@ -43,9 +45,10 @@ export default function Calendar() {
                                     calendar === 'Sensations' ? <><h2>Sensations</h2><SensationsCalendar /></> :
                                         calendar === 'Voce' ? <><h2>Voce Alta</h2><VoceAltaCalendar /></> :
                                             calendar === 'Sig' ? <><h2>Signature Sound</h2><SigCalendar /></> :
-                                                calendar === 'Musical' ? <><h2>Musical</h2><MusicalCalendar /></>:
-                                                <><h2>All Choir Events</h2><AllChoirsCalendar /></>
-                                                }
+                                                calendar === 'Musical' ? <><h2>Musical</h2><MusicalCalendar /></> :
+                                                    calendar === 'Velocity' ? <><h2>Velocity</h2><VelocityCalendar /></> :
+                                                        <><h2>All Choir Events</h2><AllChoirsCalendar /></>
+                    }
                 </div>
                 <p className='text-center my-2'>Note:  When subscribing, please add each choir individually along with the "All Choir Events" calendar for the most accurate information. </p>
             </div>

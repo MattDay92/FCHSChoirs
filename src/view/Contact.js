@@ -2,6 +2,7 @@ import React from 'react'
 import Kelly from '../components/photos/Kelly.webp'
 import Johnnie from '../components/photos/Johnnie.webp'
 import Charissa from '../components/photos/Charissa.webp'
+import Jared from '../components/photos/JaredSlothowerHeadshot.webp'
 import ChristmasPic from '../components/photos/ChristmasBella.webp'
 
 
@@ -10,7 +11,7 @@ export default function Contact() {
         <div className='fullpage'>
             <div className='hero-image christmas'>
                 <div className='overlay-cover'>
-                <img src={ChristmasPic} alt='Christmas Choir' className='cover-img' />
+                    <img src={ChristmasPic} alt='Christmas Choir' className='cover-img' />
                 </div>
             </div>
             <div className='hero-title'>
@@ -64,11 +65,30 @@ export default function Contact() {
                         <h5>Email:  charissa@catlinco.com</h5>
                     </div>
                 </div>
+                <div className='col-6 bio '>
+                    <div className='text-center my-3'><img src={Jared} className='directorIMG' alt='Jared Slothower - Vocal Coach' /></div>
+                    <div className='text-center'>
+                        <h4>Jared Slothower</h4>
+                        <h5>Vocal Coach</h5>
+                        <p>Jared Slothower is a multifaceted musician and teacher based in Indianapolis, Indiana. He
+                            currently serves as the Tenor 2 section leader at Second Presbyterian Church, Staff accompanist
+                            at Anderson University, and has a private studio of 25 students. His favorite roles have included
+                            Cinderella’s Prince (Into the Woods), The Minstrel (Once Upon a Mattress), and Danilo (The
+                            Merry Widow). He has been a soloist and ensemble member of numerous choirs and orchestras,
+                            including CCM Chamber Choir, Indianapolis Opera, Kantorei, Elysian Voices, Ball State Concert
+                            Choir, Indianapolis Baroque Orchestra, Rock Valley Pops Orchestra, and Rock Valley College
+                            Concert Choir. He had the privilege of studying voice with Dr. Gwen Coleman and Dr. Daniel
+                            Narducci. Jared is excited to start working at Franklin Community High School this year and
+                            can’t wait to start working with the students! Jared lives in Indianapolis with his husband and
+                            their two dogs and cat.</p>
+                        <h5>Email:  slothowerjared@gmail.com</h5>
+                    </div>
+                </div>
             </div>
             <div className='CBO-contact row col-10 d-flex justify-content-center my-5 mx-auto'>
                 <div className='text-center bio col-3'>
                     <h4>CBO President</h4>
-                    <p>Valerie Bagwell</p>
+                    <p>Valerie Brunning</p>
                     <p>fchs.cbo.president@gmail.com</p>
                 </div>
                 {/* <div className='text-center bio col-3'>
@@ -87,6 +107,7 @@ export default function Contact() {
                 <div className='text-center bio col-3'>
                     <h4>Treasurer</h4>
                     <p>Paula Fleener</p>
+                    <p>fchschoirfees@gmail.com</p>
                 </div>
             </div>
         </div>

@@ -16,16 +16,21 @@ export default function Velocity() {
 
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
-                    <p className='col-10'>The Heritage Singers are the premier mixed show choir from Franklin Community High School.
-                        Heritage Singers was established when the school district was founded and has enjoyed a history of musical excellence and teamwork.
-                        Heritage is directed by Johnnie Ray Hughes and Kelly Cassady Day and is choreographed by Jerico Hughes and Victoria Brindis.
-                        Please enjoy this message from Heritage Singers that anything is possible.</p>
+                    <p className='col-10'>Franklin Community Middle School Velocity is a.... Glornip wexudo fandal breezum 
+                        korthin yindle pravat smorgle tindor flazzen quivra moltek zanthur prindle vexor clomish drevunk farlo 
+                        spicket trablin zenthra kumble fornix wuddle sprantor glimvek zobbish trelun fanzor mydrak plofkin zegral 
+                        thrindle jorvat plurnish exovo yambor crindle fextor zummish dravik boltra quevish lomper drindle smaggit v
+                        ortin penkro yexal frummin squavish dorlen pruknar flimmel toxar venplo crondel brezar shuvrak moffin krindle z
+                        ophet darnoq vixtral humbor splenkit trablo flunzer jextor murvin plozen trindle ravox qembar stolvik junbra 
+                        quextor plivnat somber dranzik huffel gromtar wextal prindle zorvex lamber snuftik yovral cravix tundor mellin 
+                        jorpex flamble pruzik trandle vexorn glenbra quastik polmir thraven joltek daxnor slimple vornik fezzor cronbit 
+                        ralvex spumble jorlan texvin drindle flamox quezar brovin snorvak.</p>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>2024 Season</h2>
-                    
+
                 </div>
-                
+
             </div>
         </div>
     )

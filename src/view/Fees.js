@@ -25,9 +25,9 @@ export default function Fees() {
                 <a href='https://quickclick.com/r/jwp3r7aa3wx35zuvxbsgutyenj5x6j' target='_blank' rel="noreferrer" className='btn payment-btn' >
                     Make Payment
                 </a>
-                <a href='https://quickclick.com/r/5f3lssmpt36uemmql8y59a90d8ntyx' target='_blank' rel="noreferrer" className='btn payment-btn'>
+                {/* <a href='https://quickclick.com/r/5f3lssmpt36uemmql8y59a90d8ntyx' target='_blank' rel="noreferrer" className='btn payment-btn'>
                     Set Up Recurring Payments for Fees
-                </a>
+                </a> */}
             </div>
 
             <div className='mb-5 w-75 m-auto'>

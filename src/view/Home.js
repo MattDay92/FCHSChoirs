@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-// import popupIMG from '../components/photos/FallConcertPoster.webp'
+import popupIMG from '../components/photos/FreddiesFundraiser.webp'
 import Showfest from '../components/photos/ShowFestLogo.webp'
 import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
 import SigPic from '../components/photos/SigFall.webp'
@@ -22,7 +22,25 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
   return (
     <div className='fullpage'>
 
-
+      {/* {showPopUp === true ? <>
+        <div id='popup'>
+          <div className='row concert-ad'>
+            <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
+            <div className='col-4 popup-img'>
+              <img className='popup-logo' alt='Spring Concert Poster' src={popupIMG} />
+            </div>
+            <div className='col-4 popup-info text-center'>
+              <h3 className='text-white'>Dine to Donate</h3>
+              <p>Support the Franklin Choirs by dining at Freddie's in Franklin on August 21st!  Don't forget to show the flyer!
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </>
+      :
+      <></>
+      } */}
 
       {background === 'sensations' ? <>
         <div className='hero-image'>
@@ -99,23 +117,24 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
       </div>
 
 
+
       <h2 className='sponsor-thank-you'>Thank You to our Sponsors!</h2>
       <div className='row text-center sponsors px-0 mx-0 my-5'>
         <div className='sponsors1'>
           <h3>Director's Circle - $1,000 +</h3>
           <div className='d-flex justify-content-around flex-wrap'>
-            <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img' alt='Generations of Graham' src={Sponsor1} /></div>
+            {/* <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img' alt='Generations of Graham' src={Sponsor1} /></div> */}
             <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img' alt='Paul Humbles Agency' src={Sponsor2} /></div>
-            <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img w-50' alt='Zeta Chapter of Tri Kappa Inc.' src={Sponsor3} /></div>
+            {/* <div className='sponsor-img-div sponsor1-img-div'><img className='sponsor-img w-50' alt='Zeta Chapter of Tri Kappa Inc.' src={Sponsor3} /></div> */}
           </div>
-          <div>
+          {/* <div>
             <h4>Duane & Vonda Mercer</h4>
-          </div>
+          </div> */}
         </div>
         <div className='sponsors2'>
           <div>
             <h3>Platinum Level - $500 - $999</h3>
-            <div className='d-flex justify-content-around flex-wrap'>
+            {/* <div className='d-flex justify-content-around flex-wrap'>
               <div className='sponsor-col'>
                 <h5>Mayor Steve Barnett</h5>
                 <h5>JWG Inc.</h5>
@@ -132,30 +151,30 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
                 <h5>Pennington Brothers Enterprise</h5>
                 <h5>Tom Thompson</h5>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className='sponsor-col bottom-sponsor-2'>
             <h3>Gold Level - $250 - $499</h3>
-            <h5>Bradley Chevrolet</h5>
+            {/* <h5>Bradley Chevrolet</h5>
             <h5>Under One Woof</h5>
             <h5>The Dave Price Team Mortgage Lender</h5>
-            <h5>Promise Advisory Group</h5>
+            <h5>Promise Advisory Group</h5> */}
           </div>
         </div>
         <div className='sponsors3 d-flex justify-content-center'>
           <div className='sponsor-col'>
             <h3>Silver Level</h3>
-            <h5>Baird Wealth Management</h5>
+            {/* <h5>Baird Wealth Management</h5>
             <h5>Franklin Insurance Agency</h5>
             <h5>PrintWorks</h5>
             <h5>T-Shirt Express</h5>
             <h5>Ray & Carmen Lane</h5>
-            <h5>Nimble Thimbles Quilt Club</h5>
+            <h5>Nimble Thimbles Quilt Club</h5> */}
           </div>
-          {/* <div className='sponsor-col'>
+          <div className='sponsor-col'>
             <h3>Bronze Level</h3>
             
-          </div> */}
+          </div>
 
         </div>
       </div>
