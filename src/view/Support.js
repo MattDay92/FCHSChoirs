@@ -1,5 +1,6 @@
 import React from 'react'
 import ShrekPic from '../components/photos/shrek.webp'
+import SponsorshipBrochure from '../components/files/2526ChoirSponsorshipBrochure.pdf'
 import { Link } from 'react-router-dom'
 import { Button } from '@mui/material'
 
@@ -16,7 +17,7 @@ export default function Support() {
             </div>
             <div className='container'>
                 <div className='d-flex justify-content-center my-5'>
-                <Button className='btn' href='/2425ChoirSponsorshipBrochure.pdf' download={'2425ChoirSponsorshipBrochure.pdf'}>Click Here to Download Sponsorship Form</Button>
+                <Button className='btn' href={SponsorshipBrochure} download={SponsorshipBrochure}>Click Here to Download Sponsorship Form</Button>
                 </div>
                 <div className='row d-flex justify-content-center text-center'>
                     <p className='col-10'>YOU can help support next year’s FCHS Musical! At the Johnson County Community foundation,

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import SponsorshipBrochure from '../components/files/25-26ChoirSponsorshipsBrochure.pdf'
+import SponsorshipBrochure from '../components/files/2526ChoirSponsorshipBrochure.pdf'
 import ConcertChoirContract from '../components/files/25-26ConcertChoir.pdf'
 import CBOKroger from '../components/files/CBOKroger.png'
 import FinancialAid from '../components/files/FCHSChoralBoostersFinancialAidAgreement.pdf'

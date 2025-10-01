@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import popupIMG from '../components/photos/JacksDonutsDTD.webp'
+import popupIMG from '../components/photos/TrunkorTreat2025.webp'
 import Showfest from '../components/photos/ShowFestLogo.webp'
 import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
 import SigPic from '../components/photos/SigFall.webp'
@@ -30,9 +30,11 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
               <img className='popup-logo' alt='Dine to Donate' src={popupIMG} />
             </div>
             <div className='col-4 popup-info text-center'>
-              <h3 className='text-white'>Dine to Donate</h3>
-              <p>Support the Franklin Choirs by dining at Jack's Donuts in Franklin on Thursday, 9/25!  Don't forget to tell them to support the FCHS Choirs!
-              </p>
+              <h3 className='text-white'>Trunk or Treat</h3>
+              <h4>Thursday, October 30th</h4>
+              <h4>6 - 8 PM</h4>
+              {/* <p>Support the Franklin Choirs by dining at Jack's Donuts in Franklin on Thursday, 9/25!  Don't forget to tell them to support the FCHS Choirs!
+              </p> */}
               
             </div>
           </div>
@@ -137,7 +139,6 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
             <div className='d-flex justify-content-around flex-wrap'>
               <div className='sponsor-col'>
                 <h5>Mayor Steve Barnett</h5>
-                <h5>JWG Inc.</h5>
                 <h5>Commercial Sewer Cleaning</h5>
               </div>
               <div className='sponsor-col'>
@@ -151,6 +152,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
             <h5>Bradley Hubler Chevrolet</h5>
             <h5>Baldwin Excavating</h5>
             <h5>Vaught Family Eye Care</h5>
+            <h5>Line X of Columbus</h5>
           </div>
         </div>
         <div className='sponsors3 d-flex justify-content-center'>
@@ -161,7 +163,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
             
           </div>
           <div className='sponsor-col'>
-            <h3>Bronze Level</h3>
+            <h3>Community Sponsors</h3>
             <h5>A Trophy Business</h5>
             <h5>PrintWorks</h5>
             <h5>Johnson County REMC</h5>
