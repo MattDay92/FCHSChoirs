@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import popupIMG from '../components/photos/TrunkorTreat2025.webp'
 import Showfest from '../components/photos/ShowFestLogo.webp'
+import CoffeeHouseFive from '../components/photos/coffeehousefivelogo.png'
 import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
 import SigPic from '../components/photos/SigFall.webp'
 import SensationsPic from '../components/photos/Sensations2025Comp.webp'
@@ -86,15 +87,14 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
       </div>
 
       <div className='row showfest d-flex justify-content-center align-items-center'>
-        <div className='col-4 showfest-img'>
-          <img className='showfest-logo' alt='ShowFest Logo' src={Showfest} />
+        <div className='col-3 showfest-img'>
+          <img className='showfest-logo' alt='CoffeeHouse Five Logo' src={CoffeeHouseFive} />
         </div>
         <div className='col-4 showfest-info text-center'>
-          <h2>ShowFest 2026</h2>
-          <h3 className='text-white'>February 20th and 21st</h3>
-          <p>Registration for ShowFest 2026 is open!  </p>
+          <h2>CoffeeHouse Five Fundraiser</h2>
+          <p>Support our talented local high school show choir students by purchasing from Coffeehouse Five! When you specify a student's name at checkout, 40% of your purchase goes directly toward their choir fees.  </p>
           <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSdkBNqJuE2C_Hg5W88kgw99JQBOWUDq_8gC5ynAK_Cc_UUdsQ/viewform?usp=header' target='_blank'>Register</Button>
+            <Button variant='contained' className='btn my-2' href='https://coffeehouse-five-orders.square.site/shop/fchs-choral-boosters/S4LEGHGNCT5GFQGJ7ORIB5N2?page=1&limit=30&sort_by=category_order&sort_order=asc&fbclid=IwY2xjawNSWeRleHRuA2FlbQIxMQABHiyH1AUxe3yMXPvYamdvvcrcoNU98YUZm2AdZq3LsXDYrNTrD5QHpcKxfOma_aem_9zAzd40y8etzavW8XiBMHg' target='_blank'>More Information</Button>
           </div>
         </div>
       </div>

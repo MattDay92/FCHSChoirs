@@ -749,7 +749,7 @@ iframe {
     }
 
     .showfest-img {
-        width: 50%;
+        width: 40%;
         margin-bottom: 5vh;
     }
 
@@ -781,7 +781,7 @@ iframe {
 @media (max-width: 425px) {
 
     .showfest-img {
-        width: 80%;
+        width: 60%;
         margin-bottom: 5vh;
     }
 
