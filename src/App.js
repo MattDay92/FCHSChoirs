@@ -26,6 +26,7 @@ import Tickets from './view/Tickets'
 import Purchase from './view/Purchase'
 import Velocity from './view/Velocity'
 import Admin from './view/Admin'
+import Fundraising from './view/Fundraising'
 
 
 export default function App({ storage, database }) {
@@ -135,6 +136,7 @@ export default function App({ storage, database }) {
           <Route exact path={'/payment-thank-you'} element={<PaymentThankYou />} />
           <Route exact path={'/tickets'} element={<Tickets />} />
           <Route exact path={'/purchase'} element={<Purchase />} />
+          <Route exact path={'/fundraising'} element={<Fundraising />} />
           <Route exact path={'/admin4161'} element={<Admin storage={storage} featuredInfo={featuredInfo} />} />
           {/* <Route exact path={'/kidscamp'} element={<KidsCamp />} /> */}
           <Route exact path={'/musical'} element={<Musical />} />

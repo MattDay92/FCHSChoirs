@@ -69,6 +69,7 @@ export default function Nav({ random, breakfastClubLink }) {
                 {/* <a className='nav-link' href={breakfastClubLink} target='_blank'>Breakfast Club</a> */}
                 {/* <a className='nav-link' href='https://www.signupgenius.com/go/10C0948A9AF2DA5F4CF8-53631195-showfest#/' target='_blank'>ShowFest Volunteer</a> */}
                 <Link className="nav-link" to={'/support'}>Support Us</Link>
+                <Link className="nav-link" to={'/fundraising'}>Fundraising</Link>
                 <Link className='nav-link' to={'/purchase'}>Purchase/Rent Costumes</Link>
               </div>
             </a>
