@@ -31,19 +31,14 @@ export default function Fundraising() {
             <div className='row d-flex justify-content-center align-items-center'>
                 <h2>Upcoming Fundraisers</h2>
                 <div className='CBO-contact row col-10 d-flex justify-content-center my-5 mx-auto'>
-                <div className='text-center bio col-3'>
+                {/* <div className='text-center bio col-3'>
                     <h3>Popcorn</h3>
                     <h5>10/6 - 10/24</h5>
                 </div>
-                {/* <div className='text-center bio col-3'>
-                    <h3>CBO President-Elect</h3>
-                    <p>Valarie Bagwell</p>
-                </div> */}
                 <div className='text-center bio col-3'>
                     <h3>Trunk or Treat</h3>
                     <h5>10/30</h5>
-                    
-                </div>
+                </div> */}
                 <div className='text-center bio col-3'>
                     <h3>Trash Bags</h3>
                     <h5>11/3 - 11/21</h5>

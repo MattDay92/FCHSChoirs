@@ -23,7 +23,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
   return (
     <div className='fullpage'>
 
-      {showPopUp === true ? <>
+      {/* {showPopUp === true ? <>
         <div id='popup'>
           <div className='row concert-ad'>
             <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
@@ -34,8 +34,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
               <h3 className='text-white'>Trunk or Treat</h3>
               <h4>Thursday, October 30th</h4>
               <h4>6 - 8 PM</h4>
-              {/* <p>Support the Franklin Choirs by dining at Jack's Donuts in Franklin on Thursday, 9/25!  Don't forget to tell them to support the FCHS Choirs!
-              </p> */}
+              
               
             </div>
           </div>
@@ -43,7 +42,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
       </>
       :
       <></>
-      }
+      } */}
 
       {background === 'sensations' ? <>
         <div className='hero-image'>
