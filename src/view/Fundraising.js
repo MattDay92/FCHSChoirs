@@ -1,5 +1,5 @@
 import React from 'react'
-import ChristmasPic from '../components/photos/ChristmasBella.webp'
+import Cover from '../components/photos/MaryPoppinsCover.webp'
 import Button from '@mui/material/Button';
 import CoffeeHouseFive from '../components/photos/coffeehousefivelogo.png'
 
@@ -10,7 +10,7 @@ export default function Fundraising() {
         <div className='fullpage'>
             <div className='hero-image christmas'>
                 <div className='overlay-cover'>
-                    <img src={ChristmasPic} alt='Christmas Choir' className='cover-img' />
+                    <img src={Cover} alt='Mary Poppins' className='cover-img' />
                 </div>
             </div>
             <div className='hero-title'>
