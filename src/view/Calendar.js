@@ -11,6 +11,7 @@ import LegacyCalendar from '../components/LegacyCalendar'
 import AllChoirsCalendar from '../components/AllChoirsCalendar'
 import MusicalCalendar from '../components/MusicalCalendar';
 import VelocityCalendar from '../components/VelocityCalendar';
+import RockafellasCalendar from '../components/RockafellasCalendar';
 
 
 export default function Calendar() {
@@ -34,6 +35,7 @@ export default function Calendar() {
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Sensations') }}>Sensations</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Sig') }}>Signature Sound</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Voce') }}>Voce Alta</Link></a>
+                        <a><Link className="dropdown-item" onClick={() => { setCalendar('Rockafellas') }}>Rockafellas</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Velocity') }}>Velocity</Link></a>
                     </ul>
                 </div>
@@ -47,7 +49,8 @@ export default function Calendar() {
                                             calendar === 'Sig' ? <><h2>Signature Sound</h2><SigCalendar /></> :
                                                 calendar === 'Musical' ? <><h2>Musical</h2><MusicalCalendar /></> :
                                                     calendar === 'Velocity' ? <><h2>Velocity</h2><VelocityCalendar /></> :
-                                                        <><h2>All Choir Events</h2><AllChoirsCalendar /></>
+                                                        calendar === 'Rockafellas' ? <><h2>Rockafellas</h2><RockafellasCalendar /></> :
+                                                            <><h2>All Choir Events</h2><AllChoirsCalendar /></>
                     }
                 </div>
                 <p className='text-center my-2'>Note:  When subscribing, please add each choir individually along with the "All Choir Events" calendar for the most accurate information. </p>
