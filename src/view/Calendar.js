@@ -12,6 +12,7 @@ import AllChoirsCalendar from '../components/AllChoirsCalendar'
 import MusicalCalendar from '../components/MusicalCalendar';
 import VelocityCalendar from '../components/VelocityCalendar';
 import RockafellasCalendar from '../components/RockafellasCalendar';
+import ShirleyTemposCalendar from '../components/ShirleyTemposCalendar';
 
 
 export default function Calendar() {
@@ -36,6 +37,7 @@ export default function Calendar() {
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Sig') }}>Signature Sound</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Voce') }}>Voce Alta</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Rockafellas') }}>Rockafellas</Link></a>
+                        <a><Link className="dropdown-item" onClick={() => { setCalendar('ShirleyTempos') }}>Shirley Tempos</Link></a>
                         <a><Link className="dropdown-item" onClick={() => { setCalendar('Velocity') }}>Velocity</Link></a>
                     </ul>
                 </div>
@@ -50,7 +52,8 @@ export default function Calendar() {
                                                 calendar === 'Musical' ? <><h2>Musical</h2><MusicalCalendar /></> :
                                                     calendar === 'Velocity' ? <><h2>Velocity</h2><VelocityCalendar /></> :
                                                         calendar === 'Rockafellas' ? <><h2>Rockafellas</h2><RockafellasCalendar /></> :
-                                                            <><h2>All Choir Events</h2><AllChoirsCalendar /></>
+                                                            calendar === 'ShirleyTempos' ? <><h2>Shirley Tempos</h2><ShirleyTemposCalendar /></> :
+                                                                <><h2>All Choir Events</h2><AllChoirsCalendar /></>
                     }
                 </div>
                 <p className='text-center my-2'>Note:  When subscribing, please add each choir individually along with the "All Choir Events" calendar for the most accurate information. </p>
