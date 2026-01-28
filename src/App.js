@@ -139,7 +139,7 @@ export default function App({ storage, database }) {
           <Route exact path={'/fundraising'} element={<Fundraising />} />
           <Route exact path={'/admin4161'} element={<Admin storage={storage} featuredInfo={featuredInfo} />} />
           {/* <Route exact path={'/kidscamp'} element={<KidsCamp />} /> */}
-          <Route exact path={'/musical'} element={<Musical />} />
+          {/* <Route exact path={'/musical'} element={<Musical />} /> */}
           <Route path={'*'} element={<PageNotFound />} />
         </Routes>
         <Footer />

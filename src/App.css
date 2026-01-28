@@ -696,6 +696,10 @@ iframe {
     mask-image: linear-gradient(to top, transparent 0%, black 35%);
 }
 
+.bella-state-champs-img {
+    width: 50%;
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
@@ -762,18 +766,22 @@ iframe {
         margin-bottom: 3vh;
     }
 
-.sponsors h4,
-.sponsors h5 {
-    font-size: 3vw;
-}
+    .sponsors h4,
+    .sponsors h5 {
+        font-size: 3vw;
+    }
 
-.payment-btn {
-    font-size: 1rem;
-}
+    .payment-btn {
+        font-size: 1rem;
+    }
 
-.musical-home {
-    display: flex;
-    flex-wrap: wrap-reverse;
+    .musical-home {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .bella-state-champs-img {
+        width: 75%;
 }
 }
 

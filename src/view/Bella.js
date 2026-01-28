@@ -1,5 +1,6 @@
 import React from 'react'
 import BellaPic from '../components/photos/BellaFall.webp'
+import StateChamps from '../components/photos/BellaStateChamps.webp'
 
 
 export default function Bella() {
@@ -16,6 +17,7 @@ export default function Bella() {
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
                     <h2>2025 ISSMA Concert Choir State Champions!</h2>
+                    <img className='bella-state-champs-img mb-5' src={StateChamps} />
                     <p className='col-10'>Bella Voce, the varsity treble concert choir of 
                         Franklin Community High School, is directed by Kelly Cassady Day and 
                         assisted by Johnnie Ray Hughes. They are accompanied by Charissa Garrigus.  
