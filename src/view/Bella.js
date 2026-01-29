@@ -29,10 +29,9 @@ export default function Bella() {
                         A-Town Showdown, the Brownsburg Bulldog Spectacular,  and the ISSMA State Qualifying competition.  </p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2025 Season</h2>
+                    <h2>2026 Season</h2>
                     <h4>Fishers Silver Spotlight Invitational</h4>
-                    <h4>Anderson A-Town Showdown</h4>
-                    <h4>Brownsburg Bulldog Spectacular</h4>
+                    <h4>Pendleton Heights Arabian Spectacular</h4>
                     <h4>ISSMA State Qualifying</h4>
                 </div>
             </div>

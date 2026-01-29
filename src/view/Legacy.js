@@ -22,11 +22,10 @@ export default function Legacy() {
                         Please join Legacy on their journey back home!</p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2025 Season</h2>
-                    <h4>Anderson A-Town Showdown</h4>
+                    <h2>2026 Season</h2>
+                    <h4>Fishers Silver Spotlight Invitational</h4>
                     <h4>Franklin Community ShowFest</h4>
                     <h4>Pendleton Arabian Spectacular</h4>
-                    <h4>Brownsburg Bulldog Spectacular</h4>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>Follow Legacy!</h2>

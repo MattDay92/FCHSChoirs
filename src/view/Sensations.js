@@ -26,13 +26,13 @@ export default function Sensations() {
                         Hang on to your hats and prepare for Sensations to sweep in like tornados and rock you like a hurricane.</p>
                 </div>
                 <div className='row text-center my-5'>
-                    <h2>2025 Season</h2>
+                    <h2>2026 Season</h2>
+                    <h4>Batesville Singers Showcase</h4>
                     <h4>Fishers Silver Spotlight Invitational</h4>
-                    <h4>Anderson A-Town Showdown</h4>
                     <h4>Franklin Community ShowFest</h4>
+                    <h4>Lafayette Jefferson Xtreme Show Choir Showdown</h4>
                     <h4>Pendleton Arabian Spectacular</h4>
-                    <h4>Bishop Luers Invitational</h4>
-                    <h4>Brownsburg Bulldog Spectacular</h4>
+                    <h4>Wheaton Warrenville South Choral Classic</h4>
                     <h4>Noblesville State Championships</h4>
                 </div>
                 <div className='row text-center my-5'>
