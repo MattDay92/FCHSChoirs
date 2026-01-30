@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import CoffeeHouseFive from '../components/photos/coffeehousefivelogo.png'
 import FreddiesD2D from '../components/photos/FreddiesD2D.webp'
 import MilliesD2D from '../components/photos/MilliesD2D.webp'
+import NobleRomansD2D from '../components/photos/NobleRomansD2D.jpg'
 
 
 
@@ -67,6 +68,17 @@ export default function Fundraising() {
                 </div>
 
                 <div className='row showfest d-flex justify-content-center align-items-center flex-row-reverse mt-5'>
+                    <div className='col-3 showfest-img'>
+                        <img className='showfest-logo' alt='Noble Romans Dine to Donate Flyer' src={NobleRomansD2D} />
+                    </div>
+                    <div className='col-4 showfest-info text-center'>
+                        <h2>Noble Roman's Dine to Donate</h2>
+                        <p>Support our talented local high school show choir students by purchasing from Noble Roman's on Thursday, February 26th! </p>
+                        
+                    </div>
+                </div>
+
+                <div className='row showfest d-flex justify-content-center align-items-center mt-5'>
                     <div className='col-3 showfest-img'>
                         <img className='showfest-logo' alt='Freddys Dine to Donate Flyer' src={FreddiesD2D} />
                     </div>

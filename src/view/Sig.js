@@ -15,16 +15,15 @@ export default function Sig() {
             </div>
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
-                    <p className='col-10'>Comprised of primarily upper-classmen, Signature Sound
-                        is the premier mixed concert choir at Franklin Community High School.
-                        Signature Sound has appeared many times at ISSMA State Finals, and hopes
-                        to qualify again this year.  Signature Sound competes throughout the state,
-                        and also won the Heritage Festival Choral competition in Nashville Tennessee
-                        in 2022, in St. Louis in 2023 and most recently in Orlando Fl in 2024.
-                        Directed by Johnnie Ray Hughes and assisted by Kelly Cassady Day, Signature
-                        Sound is looking forward to the competitive season at the Fishers Spotlighter
-                        Showcase, the Anderson A-Town Showdown, the Brownsburg Bulldog Spectacular, and
-                        ISSMA State Qualifying competition.    </p>
+                    <p className='col-10'>Comprised of primarily upper-classmen, Signature Sound is the 
+                        premier mixed concert choir at Franklin Community High School.  Signature Sound 
+                        has appeared many times at ISSMA State Finals. Last year the group qualified for 
+                        the top 16 state finalists and finished in the top 10.    Signature Sound competes 
+                        throughout the state, and also won the Heritage Festival Choral competition in 
+                        Nashville Tennessee in 2022, in St. Louis in 2023 and most recently in Orlando Fl 
+                        in 2024.  Directed by Johnnie Ray Hughes and assisted by Kelly Cassady Day, 
+                        Signature Sound is looking forward to the competitive season at the Fishers 
+                        Spotlighter Showcase and the Pendleton Heights Arabian Spectacular.     </p>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>2026 Season</h2>

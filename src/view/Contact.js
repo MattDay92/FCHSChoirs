@@ -34,10 +34,10 @@ export default function Contact() {
                     <div className='text-center'>
                         <h4>Johnnie Ray Hughes</h4>
                         <h5>Director</h5>
-                        <p>Johnnie Ray Hughes is in his 4th year of teaching and he has been fortunate to have those 4 years here at FCOMM. He is from Indianapolis and graduated from Franklin Central High School. Johnnie graduated from Ball State University with a BS in Vocal & General Music Education.</p>
-                        <p>Johnnie is an active performer in the Indianapolis area. Where he performs with the Indianapolis Men’s Chorus and Impromptu A Cappella group. Johnnie also worked with many schools as a freelance choreographer for show choir and musical productions. During the summer, Johnnie teaches private vocal lessons.</p>
+                        <p>Johnnie Ray Hughes is in his 8 th year of teaching and he has been fortunate to have those 8 years here at FCOMM. He is from Indianapolis and graduated from Franklin Central High School. Johnnie graduated from Ball State University with a BS in Vocal & General Music Education.</p>
+                        <p>Johnnie is an active performer in the Indianapolis area. In recent years, Johnnie has joined the Summer Stock Stage production team (a youth musical theater summer program). There he has directed, music directed and choreographed shows like Spongebob The Musical, Rent, and Finding Nemo Jr. During the summers Johnnie also leads private vocal lessons..</p>
                         <p>Johnnie is dedicated to the success of each of his students. He pushes them to constantly be their best and treat everyone with love and respect.</p>
-                        <p>“Respect is one of the greatest expression of love” -Miguel Angle Ruiz</p>
+                        <p>"I have decided to stick with love... hate is too great a burden to bear." -Dr. Martin Luther King Jr. </p>
                         <h5>Email:  hughesj@franklinschools.org</h5>
                     </div>
                 </div>

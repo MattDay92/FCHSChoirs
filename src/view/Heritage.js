@@ -16,15 +16,17 @@ export default function Heritage() {
 
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
-                    <p className='col-10'>Heritage Singers, FCHS’s premier Varsity mixed Show Choir, has been stirring the
-                        hearts of audiences in Franklin for more than sixty years.  Heritage Singers includes students from
-                        grades 9-12, and has enjoyed a history of competitive success throughout the midwest, winning many
-                        caption and grand champion awards.  This year, Heritage will be hoping for love at first sight to
-                        strike at the Fishers Silver Spotlight Competition,the Anderson A-Town Showdown, The Pendleton Arabian
-                        Spectacular, the Bishop Luers Invitational, the Brownsburg Bulldog Spectacular, and finishing their
-                        season at the Noblesville State Championships.  Heritage Singers are directed by Johnnie Ray Hughes
-                        and Kelly Cassady Day, choreographed by Jerico Hughes, with arrangements by Jerico Hughes and Dan Scoville.
-                        Prepare to follow your heart and turn up the heat with the FCHS Heritage Singers- EVERYBODY SAY LOVE!! </p>
+                    <p className='col-10'>Heritage Singers, FCHS’s premier Varsity mixed Show Choir, has been 
+                        stirring the hearts of audiences in Franklin,IN  for more than sixty years.  Heritage 
+                        Singers includes students from grades 9-12, and has enjoyed a history of competitive 
+                        success throughout the midwest, winning many caption and grand champion awards.  
+                        This year, Heritage will be hoping for love at first sight to strike at the Batesville 
+                        Singers Showcase, Fishers Spotlight  Competition, Lafayette Jefferson Extreme Show 
+                        Choir Showdown,Wheaton Warrenville South Choral Classic, and finish their season at 
+                        the Noblesville State Championships.  Heritage Singers are directed by Johnnie Ray Hughes 
+                        and Kelly Cassady Day, choreographed by Jerico Hughes, with arrangements by Jerico Hughes 
+                        and Dan Scoville.  Will the Heritage Singers be able to escape the Ice Queen’s wrath or 
+                        will they band together to take her down!  </p>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>2026 Season</h2>
