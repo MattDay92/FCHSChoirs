@@ -51,7 +51,7 @@ export default function Nav({ random, breakfastClubLink }) {
               </a>
               <div className="dropdown-menu nav-dropdown-menu">
                 <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vQPeJBqkW7yVvrsCaLjGqYF2fyNDIPCRIlaF6WHy1csc5xtrt4xUVkKCrkIGdQG8Q/pub'>ByLaws</a>
-                <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/10wykCkms8F9Mv4ZVhM3Wy-Do_dlNp0w1_EhSQ7snDbs/edit?usp=sharing'>Student Handbook</a>
+                <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/1JFqzQjiZNFcR112fSeQfTfQ0_Sw49nDCv2E3qRfnWKE/edit?usp=sharing'>Student Handbook</a>
                 <a className='dropdown-item' target='_blank' href={SponsorshipBrochure} download={SponsorshipBrochure}>Sponsorship Brochure</a>
                 <a className='dropdown-item' target='_blank' href={CBOKroger} download={CBOKroger}>Kroger Community Rewards</a>
                 <a className='dropdown-item' target='_blank' href={FinancialAid} download={FinancialAid}>Financial Aid</a>
