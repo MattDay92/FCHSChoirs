@@ -15,15 +15,15 @@ export default function Sensations() {
             <div className='container'>
                 <div className='row d-flex justify-content-center text-center'>
                     <p className='col-10'>Comprised of students from grades 10-12, Franklin Community High School’s 
-                        premier treble show choir is flooding competitions all over central Indiana this season.  
-                        They will be blowing through the Fishers Silver Spotlight Competition, the Anderson A-Town 
-                        Showdown, The Pendleton Arabian Spectacular, the Bishop Luers Invitational, the Brownsburg 
-                        Bulldog Spectacular, and finishing their season at the Noblesville State Championships.  
-                        They have been shaking things up at competitions for years, winning multiple grand championship 
-                        and caption awards, and have made multiple appearances at the Indiana State School Music 
-                        Association Show Choir State Finals.  Sensations is directed by Kelly Cassady Day and Johnnie R. Hughes, 
-                        their music is arranged by Dan Scoville and Jerico Hughes, and they are choreographed by Jerico Hughes.  
-                        Hang on to your hats and prepare for Sensations to sweep in like tornados and rock you like a hurricane.</p>
+                        premier treble show choir is excited to unveil their show at competitions throughout the 
+                        midwest this season, including the Fishers Silver Spotlight, the Noblesville Indiana 
+                        Championship, the Lafayette Jefferson Xtreme Showdown, the Wheaton-Warrenville Singer 
+                        Classic, and the Batesville Singers Showcase.  Sensations has enjoyed a history of competition 
+                        success over the years, and have been awarded many caption and grand champion awards.  
+                        Choreographed by Jerico Hughes, directed by Kelly Cassady and Johnnie Ray Hughes, with 
+                        arrangements by Matt Day and Jerico Hughes, these masked superheroes are hoping to look 
+                        behind the facade and save the day.  Prepare to join the masquerade and get ready for 
+                        some mayhem with Sensations!</p>
                 </div>
                 <div className='row text-center my-5'>
                     <h2>2026 Season</h2>
