@@ -782,7 +782,24 @@ iframe {
 
     .bella-state-champs-img {
         width: 75%;
-}
+    }
+
+    .popup-img {
+        width: 80%;
+        margin-bottom: -5vh;
+    }
+
+    .popup-info {
+        width: 80%;
+    }
+
+    .popup-info {
+        font-size: 1.5rem;
+    }
+
+    .popup-info h4 {
+        font-size: 2rem;
+    }
 }
 
 
@@ -791,20 +808,6 @@ iframe {
     .showfest-img {
         width: 60%;
         margin-bottom: 5vh;
-    }
-
-    .popup-img {
-        width: 80%;
-        margin-bottom: -5vh;
-    }
-
-    .showfest-info,
-    .popup-info {
-        width: 80%;
-    }
-
-    .popup-info {
-        font-size: 1.5rem;
     }
 
     .kidscamp {

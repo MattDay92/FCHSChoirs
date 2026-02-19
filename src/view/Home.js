@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import popupIMG from '../components/photos/TrunkorTreat2025.webp'
+import popupIMG from '../components/photos/ShowFestLogo.webp'
 import Showfest from '../components/photos/ShowFestLogo.webp'
 import CoffeeHouseFive from '../components/photos/coffeehousefivelogo.png'
 import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
@@ -23,7 +23,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
   return (
     <div className='fullpage'>
 
-      {/* {showPopUp === true ? <>
+      {showPopUp === true ? <>
         <div id='popup'>
           <div className='row concert-ad'>
             <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
@@ -31,18 +31,19 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
               <img className='popup-logo' alt='Dine to Donate' src={popupIMG} />
             </div>
             <div className='col-4 popup-info text-center'>
-              <h3 className='text-white'>Trunk or Treat</h3>
-              <h4>Thursday, October 30th</h4>
-              <h4>6 - 8 PM</h4>
-              
-              
+              <h3 className='text-white'>ShowFest 2026</h3>
+              <h4>2/20 and 2/21</h4>
+              <p>Use the link below to livestream Franklin Community ShowFest from the comfort of your own home!</p>
+
+              <Button variant='contained' className='btn my-2' href='https://thefranklinpac.anywhereseat.com/' target='_blank'>ShowFest Livestream</Button>
+
             </div>
           </div>
         </div>
       </>
-      :
-      <></>
-      } */}
+        :
+        <></>
+      }
 
       {background === 'sensations' ? <>
         <div className='hero-image'>
@@ -159,7 +160,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
             <h3>Silver Level</h3>
             <h5>Spotlight Scoopers</h5>
             <h5>Irish Brothers Pest Control</h5>
-            
+
           </div>
           <div className='sponsor-col'>
             <h3>Community Sponsors</h3>

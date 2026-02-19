@@ -28,6 +28,7 @@ export default function Sig() {
                 <div className='row text-center my-5'>
                     <h2>2026 Season</h2>
                     <h4>Fishers Silver Spotlight Invitational</h4>
+                    <h4>Lafayette Jefferson Xtreme Showdown</h4>
                     <h4>Pendleton Heights Arabian Spectacular</h4>
                     <h4>ISSMA State Qualifying</h4>
                 </div>
