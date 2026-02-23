@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import popupIMG from '../components/photos/ShowFestLogo.webp'
+import popupIMG from '../components/photos/NobleRomansD2D.jpg'
 import Showfest from '../components/photos/ShowFestLogo.webp'
 import CoffeeHouseFive from '../components/photos/coffeehousefivelogo.png'
 import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
@@ -31,11 +31,11 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
               <img className='popup-logo' alt='Dine to Donate' src={popupIMG} />
             </div>
             <div className='col-4 popup-info text-center'>
-              <h3 className='text-white'>ShowFest 2026</h3>
-              <h4>2/20 and 2/21</h4>
-              <p>Use the link below to livestream Franklin Community ShowFest from the comfort of your own home!</p>
+              <h3 className='text-white'>Dine to Donate</h3>
+              <h4>Thursday, 2/26</h4>
+              <p>Eat at Noble Roman's in Franklin on Thursday, 2/26 from 11AM to 9:30 PM to support FCHS Choirs!</p>
 
-              <Button variant='contained' className='btn my-2' href='https://thefranklinpac.anywhereseat.com/' target='_blank'>ShowFest Livestream</Button>
+              {/* <Button variant='contained' className='btn my-2' href='https://thefranklinpac.anywhereseat.com/' target='_blank'>ShowFest Livestream</Button> */}
 
             </div>
           </div>

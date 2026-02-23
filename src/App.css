@@ -744,66 +744,7 @@ iframe {
     }
 }
 
-@media (max-width: 768px) {
-    .featured {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .showfest-img {
-        width: 40%;
-        margin-bottom: 5vh;
-    }
-
-    .showfest-info {
-        width: 80%;
-    }
-
-    .sponsor-img-div {
-        width: 80vw;
-        margin-bottom: 3vh;
-    }
-
-    .sponsors h4,
-    .sponsors h5 {
-        font-size: 3vw;
-    }
-
-    .payment-btn {
-        font-size: 1rem;
-    }
-
-    .musical-home {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
-    .bella-state-champs-img {
-        width: 75%;
-    }
-
-    .popup-img {
-        width: 80%;
-        margin-bottom: -5vh;
-    }
-
-    .popup-info {
-        width: 80%;
-    }
-
-    .popup-info {
-        font-size: 1.5rem;
-    }
-
-    .popup-info h4 {
-        font-size: 2rem;
-    }
-}
-
-
-@media (max-width: 425px) {
+@media (max-width: 500px) {
 
     .showfest-img {
         width: 60%;
@@ -916,4 +857,66 @@ iframe {
         padding-bottom: 5vh;
     }
 
+    .popup-img {
+        width: 60% !important;
+    }
+
 }
+
+@media (max-width: 768px) {
+    .featured {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .showfest-img {
+        width: 40%;
+        margin-bottom: 5vh;
+    }
+
+    .showfest-info {
+        width: 80%;
+    }
+
+    .sponsor-img-div {
+        width: 80vw;
+        margin-bottom: 3vh;
+    }
+
+    .sponsors h4,
+    .sponsors h5 {
+        font-size: 3vw;
+    }
+
+    .payment-btn {
+        font-size: 1rem;
+    }
+
+    .musical-home {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .bella-state-champs-img {
+        width: 75%;
+    }
+
+    .popup-img {
+        width: 40%;
+    }
+
+    .popup-info {
+        width: 80%;
+    }
+
+    .popup-info {
+        font-size: 1.5rem;
+    }
+
+    .popup-info h4 {
+        font-size: 2rem;
+    }
+}
+
