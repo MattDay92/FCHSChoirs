@@ -23,7 +23,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
   return (
     <div className='fullpage'>
 
-      {showPopUp === true ? <>
+      {/* {showPopUp === true ? <>
         <div id='popup'>
           <div className='row concert-ad'>
             <button className='popup-close-btn' onClick={closeAd}><i class="fa-solid fa-x"></i></button>
@@ -35,7 +35,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
               <h4>Thursday, 2/26</h4>
               <p>Eat at Noble Roman's in Franklin on Thursday, 2/26 from 11AM to 9:30 PM to support FCHS Choirs!</p>
 
-              {/* <Button variant='contained' className='btn my-2' href='https://thefranklinpac.anywhereseat.com/' target='_blank'>ShowFest Livestream</Button> */}
+              <Button variant='contained' className='btn my-2' href='https://thefranklinpac.anywhereseat.com/' target='_blank'>ShowFest Livestream</Button>
 
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
       </>
         :
         <></>
-      }
+      } */}
 
       {background === 'sensations' ? <>
         <div className='hero-image'>
@@ -88,17 +88,17 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
 
       <div className='row showfest d-flex justify-content-center align-items-center'>
         <div className='col-3 showfest-img'>
-          <img className='showfest-logo' alt='CoffeeHouse Five Logo' src={CoffeeHouseFive} />
+          <img className='showfest-logo' alt='CoffeeHouse Five Logo' src={Showfest} />
         </div>
         <div className='col-4 showfest-info text-center'>
-          <h2>CoffeeHouse Five Fundraiser</h2>
-          <p>Support our talented local high school show choir students by purchasing from Coffeehouse Five! When you specify a student's name at checkout, 40% of your purchase goes directly toward their choir fees.  </p>
+          <h2>ShowFest 2027</h2>
+          <h3>2/5/26 and 2/6/26</h3>
+          <p>Registration for Franklin Community ShowFest 2027 is now open!   Check out our new dates!</p>
           <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='https://coffeehouse-five-orders.square.site/shop/fchs-choral-boosters/S4LEGHGNCT5GFQGJ7ORIB5N2?page=1&limit=30&sort_by=category_order&sort_order=asc&fbclid=IwY2xjawNSWeRleHRuA2FlbQIxMQABHiyH1AUxe3yMXPvYamdvvcrcoNU98YUZm2AdZq3LsXDYrNTrD5QHpcKxfOma_aem_9zAzd40y8etzavW8XiBMHg' target='_blank'>More Information</Button>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSf4OcAQYAJzEPSX6DdfEuGC7cB2klvMbLFraKXNUzbLMONW6g/viewform' target='_blank'>Register Now!</Button>
           </div>
         </div>
       </div>
-
 
       <h2>{featuredInfo.linkURL}</h2>
       <div className='home-featured-IMG-div'>
