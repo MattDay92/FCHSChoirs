@@ -92,7 +92,7 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
         </div>
         <div className='col-4 showfest-info text-center'>
           <h2>ShowFest 2027</h2>
-          <h3>2/5/26 and 2/6/26</h3>
+          <h3>2/5/27 and 2/6/27</h3>
           <p>Registration for Franklin Community ShowFest 2027 is now open!   Check out our new dates!</p>
           <div className='showfest-btns'>
             <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSf4OcAQYAJzEPSX6DdfEuGC7cB2klvMbLFraKXNUzbLMONW6g/viewform' target='_blank'>Register Now!</Button>
