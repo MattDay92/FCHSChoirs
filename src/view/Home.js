@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import popupIMG from '../components/photos/NobleRomansD2D.jpg'
 import Showfest from '../components/photos/ShowFestLogo.webp'
 import CoffeeHouseFive from '../components/photos/coffeehousefivelogo.png'
+import SVA from '../components/photos/SVAFlyer2026.webp'
 import HeritageSingers from '../components/photos/Heritage2025Comp.webp'
 import SigPic from '../components/photos/SigFall.webp'
 import SensationsPic from '../components/photos/Sensations2025Comp.webp'
@@ -96,6 +97,21 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
           <p>Registration for Franklin Community ShowFest 2027 is now open!   Check out our new dates!</p>
           <div className='showfest-btns'>
             <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSf4OcAQYAJzEPSX6DdfEuGC7cB2klvMbLFraKXNUzbLMONW6g/viewform' target='_blank'>Register Now!</Button>
+          </div>
+        </div>
+      </div>
+
+      <div className='row showfest d-flex justify-content-center align-items-center'>
+        <div className='col-3 showfest-img'>
+          <img className='showfest-logo' alt='CoffeeHouse Five Logo' src={SVA} />
+        </div>
+        <div className='col-4 showfest-info text-center'>
+          <h2>Summer Vocal Arts Camp</h2>
+          <h3>6/1 - 6/5</h3>
+          <div className='showfest-btns'>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSfMaERHxlRJPC7IQoZuuDEmR7ScxMrSMoxbPjP3v9Rnb_gKNQ/viewform' target='_blank'>Register Now</Button>
+
+            <Button variant='contained' className='btn my-2' href='https://quickclick.com/cart/cart.php?action=show_information&internal_key=de8f89e9b5fe493db1397956132a0b91&internal_timestamp=1774535628&tid=e1f97626570e4cdea1fd53e943267b85' target='_blank'>Pay Registration Fee</Button>
           </div>
         </div>
       </div>

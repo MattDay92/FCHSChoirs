@@ -27,6 +27,7 @@ import Purchase from './view/Purchase'
 import Velocity from './view/Velocity'
 import Admin from './view/Admin'
 import Fundraising from './view/Fundraising'
+import VoiceLessons from './view/VoiceLessons'
 
 
 export default function App({ storage, database }) {
@@ -139,6 +140,7 @@ export default function App({ storage, database }) {
           <Route exact path={'/fundraising'} element={<Fundraising />} />
           <Route exact path={'/admin4161'} element={<Admin storage={storage} featuredInfo={featuredInfo} />} />
           <Route exact path={'/kidscamp'} element={<KidsCamp />} />
+          <Route exact path={'/voicelessons'} element={<VoiceLessons />} />
           {/* <Route exact path={'/musical'} element={<Musical />} /> */}
           <Route path={'*'} element={<PageNotFound />} />
         </Routes>
