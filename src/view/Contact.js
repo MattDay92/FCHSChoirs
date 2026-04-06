@@ -97,7 +97,6 @@ export default function Contact() {
                 </div> */}
                 <div className='text-center bio col-3'>
                     <h4>CBO Costume Coordinator</h4>
-                    <p>Amanda Golden</p>
                     <p>Alicia Louden</p>
                 </div>
                 <div className='text-center bio col-3'>
@@ -106,7 +105,7 @@ export default function Contact() {
                 </div>
                 <div className='text-center bio col-3'>
                     <h4>Treasurer</h4>
-                    <p>Paula Fleener</p>
+                    <p>Barbara Nicholson</p>
                     <p>fchschoirfees@gmail.com</p>
                 </div>
             </div>
