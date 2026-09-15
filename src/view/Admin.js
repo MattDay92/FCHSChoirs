@@ -8,7 +8,7 @@ import Alert from '@mui/material/Alert';
 
 
 
-export default function Admin({ link, storage, featuredInfo}) {
+export default function Admin({ link, storage, featuredInfo }) {
     const [fileUpload, setFileUpload] = useState('')
     const [fileUploadName, setFileUploadName] = useState('')
     const [fileDownload, setFileDownload] = useState('')
@@ -208,8 +208,13 @@ export default function Admin({ link, storage, featuredInfo}) {
                     <input type='file' name='featured3' onChange={handleFileChange} />
                 </form>
             </div>
-           
-            
+            <h3 className='my-5'>Update Booster Club Minutes</h3>
+            <div className='my-5 col-4 m-auto d-flex flex-column'>
+                <embed id='minutes' src='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Fminutes?alt=media&token=f5dc6b4c-2547-491b-b6d1-7abfb52ba191'></embed>
+                <input type='file' name='minutes' onChange={handleFileChange} />
+            </div>
+
+
         </div>
     )
 }

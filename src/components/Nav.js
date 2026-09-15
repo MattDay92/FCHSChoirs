@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import SponsorshipBrochure from '../components/files/2526ChoirSponsorshipBrochure.pdf'
 import ConcertChoirContract from '../components/files/25-26ConcertChoir.pdf'
 import CBOKroger from '../components/files/CBOKroger.png'
+import ByLaws from '../components/files/2026_Bylaws_Signed.pdf'
 import FinancialAid from '../components/files/FCHSChoralBoostersFinancialAidAgreement.pdf'
 import LegacyContract from '../components/files/LegacyContractAgreement25-26.pdf'
 import RaiseRight from '../components/files/RaiseRightGiftCardFundraisingFlyer.pdf'
@@ -50,9 +51,10 @@ export default function Nav({ random, breakfastClubLink }) {
                 Documents
               </a>
               <div className="dropdown-menu nav-dropdown-menu">
-                <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vQPeJBqkW7yVvrsCaLjGqYF2fyNDIPCRIlaF6WHy1csc5xtrt4xUVkKCrkIGdQG8Q/pub'>ByLaws</a>
-                <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/1JFqzQjiZNFcR112fSeQfTfQ0_Sw49nDCv2E3qRfnWKE/edit?usp=sharing'>Student Handbook</a>
-                <a className='dropdown-item' target='_blank' href={SponsorshipBrochure} download={SponsorshipBrochure}>Sponsorship Brochure</a>
+                <a className='dropdown-item' target='_blank' href={ByLaws} download={ByLaws}>ByLaws</a>
+                <a className='dropdown-item' target='_blank' href='https://firebasestorage.googleapis.com/v0/b/fcomm-choirs.firebasestorage.app/o/files%2Fminutes?alt=media&token=f5dc6b4c-2547-491b-b6d1-7abfb52ba191'>CBO Minutes</a>
+                <a className='dropdown-item' target='_blank' href='https://docs.google.com/document/d/1XJ2yRBBEZxNowZGl7rRsz6I6BbQPTwznqe0GbMMwXI0/edit?usp=sharing'>Student Handbook</a>
+                <a className='dropdown-item' target='_blank' href='https://drive.google.com/open?id=1a_1eEiQKJHi30pOJorqBzyTJUtjguHJjCmIWiih30kU'>Sponsorship Brochure</a>
                 <a className='dropdown-item' target='_blank' href={CBOKroger} download={CBOKroger}>Kroger Community Rewards</a>
                 <a className='dropdown-item' target='_blank' href={FinancialAid} download={FinancialAid}>Financial Aid</a>
                 {/* <a className='dropdown-item' target='_blank' href={RaiseRight} download={RaiseRight}>Raise Right Fundraising</a> */}

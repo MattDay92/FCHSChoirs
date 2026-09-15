@@ -2,10 +2,9 @@ import React from 'react'
 import Cover from '../components/photos/MaryPoppinsCover.webp'
 import Button from '@mui/material/Button';
 import CoffeeHouseFive from '../components/photos/coffeehousefivelogo.png'
-import FreddiesD2D from '../components/photos/FreddiesD2D.webp'
-import MilliesD2D from '../components/photos/MilliesD2D.webp'
-import NobleRomansD2D from '../components/photos/NobleRomansD2D.jpg'
-
+import FreddiesD2D from '../components/photos/FreddiesD2D.jpg'
+import MilliesD2D from '../components/photos/MilliesD2D.jpg'
+import QdobaD2D from '../components/photos/Qdoba.png'
 
 
 export default function Fundraising() {
@@ -32,16 +31,9 @@ export default function Fundraising() {
                 </div>
             </div>
             <div className='row d-flex justify-content-center align-items-center mb-5'>
-                <h2>Upcoming Fundraisers</h2>
+                {/* <h2>Upcoming Fundraisers</h2>
                 <div className='CBO-contact row col-10 d-flex justify-content-center mb-5 mx-auto'>
-                    {/* <div className='text-center bio col-3'>
-                    <h3>Popcorn</h3>
-                    <h5>10/6 - 10/24</h5>
-                </div>
-                <div className='text-center bio col-3'>
-                    <h3>Trunk or Treat</h3>
-                    <h5>10/30</h5>
-                </div> */}
+                    
                     <div className='text-center bio col-3'>
                         <h3>Trash Bags</h3>
                         <h5>11/3 - 11/21</h5>
@@ -54,7 +46,7 @@ export default function Fundraising() {
                         <h3>Pastries</h3>
                         <h5>1/26 - ??</h5>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='row showfest d-flex justify-content-center align-items-center mt-5'>
                     <div className='col-3 showfest-img'>
@@ -62,18 +54,18 @@ export default function Fundraising() {
                     </div>
                     <div className='col-4 showfest-info text-center'>
                         <h2>Millie's Dine to Donate</h2>
-                        <p>Support our talented local high school show choir students by purchasing from Millie's on Friday, February 6th! </p>
+                        <p>Support our talented local high school show choir students by purchasing from Millie's on October 3rd! </p>
                         
                     </div>
                 </div>
 
                 <div className='row showfest d-flex justify-content-center align-items-center flex-row-reverse mt-5'>
                     <div className='col-3 showfest-img'>
-                        <img className='showfest-logo' alt='Noble Romans Dine to Donate Flyer' src={NobleRomansD2D} />
+                        <img className='showfest-logo' alt='Noble Romans Dine to Donate Flyer' src={QdobaD2D} />
                     </div>
                     <div className='col-4 showfest-info text-center'>
-                        <h2>Noble Roman's Dine to Donate</h2>
-                        <p>Support our talented local high school show choir students by purchasing from Noble Roman's on Thursday, February 26th! </p>
+                        <h2>Qdoba Dine to Donate</h2>
+                        <p>Support our talented local high school show choir students by purchasing from the Franklin Qdoba on Friday, August 28th! </p>
                         
                     </div>
                 </div>
@@ -84,7 +76,7 @@ export default function Fundraising() {
                     </div>
                     <div className='col-4 showfest-info text-center'>
                         <h2>Freddy's Dine to Donate</h2>
-                        <p>Support our talented local high school show choir students by purchasing from Freddy's on March 25th! </p>
+                        <p>Support our talented local high school show choir students by purchasing from Freddy's on September 30th! </p>
                         
                     </div>
                 </div>

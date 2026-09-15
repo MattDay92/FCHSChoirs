@@ -261,7 +261,9 @@ p {
 
     .FeaturedIMG {
         max-height: 35vh !important;
+        width: 100%
     }
+    
 }
 
 .featured-IMG-1,
@@ -275,7 +277,6 @@ p {
 }
 
 .FeaturedIMG {
-    width: 100%;
     max-height: 45vh;
     object-fit: contain;
 }

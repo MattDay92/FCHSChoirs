@@ -13,9 +13,7 @@ import Button from '@mui/material/Button';
 import Sponsor1 from '../components/photos/Farley.webp'
 import Sponsor2 from '../components/photos/Paul-Humbles.webp'
 import Sponsor3 from '../components/photos/tri-kappa-logo.png'
-import Featured1 from '../components/photos/Featured1.jpg'
-import Featured2 from '../components/photos/Featured2.jpg'
-import Featured3 from '../components/photos/Featured3.jpg'
+
 // import Musical from '../components/photos/SeussicalSquare.png'
 
 
@@ -93,15 +91,14 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
         </div>
         <div className='col-4 showfest-info text-center'>
           <h2>ShowFest 2027</h2>
-          <h3>2/5/27 and 2/6/27</h3>
-          <p>Registration for Franklin Community ShowFest 2027 is now open!   Check out our new dates!</p>
+          <h3>1/29/27 and 1/30/27</h3>
           <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSf4OcAQYAJzEPSX6DdfEuGC7cB2klvMbLFraKXNUzbLMONW6g/viewform' target='_blank'>Register Now!</Button>
+            <Button variant='contained' className='btn my-2 disabled' href='#' target='_blank'>Schedule Coming Soon!</Button>
           </div>
         </div>
       </div>
 
-      <div className='row showfest d-flex justify-content-center align-items-center'>
+      {/* <div className='row showfest d-flex justify-content-center align-items-center'>
         <div className='col-3 showfest-img'>
           <img className='showfest-logo' alt='CoffeeHouse Five Logo' src={SVA} />
         </div>
@@ -109,12 +106,12 @@ export default function Home({ background, closeAd, showPopUp, featuredInfo }) {
           <h2>Summer Vocal Arts Camp</h2>
           <h3>6/1 - 6/5</h3>
           <div className='showfest-btns'>
-            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLSfMaERHxlRJPC7IQoZuuDEmR7ScxMrSMoxbPjP3v9Rnb_gKNQ/viewform' target='_blank'>Register Now</Button>
+            <Button variant='contained' className='btn my-2' href='https://docs.google.com/forms/d/e/1FAIpQLScc1EGOsgTT23T4PkBm5J3m_CHtFUbiRqfYEpBYfC1YRnhyXg/viewform?usp=dialog' target='_blank'>Register Now</Button>
 
             <Button variant='contained' className='btn my-2' href='https://quickclick.com/cart/cart.php?action=show_information&internal_key=de8f89e9b5fe493db1397956132a0b91&internal_timestamp=1774535628&tid=e1f97626570e4cdea1fd53e943267b85' target='_blank'>Pay Registration Fee</Button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <h2>{featuredInfo.linkURL}</h2>
       <div className='home-featured-IMG-div'>
